@@ -1,112 +1,85 @@
 # AI Open Source Trends 2026-05-25
 
-> Sources: GitHub Trending + GitHub Search API | Generated: 2026-05-25 00:25 UTC
+> Sources: GitHub Trending + GitHub Search API | Generated: 2026-05-25 09:58 UTC
 
 ---
 
-# AI Open Source Trends Report — May 25, 2026
+## Step 1 (Filter)
+
+From the 16 trending repositories, I excluded **`codecrafters-io/build-your-own-x`** as a general programming education resource not specific to AI/ML. The remaining 15 trending projects, plus the 80 topic-search results, were confirmed as AI-relevant.
+
+**Filter Outcome:** 95 out of 96 total entries retained for analysis. The filtering confirms a near-total AI saturation on GitHub's trending surfaces today, with coding agents dominating over classical ML tooling in immediate activity.
+
+## Step 2 (Categorize)
+
+The filtered projects are grouped into the following primary categories (projects can span categories; primary assignment here reflects the core value proposition):
+
+| Category | Description | Key Projects (Trending + Topic) |
+|---|---|---|
+| **🔧 AI Infrastructure** (Frameworks, SDKs, Inference, Dev tools, CLI, MCP) | Core tooling enabling agent development, LLM serving, and ecosystem integration | `pi`, `cmux`, `vllm`, `firecrawl`, `browser-use`, `rig`, `CopilotKit`, `Cherry Studio`, `free-claude-code` |
+| **🤖 AI Agents / Workflows** (Frameworks, Multi-agent, Skills, Orchestration) | Composable agent behaviors, swarms, skill ecosystems, and task management | `claude-plugins-official`, `codegraph`, `multica`, `MiroFish`, `ECC`, `Heres-Agent`, `ruflo`, `Activepieces`, `nanobot`, `CowAgent`, `Cybersecurity Skills`, `dotnet/skills`, `karpathy-skills` |
+| **🔍 RAG / Knowledge** (Vector DBs, Knowledge Graphs, Retrieval, Memory) | Structured context layers, persistent memory, and code/index knowledge bases | `Understand-Anything`, `claude-mem`, `mem0`, `Dify`, `RAGFlow`, `Qdrant`, `Milvus`, `Weaviate`, `LEANN`, `Graphify` |
+| **🧠 LLMs / Training** (Model weights, Fine-tuning, Alignment, Education) | Foundation models, training-from-scratch tools, inference optimization | `Kronos`, `LlamaFactory`, `minimind`, `OpenCompass`, `tiny-llm`, `LLMs-from-scratch` |
+| **📦 AI Applications** (Vertical solutions, End-user products) | Specific domain deployments solving real user problems | `frigate`, `career-ops`, `ppt-master`, `daily_stock_analysis`, `OpenBB` |
 
 ---
 
-## 1. Today's Highlights
+## Step 3 (Output Report)
 
-Today's GitHub trending reveals an explosive surge in **Claude Code ecosystem tooling**, with multiple projects gaining 1,000+ stars in a single day. The standout pattern is the emergence of **"agent harness" infrastructure**—skills files, memory systems, and knowledge graphs designed to make coding agents more capable and cost-efficient. Notably, [multica-ai/andrej-karpathy-skills](https://github.com/multica-ai/andrej-karpathy-skills) and [colbymchenry/codegraph](https://github.com/colbymchenry/codegraph) represent a new category of **agent augmentation layer** that sits between developers and base LLM capabilities. The community is rapidly converging on **local-first, token-optimized architectures** for AI coding, driven by concerns about API costs and context window limitations. Anthropic's official plugin ecosystem is also accelerating, suggesting platform consolidation around Claude Code as a de facto standard for agentic development.
+### 1. Today's Highlights
 
----
+The open-source AI ecosystem has decisively entered the **"Agent Middleware Era."** Today's trending list is not dominated by new models or training frameworks, but by the metadata, memory, and context infrastructure that makes agents *useful in complex environments*. The biggest story is the meteoric rise of **graph-based context retrieval**, led by `Understand-Anything` (+3,999 stars) and `codegraph` (+3,003 stars), signaling that flat text injection for coding agents is rapidly being replaced by structured knowledge graphs. Simultaneously, Anthropic's official push for a **plugin/skill manifest standard** (`claude-plugins-official`, `knowledge-work-plugins`, and the viral `andrej-karpathy-skills` file) has created a gold rush around reusable, domain-specific agent behaviors. A third signal is the radical specialization of infrastructure: `cmux`—a terminal built exclusively for AI coding agents—suggests the operator experience is now a serious product category of its own.
 
-## 2. Top Projects by Category
+### 2. Top Projects by Category
 
-### 🔧 AI Infrastructure
+#### 🤖 AI Agents / Workflows
+- **[codegraph](https://github.com/colbymchenry/codegraph) ⭐ +3,003 today** — A pre-indexed code knowledge graph specifically designed to reduce token consumption and tool calls for Claude Code, Codex, and Cursor. It represents the most practical optimization for expensive agent runs.
+- **[multica-ai/multica](https://github.com/multica-ai/multica) ⭐ +585 today** — The "open-source managed agents platform" that transforms isolated coding agents into coordinated engineering teams with tracked progress and composable skills.
+- **[Anthropic-Cybersecurity-Skills](https://github.com/mukul975/Anthropic-Cybersecurity-Skills) ⭐ +930 today** — A massive, structured skill set (754 skills) mapped to MITRE ATT&CK, NIST, and D3FEND frameworks. It demonstrates how agent skills are evolving into standardized, auditable competency maps.
+- **[NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent) ⭐ 166,418 total** — The "agent that grows with you," representing the state-of-the-art in self-improving, persistent agent architectures.
+- **[ruflo](https://github.com/ruvnet/ruflo) ⭐ 54,893 total** — The leading multi-agent swarm orchestration platform built specifically for the Claude ecosystem, now integrating Codex support.
 
-| Project | Stars | Why It Matters Today |
-|--------|-------|----------------------|
-| [earendil-works/pi](https://github.com/earendil-works/pi) ⭐0 (+456 today) | Unified AI agent toolkit with coding CLI, LLM API abstraction, and vLLM pods—signals maturation of agent deployment infrastructure |
-| [manaflow-ai/cmux](https://github.com/manaflow-ai/cmux) ⭐0 (+696 today) | Ghostty-based macOS terminal optimized for AI coding agents; reflects hardware-software co-design for agent workflows |
-| [ollama/ollama](https://github.com/ollama/ollama) ⭐172,207 | Continues to dominate local LLM inference; now supports emerging models like Kimi-K2.5 and GLM-5 |
-| [vllm-project/vllm](https://github.com/vllm-project/vllm) ⭐80,881 | High-throughput inference engine; critical backend for agent platforms needing fast, batched model serving |
-| [langchain-ai/langchain](https://github.com/langchain-ai/langchain) ⭐137,546 | The established agent engineering platform; enduring relevance as orchestration backbone |
-| [activepieces/activepieces](https://github.com/activepieces/activepieces) ⭐22,390 | ~400 MCP servers for AI agents; demonstrates MCP protocol adoption for tool interoperability |
-| [langchain4j/langchain4j](https://github.com/langchain4j/langchain4j) ⭐12,080 | JVM-native LLM integration with MCP support; enterprise Java ecosystem catching up to Python dominance |
+#### 🔧 AI Infrastructure (Dev Tools & Platforms)
+- **[earendil-works/pi](https://github.com/earendil-works/pi) ⭐ +456 today** — A holistic AI agent toolkit offering a unified LLM API, coding agent CLI, both TUI and Web UI, and native vLLM pod integration—a "jack of all trades" infrastructure layer.
+- **[manaflow-ai/cmux](https://github.com/manaflow-ai/cmux) ⭐ +696 today** — A Ghostty-based macOS terminal purpose-built for AI coding agents, with vertical tabs and agent-specific notifications. This marks the emergence of agent-native operating environments.
+- **[vllm-project/vllm](https://github.com/vllm-project/vllm) ⭐ 80,942 total** — Remains the undisputed standard for high-throughput LLM serving; critical infrastructure for any production agent deployment.
+- **[CherryHQ/cherry-studio](https://github.com/CherryHQ/cherry-studio) ⭐ 46,259 total** — An "AI productivity studio" unifying 300+ assistants with autonomous agent capabilities; the most ambitious universal frontend for agent backends.
 
-### 🤖 AI Agents / Workflows
+#### 🔍 RAG / Knowledge
+- **[Understand-Anything](https://github.com/Lum1104/Understand-Anything) ⭐ +3,999 today** — (Trending #1) Converts code into interactive, queryable knowledge graphs. The explosive growth confirms that structured graph-based retrieval is the next leap in agent context management.
+- **[claude-mem](https://github.com/thedotmack/claude-mem) ⭐ 77,959 total** — The leading solution for persistent, cross-session agent memory. Captures and compresses agent activity into injectable context.
+- **[mem0ai/mem0](https://github.com/mem0ai/mem0) ⭐ 56,658 total** — The "universal memory layer" for agents, increasingly adopted as the standard memory backend across agent frameworks.
+- **[LEANN](https://github.com/yichuan-w/LEANN) ⭐ 11,722 total** — An MLsys2026 paper implementation achieving 97% storage savings for local RAG, making private on-device retrieval massively more efficient.
 
-| Project | Stars | Why It Matters Today |
-|--------|-------|----------------------|
-| [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent) ⭐165,670 | "The agent that grows with you"—highest-starred agent framework, signaling community bet on adaptive, self-improving agents |
-| [multica-ai/multica](https://github.com/multica-ai/multica) ⭐0 (+585 today) | Open-source managed agents platform; turns coding agents into assignable teammates with progress tracking |
-| [ruvnet/ruflo](https://github.com/ruvnet/ruflo) ⭐54,803 | Leading Claude-native orchestration with multi-agent swarms and self-learning intelligence |
-| [browser-use/browser-use](https://github.com/browser-use/browser-use) ⭐95,331 | Makes websites accessible for AI agents; critical primitive for web-grounded agent capabilities |
-| [OpenHands/OpenHands](https://github.com/OpenHands/OpenHands) ⭐74,751 | AI-driven development platform; strong momentum in software engineering automation |
-| [CowAgent](https://github.com/zhayujie/CowAgent) ⭐44,786 | Lightweight, extensible super assistant with multi-model, multi-channel support; formerly chatgpt-on-wechat |
-| [shareAI-lab/learn-claude-code](https://github.com/shareAI-lab/learn-claude-code) ⭐62,340 | "Bash is all you need"—nano agent harness built from scratch, educational but production-viable |
+#### 🧠 LLMs / Training & Fine-Tuning
+- **[Kronos](https://github.com/shiyu-coder/Kronos) ⭐ +106 today** — A specialized Foundation Model for financial market language. Its presence on the trending list signals growing demand for domain-specific, agent-tuned models rather than general-purpose chat.
+- **[LlamaFactory](https://github.com/hiyouga/LlamaFactory) ⭐ 71,574 total** — The unified fine-tuning framework supporting 100+ LLMs and VLMs; the go-to tool for adapting models to specific agentic tasks.
+- **[minimind](https://github.com/jingyaogong/minimind) ⭐ 50,532 total** — Trains a 64M-parameter LLM from scratch in 2 hours; critical educational infrastructure for the next generation of agent developers.
 
-### 📦 AI Applications
+#### 📦 AI Applications
+- **[frigate](https://github.com/blakeblackshear/frigate) ⭐ +181 today** — The mature, real-time local object detection NVR. A stable AI application continuing to see growth as the smart home + AI convergence deepens.
+- **[career-ops](https://github.com/santifer/career-ops) ⭐ 47,124 total** — An AI-powered job search system built entirely on Claude Code, demonstrating how agents can now build substantial vertical applications.
+- **[ppt-master](https://github.com/hugohe3/ppt-master) ⭐ 20,826 total** — Generates native, editable PowerPoint files from any document—a practical, high-demand enterprise AI application.
 
-| Project | Stars | Why It Matters Today |
-|--------|-------|----------------------|
-| [Lum1104/Understand-Anything](https://github.com/Lum1104/Understand-Anything) ⭐0 (+3,999 today) | **Top gainer today**: Interactive knowledge graphs from code for multiple agent platforms; visual reasoning for AI |
-| [colbymchenry/codegraph](https://github.com/colbymchenry/codegraph) ⭐0 (+3,003 today) | Pre-indexed code knowledge graphs for 5+ agent platforms; 100% local, fewer tokens, fewer tool calls |
-| [shiyu-coder/Kronos](https://github.com/shiyu-coder/Kronos) ⭐0 (+106 today) | Foundation model for financial market language; vertical domain specialization trend |
-| [santifer/career-ops](https://github.com/santifer/career-ops) ⭐47,049 | Claude Code-based job search with 14 skill modes; agentic vertical application |
-| [hugohe3/ppt-master](https://github.com/hugohe3/ppt-master) ⭐20,584 | Native PPTX generation from documents; AI output format fidelity beyond images |
-| [666ghj/MiroFish](https://github.com/666ghj/MiroFish) ⭐0 (+197 today) | Universal swarm intelligence engine for prediction; emergent collective behavior approach |
-| [OpenBB-finance/OpenBB](https://github.com/OpenBB-finance/OpenBB) ⭐68,037 | Financial data platform for analysts and AI agents; data infrastructure for finance AI |
+### 3. Trend Signal Analysis
 
-### 🧠 LLMs / Training
+**The Cognitive Architecture of Agents is Shifting from Prompts to Structured Graphs and Skills.**
 
-| Project | Stars | Why It Matters Today |
-|--------|-------|----------------------|
-| [huggingface/transformers](https://github.com/huggingface/transformers) ⭐160,931 | Foundational model framework; supports multimodal expansion |
-| [rasbt/LLMs-from-scratch](https://github.com/rasbt/LLMs-from-scratch) ⭐95,792 | Educational but rigorous PyTorch implementation; persistent demand for fundamentals |
-| [jingyaogong/minimind](https://github.com/jingyaogong/minimind) ⭐50,497 | Train 64M-parameter LLM in 2 hours; extreme efficiency for experimentation and edge deployment |
-| [hiyouga/LlamaFactory](https://github.com/hiyouga/LlamaFactory) ⭐71,553 | Unified fine-tuning for 100+ LLMs/VLMs; production fine-tuning at scale |
-| [skyzh/tiny-llm](https://github.com/skyzh/tiny-llm) ⭐4,204 | Apple Silicon-optimized inference serving course; hardware-specific optimization trend |
-| [0xPlaygrounds/rig](https://github.com/0xPlaygrounds/rig) ⭐7,409 | Modular Rust LLM applications; systems language alternative to Python dominance |
+The data reveals a decisive pivot in how the open-source community is solving the agent reliability problem. A full third of today's top trending projects (`Understand-Anything`, `codegraph`, `claude-mem`, `karpathy-skills`, `Anthropic-Cybersecurity-Skills`) are explicitly designed to structure agent context and behavior externally rather than relying on in-prompt instructions. This represents a community-wide acknowledgment that **context window economics** is the binding constraint on agent utility.
 
-### 🔍 RAG / Knowledge
+The viral success of `andrej-karpathy-skills` (+2,551 stars) is particularly revealing. Derived from Karpathy's critiques of LLM coding pitfalls, this single CLAUDE.md file has become a template for how the community wants to specify agent behavior: deterministic, shareable, and auditable. Combined with Anthropic's official skill directory, we are witnessing the birth of **a universal agent capability standard**—a "Skills Manifest" ecosystem where agent behavior is distributed as structured files rather than vague system prompts.
 
-| Project | Stars | Why It Matters Today |
-|--------|-------|----------------------|
-| [thedotmack/claude-mem](https://github.com/thedotmack/claude-mem) ⭐77,852 | Persistent cross-session memory for agents; compresses and injects relevant context—addresses critical agent statefulness gap |
-| [mem0ai/mem0](https://github.com/mem0ai/mem0) ⭐56,607 | Universal memory layer for AI agents; cross-platform memory abstraction |
-| [safishamsi/graphify](https://github.com/safishamsi/graphify) ⭐53,031 | Queryable knowledge graphs from any content type; app+database+infrastructure unified graph |
-| [infiniflow/ragflow](https://github.com/infiniflow/ragflow) ⭐81,144 | Leading open-source RAG engine with Agent capabilities; fusion of retrieval and agentic execution |
-| [milvus-io/milvus](https://github.com/milvus-io/milvus) ⭐44,434 | Cloud-native vector database; scalable ANN search infrastructure |
-| [qdrant/qdrant](https://github.com/qdrant/qdrant) ⭐31,571 | High-performance vector database; Rust-based efficiency |
-| [zilliztech/claude-context](https://github.com/zilliztech/claude-context) ⭐11,550 | Code search MCP for Claude Code; entire codebase as context via vector search |
-| [topoteretes/cognee](https://github.com/topoteretes/cognee) ⭐17,493 | Memory control plane for AI agents in 6 lines; extreme simplicity for agent memory |
+A striking new direction is **agent-native operating tooling**. `cmux` (a terminal for agents) and `multica` (a platform for managing agent teams) suggest the infrastructure stack around agents is evolving beyond simple VSCode extensions into dedicated desktop environments and management planes. This mirrors the early days of cloud computing, when tools like Terraform and Docker emerged to manage the new paradigm.
+
+Finally, the sustained high star counts for memory projects (`claude-mem` at 77k, `mem0` at 56k) against generational agent frameworks confirm: **memory and context are the new moats**, not general reasoning. The project that gives an agent fluent access to its entire history and codebase wins the developer's trust.
+
+### 4. Community Hot Spots
+
+- **Graph-Based Agent Context Layers:** `Understand-Anything` (+3,999 today) and `codegraph` (+3,003 today) are the highest-velocity projects right now. Any developer building tooling around coding agents should immediately investigate replacing raw text injection with pre-indexed, queryable graph structures. [Understand-Anything](https://github.com/Lum1104/Understand-Anything) | [codegraph](https://github.com/colbymchenry/codegraph)
+- **The Standardized Skills Ecosystem:** The Anthropic plugin repos (`claude-plugins-official`, `knowledge-work-plugins`) and the cybersecurity skillset standard (`Anthropic-Cybersecurity-Skills`) represent a new distribution model for agent intelligence. Building skills in this format is the highest-ROI contribution an OSS developer can make right now. [Skills Directory](https://github.com/anthropics/claude-plugins-official) | [Cyber Skills](https://github.com/mukul975/Anthropic-Cybersecurity-Skills)
+- **Agent-Native Infrastructure:** `cmux` and `multica` represent an entirely new product category. The former signals a UX revolution for agent operators; the latter validates the "agent-as-teammate" management layer. Watch these for where the platform is going. [cmux](https://github.com/manaflow-ai/cmux) | [multica](https://github.com/multica-ai/multica)
+- **Persistent Memory Engines:** `claude-mem` (77k stars) and `mem0` (56k stars) are the standard bearers for the memory layer. Cross-session context injection is the de facto expectation for serious agent usage. [claude-mem](https://github.com/thedotmack/claude-mem) | [mem0](https://github.com/mem0ai/mem0)
+- **Domain-Specific Foundation Models:** `Kronos` (finance LLM) entering the list signals an impending wave of ultra-specific models fine-tuned for focused agentic tool use, rather than generic chat. This is the "LLM app store" model arriving. [Kronos](https://github.com/shiyu-coder/Kronos)
 
 ---
-
-## 3. Trend Signal Analysis
-
-**Explosive Attention: The "Agent Augmentation Layer"**
-
-The dominant pattern in today's data is not base models or training frameworks, but **infrastructure that makes existing agents more capable**. Four of the top six trending repositories ([Lum1104/Understand-Anything](https://github.com/Lum1104/Understand-Anything), [colbymchenry/codegraph](https://github.com/colbymchenry/codegraph), [multica-ai/andrej-karpathy-skills](https://github.com/multica-ai/andrej-karpathy-skills), [mukul975/Anthropic-Cybersecurity-Skills](https://github.com/mukul975/Anthropic-Cybersecurity-Skills)) share a common architecture: **structured knowledge injected into agent context windows** to reduce token consumption and improve output quality. This represents a market maturation—users have moved from "which model?" to "how do I make this agent actually productive?"
-
-**New Tech Stacks Emerging**
-
-Three directions appear novel: (1) **Knowledge graphs as agent interface**—both Understand-Anything and Codegraph treat graphs as interactive, queryable structures rather than static visualizations; (2) **Skills files as distributable agent configuration**—the Andrej Karpathy-derived CLAUDE.md and 754-entry cybersecurity skills repository suggest a new packaging format for agent capabilities; (3) **Terminal-native agent UIs**—[cmux](https://github.com/manaflow-ai/cmux) and multiple CLI-first tools indicate developers want agents in their existing workflows, not separate applications.
-
-**Connection to Industry Dynamics**
-
-This surge directly follows **Claude Code's public release and Anthropic's plugin ecosystem launch** ([anthropics/claude-plugins-official](https://github.com/anthropics/claude-plugins-official), [anthropics/knowledge-work-plugins](https://github.com/anthropics/knowledge-work-plugins)). The community is racing to build **complementary infrastructure** around what appears to be a winning CLI-based agent interface. The simultaneous appearance of "OpenClaw" alternatives ([Alishahryar1/free-claude-code](https://github.com/Alishahryar1/free-claude-code), [Gitlawb/openclaude](https://github.com/Gitlawb/openclaude)) suggests both platform lock-in concerns and validation of the underlying interaction paradigm. The timing also aligns with **MCP (Model Context Protocol) standardization**, with multiple projects explicitly supporting cross-agent interoperability.
-
----
-
-## 4. Community Hot Spots
-
-- **[Lum1104/Understand-Anything](https://github.com/Lum1104/Understand-Anything) & [colbymchenry/codegraph](https://github.com/colbymchenry/codegraph)** — The +3,999 and +3,003 star explosions signal that **interactive knowledge graphs for code** have hit product-market fit. These are not documentation tools but **runtime agent context systems**; expect rapid ecosystem consolidation.
-
-- **[multica-ai/andrej-karpathy-skills](https://github.com/multica-ai/andrej-karpathy-skills)** — A single CLAUDE.md file gaining +2,551 stars demonstrates the power of **curated, authoritative agent configuration**. This "skills-as-content" model may become a new open source category, with domain experts packaging tacit knowledge for agent consumption.
-
-- **[thedotmack/claude-mem](https://github.com/thedotmack/claude-mem)** — With 77,852 stars and explicit multi-agent support, persistent memory is graduating from experiment to infrastructure. The compression and relevance-ranking approach addresses the economic reality of long context windows.
-
-- **[mukul975/Anthropic-Cybersecurity-Skills](https://github.com/mukul975/Anthropic-Cybersecurity-Skills)** — 754 structured skills mapped to 5 frameworks represents **vertical domain depth** that generalist agents cannot match. This model—framework-aligned, platform-agnostic skill repositories—will likely replicate across regulated industries.
-
-- **[NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent)** — At 165,670 stars, this is the largest agent framework by star count, yet receives less discussion than newer projects. Its positioning as "the agent that grows with you" suggests **adaptive, user-personalized agents** as the next competitive dimension beyond static capabilities.
-
----
-
----
-*This digest is auto-generated by [agents-radar](https://github.com/duanyytop/agents-radar).*
+*This digest is auto-generated by [agents-radar](https://github.com/AlexdanerZe/agents-radar).*

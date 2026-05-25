@@ -1,83 +1,142 @@
 # Hugging Face 热门模型日报 2026-05-25
 
-> 数据来源: [Hugging Face Hub](https://huggingface.co/) | 共 30 个模型 | 生成时间: 2026-05-25 00:25 UTC
+> 数据来源: [Hugging Face Hub](https://huggingface.co/) | 共 30 个模型 | 生成时间: 2026-05-25 09:58 UTC
 
 ---
 
-# Hugging Face 热门模型日报 | 2026-05-25
+# Hugging Face 热门模型日报（2026-05-25）
+
+## 📌 今日速览
+
+- **DeepSeek‑V4‑Pro** 以破纪录的 4,244 周点赞和 480 万下载量领跑全榜，成为新一代通用大模型的标杆，社区关注度极高。  
+- **Qwen 3.6** 多模态生态全面爆发：官方版 **Qwen3.6‑27B** 下载超 440 万，社区同步释出十余种量化与微调变体（Unsloth、Jackrong、HauhauCS 等），展现了极强的生态活力。  
+- **视频生成赛道升温**：Sulphur‑2‑base 下载量突破 135 万，Anima（图像生成单文件）获得 1,534 赞，字节跳动 Lance（任意‑to‑任意多模态）也首次亮相，生成式 AI 正向可控、高保真方向快速发展。  
+- **腾讯集中发布翻译模型**：Hy‑MT2 系列（1.8B / 7B / 30B‑A3B）三款同时上架，构建全尺寸机器翻译方案。  
+- **TTS 领域迎来新玩家**：Supertonic‑3 与 Dramabox 双双上榜，语音合成与语音克隆功能的实用化趋势明显。  
 
 ---
 
-## 今日速览
+## 🧠 语言模型（LLM、对话、指令微调）
 
-本周 Hugging Face 生态呈现**多模态爆发与国产模型强势崛起**的双重态势。DeepSeek-V4-Pro 以 4224 点赞和 466 万下载稳居榜首，Qwen 3.6 系列（27B/35B-A3B）形成完整矩阵覆盖从官方到社区微调的各层级需求。字节跳动的 Lance 以 any-to-any 定位切入，与腾讯 Hy-MT2 翻译系列、美团 LongCat 视频化身共同展现中国大厂的密集布局。值得关注的是，Sulphur-2-base 以 133 万下载成为视频生成黑马，而 Google Gemma-4-31B-it 凭借千万级下载验证了其开源策略的商业穿透力。
+- **[DeepSeek‑V4‑Pro](https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro)** · deepseek‑ai · 点赞 4,244 · 下载 4,820,866  
+  全新一代超大规模语言模型，在推理、对话等任务上全面超越前代，以压倒性热度登顶趋势榜。
 
----
+- **[Hy‑MT2‑1.8B](https://huggingface.co/tencent/Hy-MT2-1.8B)** · tencent · 点赞 694 · 下载 5,552  
+  腾讯基于 Hunyuan 架构的轻量翻译模型，吞吐高、易部署，适用于资源受限的翻译场景。
 
-## 热门模型
+- **[Hy‑MT2‑30B‑A3B](https://huggingface.co/tencent/Hy-MT2-30B-A3B)** · tencent · 点赞 318 · 下载 1,494  
+  腾讯大参数 MoE 翻译模型，30B 总参数、3B 激活，兼顾翻译质量与推理效率。
 
-### 🧠 语言模型（LLM、对话模型、指令微调）
+- **[Hy‑MT2‑7B](https://huggingface.co/tencent/Hy-MT2-7B)** · tencent · 点赞 152 · 下载 3,060  
+  腾讯 Hy‑MT2 系列的中等尺寸版本，在评测中平衡了 BLEU 值与计算成本。
 
-| 模型 | 作者 | 点赞 | 下载 | 一句话说明 |
-|:---|:---|---:|---:|:---|
-| [DeepSeek-V4-Pro](https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro) | deepseek-ai | 4,224 | 4,666,078 | **本周绝对霸主**，DeepSeek 最新一代 Pro 级文本生成模型，以 MoE 架构实现推理效率与性能的双重突破，下载量印证其生产级采用度。 |
-| [Qwen3.6-27B](https://huggingface.co/Qwen/Qwen3.6-27B) | Qwen | 1,422 | 4,242,555 | 阿里云 Qwen 官方旗舰，原生支持图像-文本-文本多模态对话，27B 参数规模成为企业部署的"甜点"选择。 |
-| [google/gemma-4-31B-it](https://huggingface.co/google/gemma-4-31B-it) | google | 2,762 | 10,398,435 | **下载量破千万**，Gemma 4 代指令微调版，Google 开源战略的标杆产品，31B 参数在多模态理解上对标闭源中杯模型。 |
-| [sapientinc/HRM-Text-1B](https://huggingface.co/sapientinc/HRM-Text-1B) | sapientinc | 271 | 84,346 | 垂直领域黑马，专注人力资源管理的 1B 轻量文本模型，高下载量反映企业级垂直场景的旺盛需求。 |
-
----
-
-### 🎨 多模态与生成（图像、视频、音频、文本到X）
-
-| 模型 | 作者 | 点赞 | 下载 | 一句话说明 |
-|:---|:---|---:|---:|:---|
-| [SulphurAI/Sulphur-2-base](https://huggingface.co/SulphurAI/Sulphur-2-base) | SulphurAI | 1,322 | 1,331,058 | **现象级视频生成模型**，133 万下载碾压同级，text-to-video 能力配合 GGUF 量化支持，成为 ComfyUI 生态新宠。 |
-| [bytedance-research/Lance](https://huggingface.co/bytedance-research/Lance) | bytedance-research | 760 | 1,474 | 字节跳动 any-to-any 统一架构，覆盖图像/视频生成与多模态理解，"一个模型走天下"的野心之作，高点赞低下载暗示其尚处早期释放阶段。 |
-| [openbmb/MiniCPM-V-4.6](https://huggingface.co/openbmb/MiniCPM-V-4.6) | openbmb | 918 | 269,589 | 面壁智能端侧多模态标杆，4.6 代在图像理解精度与推理速度间取得新平衡，27 万下载验证端侧部署需求。 |
-| [circlestone-labs/Anima](https://huggingface.co/circlestone-labs/Anima) | circlestone-labs | 1,531 | 637,329 | 高点赞神秘模型，diffusion-single-file 格式+ComfyUI 原生支持，63 万下载表明其在创意工作流中的渗透力。 |
-| [TencentARC/Pixal3D](https://huggingface.co/TencentARC/Pixal3D) | TencentARC | 202 | 0 | 腾讯 ARC 实验室 image-to-3D 新作，MIT 协议开源，零下载因刚发布，但技术方向切中 3D 资产生成痛点。 |
-| [stabilityai/stable-audio-3-medium](https://huggingface.co/stabilityai/stable-audio-3-medium) | stabilityai | 80 | 0 | Stability AI 音频生成第三代，text-to-audio 覆盖音乐与音效，零下载显示音频生成赛道仍处工具链整合期。 |
-| [Supertone/supertonic-3](https://huggingface.co/Supertone/supertonic-3) | Supertone | 645 | 43,119 | 韩国 Supertone TTS 旗舰，ONNX 运行时优化，4.3 万下载在语音合成细分领域表现亮眼。 |
+- **[HRM‑Text‑1B](https://huggingface.co/sapientinc/HRM-Text-1B)** · sapientinc · 点赞 274 · 下载 90,026  
+  专注于人力资源领域的文本生成模型，下载量接近 10 万，反映企业级轻量模型的旺盛需求。
 
 ---
 
-### 🔧 专用模型（代码、数学、医疗、嵌入）
+## 🎨 多模态与生成（图像、视频、音频、文本 → X）
 
-| 模型 | 作者 | 点赞 | 下载 | 一句话说明 |
-|:---|:---|---:|---:|:---|
-| [tencent/Hy-MT2-1.8B](https://huggingface.co/tencent/Hy-MT2-1.8B) / [7B](https://huggingface.co/tencent/Hy-MT2-7B) / [30B-A3B](https://huggingface.co/tencent/Hy-MT2-30B-A3B) | tencent | 599 / 148 / 308 | 4,534 / 2,407 / 1,243 | 腾讯混元翻译系列三箭齐发，覆盖 1.8B 到 30B-A3B（MoE）全尺度，专攻机器翻译场景， Hunyuan 架构的垂直验证。 |
-| [NemoStation/Marlin-2B](https://huggingface.co/NemoStation/Marlin-2B) | NemoStation | 306 | 6,032 | 视频-文本到文本的垂直模型，基于 Qwen3.5 架构，专注视频内容理解与问答，6K 下载显示视频理解需求萌芽。 |
-| [numind/NuExtract3](https://huggingface.co/numind/NuExtract3) | numind | 107 | 10,998 | 结构化信息提取专家，基于 Qwen3.5 的视觉语言架构，image-to-text 任务中实现文档/票据关键字段精准抽取。 |
-| [nvidia/Nemotron-Labs-Diffusion-14B](https://huggingface.co/nvidia/Nemotron-Labs-Diffusion-14B) | nvidia | 89 | 4,071 | NVIDIA 实验室出品，将扩散机制引入文本生成，feature-extraction 标签暗示其作为合成数据生成器的定位。 |
+- **[bytedance‑research/Lance](https://huggingface.co/bytedance-research/Lance)** · bytedance‑research · 点赞 779 · 下载 1,679  
+  字节跳动推出的“任意‑to‑任意”多模态生成模型，支持图像/视频/音频/文本之间的自由转换。
+
+- **[Marlin‑2B](https://huggingface.co/NemoStation/Marlin-2B)** · NemoStation · 点赞 320 · 下载 7,291  
+  2B 参数视频‑文本模型，从视频和文本输入生成文本描述，适合视频理解与搜索。
+
+- **[supertonic‑3](https://huggingface.co/Supertone/supertonic-**3) · Supertone · 点赞 652 · 下载 45,800  
+  高拟真度文本转语音模型，支持多风格语音合成，下载量增长迅速。
+
+- **[Sulphur‑2‑base](https://huggingface.co/SulphurAI/Sulphur-**2-base) · SulphurAI · 点赞 1,333 · 下载 1,354,786  
+  开源文本到视频扩散基础模型，下载量超 135 万，社区普遍认为其生成质量接近商用水平。
+
+- **[MiniCPM‑V‑4.6](https://huggingface.co/openbmb/MiniCPM-V-4.6) · openbmb · 点赞 929 · 下载 285,414**  
+  面壁智能最新多模态模型，以极小参数实现强大视觉语言能力，适合端侧部署。
+
+- **[LongCat‑Video‑Avatar‑1.5](https://huggingface.co/meituan-longcat/LongCat-Video-Avatar-1.5) · meituan‑longcat · 点赞 167 · 下载 0**  
+  美团开源的虚拟人视频生成模型，利用音频/图像/文本联合生成说话头像，功能极具创意。
+
+- **[Anima](https://huggingface.co/circlestone-labs/Anima) · circlestone‑labs · 点赞 1,534 · 下载 651,655**  
+  社区图像生成模型，ComfyUI 单文件支持，下载量超过 65 万，深受 AI 画师喜爱。
+
+- **[command‑a‑plus‑05‑2026‑bf16](https://huggingface.co/CohereLabs/command-a-plus-05-2026-bf16) · CohereLabs · 点赞 113 · 下载 12,824**  
+  Cohere 最新多模态大模型（图像+文本），bf16 权重开放，可以与 GPT‑4V 对标。
+
+- **[SANA‑WM_bidirectional](https://huggingface.co/Efficient-Large-Model/SANA-WM_bidirectional) · Efficient‑Large‑Model · 点赞 100 · 下载 0**  
+  支持双向图像‑视频生成的模型，可控制相机运动轨迹，论文后已开源。
+
+- **[Dramabox](https://huggingface.co/ResembleAI/Dramabox) · ResembleAI · 点赞 248 · 下载 1,498**  
+  具备语音克隆能力的 TTS 模型，适用于角色对话与有声书制作。
+
+- **[Qwen3.6‑27B](https://huggingface.co/Qwen/Qwen3.6-27B) · Qwen · 点赞 1,433 · 下载 4,423,521**  
+  Qwen 官方下一代视觉语言模型，多模态能力大幅增强，下载量超过 440 万，社区反响强烈。
+
+- **[stable‑audio‑3‑medium](https://huggingface.co/stabilityai/stable-audio-3-medium) · stabilityai · 点赞 86 · 下载 0**  
+  Stability AI 的最新音频生成模型，面向音乐与音效生成，虽刚发布但已引起关注。
+
+- **[Lens‑Turbo](https://huggingface.co/microsoft/Lens-Turbo) · microsoft · 点赞 78 · 下载 695**  
+  微软提出的加速文本‑图像生成模型，配合论文量化部署，有望降低扩散模型推理成本。
 
 ---
 
-### 📦 微调与量化（社区微调、GGUF、AWQ）
+## 🔧 专用模型（代码、数学、医疗、嵌入）
 
-| 模型 | 作者 | 点赞 | 下载 | 一句话说明 |
-|:---|:---|---:|---:|:---|
-| [HauhauCS/Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive](https://huggingface.co/HauhauCS/Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive) | HauhauCS | 767 | 1,220,114 | **社区微调顶流**，122 万下载证明"去审查化"需求的旺盛，35B-A3B MoE 架构的 GGUF 量化实现本地可跑。 |
-| [unsloth/Qwen3.6-27B-MTP-GGUF](https://huggingface.co/unsloth/Qwen3.6-27B-MTP-GGUF) / [35B-A3B-MTP-GGUF](https://huggingface.co/unsloth/Qwen3.6-35B-A3B-MTP-GGUF) | unsloth | 455 / 358 | 660,321 / 547,827 | Unsloth 官方量化双旗舰，MTP（多令牌预测）+ GGUF 组合，合计超 120 万下载，消费级 GPU 跑大模型的首选方案。 |
-| [Jackrong/Qwopus3.5-9B-Coder-GGUF](https://huggingface.co/Jackrong/Qwopus3.5-9B-Coder-GGUF) / [3.6-27B-v2-GGUF](https://huggingface.co/Jackrong/Qwopus3.6-27B-v2-GGUF) / [3.5-9B-Coder-MTP-GGUF](https://huggingface.co/Jackrong/Qwopus3.5-9B-Coder-MTP-GGUF) | Jackrong | 180 / 113 / 87 | 38,937 / 8,300 / 33,197 | 社区量化者 Jackrong 的 Qwen 代码专用系列，覆盖 9B 到 27B，Coder 变体针对编程场景优化，MTP 版本探索推理加速。 |
-| [CohereLabs/command-a-plus-05-2026-w4a4](https://huggingface.co/CohereLabs/command-a-plus-05-2026-w4a4) / [bf16](https://huggingface.co/CohereLabs/command-a-plus-05-2026-bf16) | CohereLabs | 190 / 113 | 5,627 / 12,362 | Cohere 视觉语言模型双精度发布，w4a4 量化版与 bf16 原版并行，展示商业开源模型的精度-效率权衡策略。 |
-| [froggeric/Qwen-Fixed-Chat-Templates](https://huggingface.co/froggeric/Qwen-Fixed-Chat-Templates) | froggeric | 388 | 0 | 零下载高点赞的"工具型"仓库，专注修复 Qwen3.5 的 MLX 聊天模板，反映社区对 Apple Silicon 适配的精细化运营。 |
-| [OBLITERATUS/Qwen3.6-27B-OBLITERATED](https://huggingface.co/OBLITERATUS/Qwen3.6-27B-OBLITERATED) | OBLITERATUS | 76 | 5,298 | 激进的权重修改实验，"OBLITERATED"命名暗示对原模型架构或安全机制的大胆重构，小众但具探索价值。 |
+- **[NuExtract3](https://huggingface.co/numind/NuExtract3) · numind · 点赞 113 · 下载 17,501**  
+  基于视觉语言模型的结构化数据提取工具，可从文档图像中精准抽取字段，效率优于传统 OCR 管线。
+
+- **[Nemotron‑Labs‑Diffusion‑14B](https://huggingface.co/nvidia/Nemotron-Labs-Diffusion-14B) · nvidia · 点赞 93 · 下载 5,195**  
+  NVIDIA 的实验性模型，将扩散结构用于文本生成与特征提取，为扩散模型开辟新用途。
 
 ---
 
-## 生态信号
+## 📦 微调与量化（社区微调、GGUF、AWQ）
 
-**Qwen 家族已成事实标准**：30 个热门模型中 Qwen 相关占 9 席（含官方 2 席、Unsloth 2 席、社区微调 5 席），从 9B 到 35B-A3B 的 GGUF 量化生态完整覆盖，"Qwen3.5/3.6"标签出现频率碾压 Llama/Gemma。国产模型三极格局显现：阿里 Qwen（生态广度）、字节 Lance（架构创新）、腾讯 Hy-MT2/Pixal3D（垂直深耕）。开源权重呈现**"官方基础模型+社区量化/微调"的双层结构**，Unsloth、HauhauCS 等量化专家成为关键基础设施；去审查化微调（Uncensored）与代码专用变体（Coder）是社区最活跃的两个方向。值得关注的是，多模态统一架构（Lance 的 any-to-any、Gemma-4/Qwen3.6 的原生视觉）正在模糊"语言模型"与"多模态模型"的边界，而视频生成（Sulphur-2-base）的百万级下载标志着该赛道从玩具走向工具。
+- **[Qwen3.6‑27B‑MTP‑GGUF](https://huggingface.co/unsloth/Qwen3.6-27B-MTP-GGUF) · unsloth · 点赞 463 · 下载 695,277**  
+  Unsloth 为 Qwen3.6 官方版提供的 GGUF 量化，显著降低多模态模型本地运行门槛。
+
+- **[command‑a‑plus‑05‑2026‑w4a4](https://huggingface.co/CohereLabs/command-a-plus-05-2026-w4a4) · CohereLabs · 点赞 193 · 下载 7,449**  
+  官方推出的 4 位权重量化版 command‑a‑plus，模型体积缩小近 75%，部署更友好。
+
+- **[Qwen3.6‑35B‑A3B‑Uncensored‑HauhauCS‑Aggressive](https://huggingface.co/HauhauCS/Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive) · HauhauCS · 点赞 809 · 下载 1,392,596**  
+  社区无审查微调的 Qwen3.6 MoE 量化版，下载超百万，反映对宽松对话模型的强烈需求。
+
+- **[Qwen3.6‑35B‑A3B‑MTP‑GGUF](https://huggingface.co/unsloth/Qwen3.6-35B-A3B-MTP-GGUF) · unsloth · 点赞 360 · 下载 578,580**  
+  Unsloth 针对 Qwen3.6 MoE 架构的量化，兼顾模型容量与推理速度。
+
+- **[Qwen‑Fixed‑Chat‑Templates](https://huggingface.co/froggeric/Qwen-Fixed-Chat-Templates) · froggeric · 点赞 398 · 下载 0**  
+  修复 Qwen 系列聊天模板配置的工具，受到开发者关注（无下载但高赞），表明优质工具同样能引爆社区。
+
+- **[Qwopus3.6‑27B‑v2‑GGUF](https://huggingface.co/Jackrong/Qwopus3.6-27B-v2-GGUF) · Jackrong · 点赞 121 · 下载 12,677**  
+  Jackrong 量化的 Qwen3.6 衍生版 v2，在本地部署和推理上做了针对性优化。
+
+- **[Qwopus3.5‑9B‑Coder‑GGUF](https://huggingface.co/Jackrong/Qwopus3.5-9B-Coder-GGUF) · Jackrong · 点赞 183 · 下载 42,644**  
+  专注于代码生成的 Qwen 量化模型，下载超过 4 万，满足开发者本地代码辅助需求。
+
+- **[Qwopus3.5‑9B‑Coder‑MTP‑GGUF](https://huggingface.co/Jackrong/Qwopus3.5-9B-Coder-MTP-GGUF) · Jackrong · 点赞 91 · 下载 37,628**  
+  代码模型的 MTP（Multi‑Token Prediction）分支，推理速度进一步优化。
+
+- **[Qwopus3.6‑27B‑v2‑MTP‑GGUF](https://huggingface.co/Jackrong/Qwopus3.6-27B-v2-MTP-GGUF) · Jackrong · 点赞 84 · 下载 23,762**  
+  Jackrong 推出的 Qwen3.6 v2 MTP 量化版，性能稳定，下载量持续增长。
+
+- **[Qwen3.6‑27B‑OBLITERATED](https://huggingface.co/OBLITERATUS/Qwen3.6-27B-OBLITERATED) · OBLITERATUS · 点赞 82 · 下载 7,701**  
+  社区移除了视觉部分的 Qwen3.6 纯文本无限制版，引起部分用户的探索兴趣。
 
 ---
 
-## 值得探索
+## 🌱 生态信号
 
-| 模型 | 推荐理由 |
-|:---|:---|
-| **[SulphurAI/Sulphur-2-base](https://huggingface.co/SulphurAI/Sulphur-2-base)** | 133 万下载的视频生成现象级产品，diffusers+GGUF+endpoints_compatible 三重适配意味着从云端 API 到本地 4090 均可运行，text-to-video 的"Stable Diffusion 时刻"可能已至。 |
-| **[bytedance-research/Lance](https://huggingface.co/bytedance-research/Lance)** | any-to-any 架构的激进尝试，单一模型统一图像生成、视频生成与多模态理解，若技术验证成功，可能终结当前"专用模型堆砌"的碎片化格局，值得持续跟踪其技术报告与社区反馈。 |
-| **[HauhauCS/Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive](https://huggingface.co/HauhauCS/Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive)** | 122 万下载的社区微调顶流，不仅代表"去审查"需求，更验证了 MoE 架构（35B-A3B）在消费级硬件上的可行性——GGUF 量化后单卡可跑，是研究大模型效率优化的最佳样本。 |
+**家族势力**：Qwen 3.6 系列无疑是本周最活跃的生态引擎，官方版与十余款社区量化/微调版本同时霸榜，涵盖从 9B 到 35B、从纯文本到多模态、从通用到 Coder 的多种变体。DeepSeek‑V4‑Pro 以绝对优势成为新晋“顶流”。腾讯 Hy‑MT2 密集发布表明大厂正在布局全尺寸翻译模型。Cohere command‑a‑plus 的加入使多模态开放模型阵营更加壮大。
+
+**开源 vs 闭源**：榜单上除少数企业模型外，几乎所有模型都直接提供了安全张量（safetensors）或 GGUF 权重，社区主导的开放模型生态依然强势。即便如 Cohere 等商业公司，也选择完全开放权重（包括量化版），这反映出开源开放已成为行业共识，以吸引部署和二次开发。
+
+**量化与微调活动**：Unsloth 和 Jackrong 围绕 Qwen 3.6 进行了大量量化工作，带动了数十万至百万级别下载。尤其是“无审查”版本（HauhauCS、OBLITERATUS）下载量极高，说明部分用户对内容限制非常敏感。此外，froggeric 的工具型模型（修复聊天模板）虽无下载量却获近 400 赞，提示社区开发者对实用配套工具的需求不可忽视。
 
 ---
-*本日报由 [agents-radar](https://github.com/duanyytop/agents-radar) 自动生成。*
+
+## 🧪 值得探索
+
+- **[DeepSeek‑V4‑Pro](https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro)** — 周点赞与月下载均为全场最高，是当前最具潜力的大语言模型，值得全面评测与部署测试。  
+- **[Sulphur‑2‑base](https://huggingface.co/SulphurAI/Sulphur-2-base)** — 开源文本到视频模型的里程碑之作，下载量已破百万，建议关注其生成质量与可控性边界。  
+- **[Qwen3.6‑27B](https://huggingface.co/Qwen/Qwen3.6-27B)** — 阿里 Qwen 系列最新视觉语言基座，性能大幅跃升，且社区已经积累大量量化与适配方案，入手门槛极低，可作为多模态应用的起点。
+
+---
+*本日报由 [agents-radar](https://github.com/AlexdanerZe/agents-radar) 自动生成。*

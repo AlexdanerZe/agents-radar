@@ -1,63 +1,126 @@
 # Tech Community AI Digest 2026-05-25
 
-> Sources: [Dev.to](https://dev.to/) (30 articles) + [Lobste.rs](https://lobste.rs/) (7 stories) | Generated: 2026-05-25 00:25 UTC
+> Sources: [Dev.to](https://dev.to/) (30 articles) + [Lobste.rs](https://lobste.rs/) (7 stories) | Generated: 2026-05-25 09:58 UTC
 
 ---
 
-# Tech Community AI Digest — May 25, 2026
+Here is the structured Tech Community AI Digest for May 25, 2026.
+
+### 1. Today's Highlights
+
+The AI developer landscape is split between enthusiastic production deployment and sharp technical skepticism. Dev.to is saturated with Google I/O 2026 aftermath, hands-on Gemma 4 benchmarks, and critical guides on evaluating agents, while Lobste.rs offers a strong counterweight with deep dives into the security risks of "vibe coding" and the case for non-LLM solutions. The core tension across both platforms is execution quality: how to make agents reliable, safe, and cost-effective in practice. Hooks-based AI workflows and smart model routing emerge as the dominant engineering patterns of the week.
 
 ---
 
-## 1. Today's Highlights
+### 2. Dev.to Highlights
 
-Google I/O 2026 dominates Dev.to with developer challenge submissions, particularly around Gemini 3.5 Flash and new "Skill Files" for agent customization. Small local models are having a moment—Gemma 4 (4B parameter variant) appears in multiple practical builds from offline disaster companions to contract analysis tools. On Lobste.rs, skepticism surfaces alongside innovation: one post categorizes products *without* LLMs while another maintains an "AI Resist List." The tension between cloud dependency and local/offline AI capabilities emerges as the defining thread across both communities today.
+**1. Build It, Then Use It: How I wrote 435 AI engineering lessons from scratch**
+*Link:* https://dev.to/rohitg00/build-it-then-use-it-how-i-wrote-435-ai-engineering-lessons-from-scratch-5d2d
+*Engagement:* 16 Reactions · 3 Comments
+*Takeaway:* A deep pedagogical journey into building a tokenizer and transformers from scratch, offering one of the most hands-on AI learning resources published this week.
+
+**2. I Ditched Cloud LLMs for Gemma 4 4B: A DevOps Engineer's 48-Hour Reality Check**
+*Link:* https://dev.to/asamaes/i-ditched-cloud-llms-for-gemma-4-4b-a-devops-engineers-48-hour-reality-check-a7d
+*Engagement:* 11 Reactions · 3 Comments
+*Takeaway:* A brutally honest benchmark comparing cloud-hosted LLMs against local Gemma 4 4B, highlighting real-world trade-offs in latency, cost, and quality.
+
+**3. Choosing the Right Gemma 4 Model Matters More Than Choosing the Best One**
+*Link:* https://dev.to/sharafon/choosing-the-right-gemma-4-model-matters-more-than-choosing-the-best-one-1n6d
+*Engagement:* 11 Reactions · 2 Comments
+*Takeaway:* A lengthy strategic guide arguing that optimal results come from task-specific model selection rather than simply picking the largest variant.
+
+**4. How to Evaluate AI Agents: LLM-as-Judge Tutorial**
+*Link:* https://dev.to/aws/how-to-evaluate-ai-agents-llm-as-judge-tutorial-4a6h
+*Engagement:* 5 Reactions · 0 Comments
+*Takeaway:* A production-ready Python tutorial from AWS for catching silent agent failures, wasted tokens, and hallucinations using trajectory analysis and LLM-as-Judge.
+
+**5. Claude Code Hooks 101: Turning Your AI Coding Assistant Into an Automated Teammate**
+*Link:* https://dev.to/shrsv/claude-code-hooks-101-turning-your-ai-coding-assistant-into-an-automated-teammate-4lee
+*Engagement:* 5 Reactions · 0 Comments
+*Takeaway:* Introduces a workflow for automating code reviews and enforcing standards by hooking directly into an AI coding assistant's decision loop.
+
+**6. Qwen 3.6 Has Four Tiers. Here's How to Route Without Burning Cash.**
+*Link:* https://dev.to/tokenmixai/qwen-36-has-four-tiers-heres-how-to-route-without-burning-cash-316e
+*Engagement:* 4 Reactions · 0 Comments
+*Takeaway:* A practical pattern for implementing a smart routing layer that matches task complexity to the correct Qwen model tier, avoiding a 41x cost explosion.
+
+**7. Stop telling Claude Code rules. Enforce them with hooks.**
+*Link:* https://dev.to/krisnamic/stop-telling-claude-code-rules-enforce-them-with-hooks-3po1
+*Engagement:* 3 Reactions · 0 Comments
+*Takeaway:* Moves beyond static CLAUDE.md files to active, programmatic rule enforcement, treating the AI like a configurable CI pipeline.
+
+**8. ⚔️ I Ran the Same Task Through Hermes Agent, LangGraph, and AutoGen — Here's What Actually Happened**
+*Link:* https://dev.to/mamoor_ahmad/i-ran-the-same-task-through-hermes-agent-langgraph-and-autogen-heres-what-actually-happened-d6j
+*Engagement:* 2 Reactions · 0 Comments
+*Takeaway:* A controlled shootout revealing that framework choice drastically alters agent behavior, reliability, and cost on identical tasks.
+
+**9. I Tried Every Google I/O 2026 Developer Tool So You Don't Have To — Here's What Actually Works**
+*Link:* https://dev.to/mamoor_ahmad/i-tried-every-google-io-2026-developer-tool-so-you-dont-have-to-heres-what-actually-works-1elk
+*Engagement:* 2 Reactions · 0 Comments
+*Takeaway:* A stress-test review of Google's latest AI dev tooling, separating the genuinely production-ready features from the experimental demos.
+
+**10. What failing at building an AI agent taught me about building AI agents.**
+*Link:* https://dev.to/frank-895/what-failing-at-building-an-ai-agent-taught-me-about-building-ai-agents-3f16
+*Engagement:* 2 Reactions · 0 Comments
+*Takeaway:* A humble post-mortem on scoring 3/50 on a benchmark but still getting the job, emphasizing systems thinking and rigorous evaluation over hype.
 
 ---
 
-## 2. Dev.to Highlights
+### 3. Lobste.rs Highlights
 
-| # | Article | Engagement | Key Takeaway |
-|---|---------|-----------|--------------|
-| 1 | **[Everyone's Talking About Gemini 3.5 Flash. The Real Story at Google I/O 2026 Was a Skill File.](https://dev.to/sreejit_/everyones-talking-about-gemini-35-flash-the-real-story-at-google-io-2026-was-a-skill-file-4f3c)** — Sreejit Pradhan | 19 reactions, 12 comments | Skill Files may be Google's underappreciated mechanism for customizing agent behavior without prompt engineering. |
-| 2 | **[From Govhack Win to Something That Actually Matters](https://dev.to/ujja/from-govhack-win-to-something-that-actually-matters-2mmi)** — ujja | 8 reactions, 2 comments | A civic hacker's journey from competition prototype to production-ready machine learning system. |
-| 3 | **[Automating My Content and Dev Pipeline with Local Hermes Agents & Qwen 35B](https://dev.to/pinaksh_patel_7c884a18b06/automating-my-content-and-dev-pipeline-with-local-hermes-agents-qwen-35b-bc0)** — Pinaksh Patel | 8 reactions, 4 comments | Fully local agent stacks (Hermes + Qwen 35B) can realistically replace cloud dependencies for content and development workflows. |
-| 4 | **[I Ditched Cloud LLMs for Gemma 4 4B: A DevOps Engineer's 48-Hour Reality Check](https://dev.to/asamaes/i-ditched-cloud-llms-for-gemma-4-4b-a-devops-engineers-48-hour-reality-check-a7d)** — Asmae | 7 reactions, 1 comment | Gemma 4 4B is viable for real DevOps tasks—this field report covers where it succeeds and where cloud still wins. |
-| 5 | **[LIKAS: An offline disaster companion for the Philippines, powered by on-device Gemma 4 E2B](https://dev.to/jpcurada/likas-an-offline-disaster-companion-for-the-philippines-powered-by-on-device-gemma-4-e2b-ao1)** — John Paul Curada | 7 reactions, 0 comments | On-device AI isn't just privacy theater—it's critical infrastructure when connectivity fails during disasters. |
-| 6 | **[Claude Code Hooks 101: Turning Your AI Coding Assistant Into an Automated Teammate](https://dev.to/shrsv/claude-code-hooks-101-turning-your-ai-coding-assistant-into-an-automated-teammate-4lee)** — Shrijith Venkatramana | 5 reactions, 0 comments | Claude Code's hook system enables genuine automation, not just assisted typing—treat it as infrastructure, not interface. |
-| 7 | **[The Control Plane is Leaking: When Context Becomes Command](https://dev.to/toxy4ny/the-control-plane-is-leaking-when-context-becomes-command-29bp)** — KL3FT3Z | 3 reactions, 0 comments | LLMs blurring data/control boundaries creates novel security risks requiring explicit architectural separation. |
-| 8 | **[Production-Ready MCP Servers in 60 Seconds (Auth, Rate Limits, Audit Logs Included)](https://dev.to/david_dev_sec/production-ready-mcp-servers-in-60-seconds-auth-rate-limits-audit-logs-included-25el)** — David McHale | 1 reaction, 1 comment | The Model Context Protocol needs production scaffolding—this TypeScript starter fills the gap with auth and observability. |
+**1. Categorizing without an LLM**
+*Link:* https://softwaremaniacs.org/blog/2026/05/18/shoppy/
+*Discussion:* https://lobste.rs/s/folw9m/categorizing_without_llm
+*Score:* 5 · Comments: 0
+*Why it's worth reading:* A refreshing counterargument to the default "throw an LLM at it" mindset, demonstrating robust classification with deterministic algorithms.
 
----
+**2. A Network Allow-List Won't Stop Exfiltration**
+*Link:* https://www.dergraf.org/notes/canister-egress-proxy-dlp/
+*Discussion:* https://lobste.rs/s/obnccl/network_allow_list_won_t_stop
+*Score:* 3 · Comments: 14
+*Why it's worth reading:* The most debated thread of the day. A critical security analysis of why network controls are insufficient to prevent data leaks from AI coding assistants.
 
-## 3. Lobste.rs Highlights
+**3. AI Resist List**
+*Link:* https://airesistlist.org/
+*Discussion:* https://lobste.rs/s/gydtkf/ai_resist_list
+*Score:* 3 · Comments: 0
+*Why it's worth reading:* A catalog of tools and practices for developers actively choosing to limit AI integration, reflecting a significant undercurrent of skepticism in the community.
 
-| # | Story | Engagement | Why Read |
-|---|-------|-----------|----------|
-| 1 | **[Categorizing without an LLM](https://softwaremaniacs.org/blog/2026/05/18/shoppy/)** — [Discussion](https://lobste.rs/s/folw9m/categorizing_without_llm) | 5 points, 0 comments | A pragmatic case study in simpler methods outperforming LLM overkill for structured classification tasks. |
-| 2 | **[A Network Allow-List Won't Stop Exfiltration](https://www.dergraf.org/notes/canister-egress-proxy-dlp/)** — [Discussion](https://lobste.rs/s/obnccl/network_allow_list_won_t_stop) | 2 points, 13 comments | The most commented story today: explores fundamental limitations of network security in AI/LLM deployments ("vibecoding" tag noted). |
-| 3 | **[Dissecting ThunderKittens, anatomy of a compact DSL for high-performance AI kernels](https://hamzaelshafie.bearblog.dev/dissecting-thunderkittens-anatomy-of-a-compact-dsl-for-high-performance-ai-kernels/)** — [Discussion](https://lobste.rs/s/cdnyqi/dissecting_thunderkittens_anatomy) | 2 points, 0 comments | Deep technical dive into DSL design for GPU kernel optimization—rare systems-level AI content. |
-| 4 | **[I spent 31 hours on the math behind TurboQuant so you don't have to](https://www.baseten.co/blog/i-spent-31-hours-on-the-math-behind-turboquant-so-you-dont-have-to/)** — [Discussion](https://lobste.rs/s/osi4oa/i_spent_31_hours_on_math_behind_turboquant) | 2 points, 0 comments | Quantization mathematics made accessible—essential for anyone deploying efficient local models. |
-| 5 | **[AI Resist List](https://airesistlist.org/)** — [Discussion](https://lobste.rs/s/gydtkf/ai_resist_list) | 3 points, 0 comments | Curated directory of AI-free tools and services—counter-cultural resource gaining traction in developer circles. |
+**4. Dissecting ThunderKittens, anatomy of a compact DSL for high-performance AI kernels**
+*Link:* https://hamzaelshafie.bearblog.dev/dissecting-thunderkittens-anatomy-of-a-compact-dsl-for-high-performance-ai-kernels/
+*Discussion:* https://lobste.rs/s/cdnyqi/dissecting_thunderkittens_anatomy
+*Score:* 2 · Comments: 0
+*Why it's worth reading:* A deep architecture dive into a new DSL designed specifically to solve the complexity of writing ultra-efficient AI compute kernels.
 
----
-
-## 4. Community Pulse
-
-**Local-First AI** is the dominant narrative: Gemma 4's 4B parameter variant appears in four distinct Dev.to projects, from Philippine disaster response to legal contract analysis. Developers are actively testing whether small models can replace cloud APIs for production workloads, not just demos. The Hermes Agent and Google I/O challenges are accelerating this experimentation with structured prompts to build and write about real implementations.
-
-**Skepticism and friction** surface distinctly on Lobste.rs, where the "AI Resist List" and "Categorizing without an LLM" suggest growing fatigue with default-AI solutions. The "vibecoding" tag on a security story hints at emerging criticism of AI-generated code quality.
-
-**Practical infrastructure concerns** unite both platforms: MCP server productionization, Claude Code hook automation, and context/control plane separation all address the gap between "works in demo" and "works in production." Developers want composable, auditable, offline-capable AI systems—not black boxes.
+**5. I spent 31 hours on the math behind TurboQuant so you don't have to**
+*Link:* https://www.baseten.co/blog/i-spent-31-hours-on-the-math-behind-turboquant-so-you-dont-have-to/
+*Discussion:* https://lobste.rs/s/osi4oa/i_spent_31_hours_on_math_behind_turboquant
+*Score:* 2 · Comments: 0
+*Why it's worth reading:* A thorough, math-heavy breakdown of quantization techniques, connecting theoretical foundations directly to real-world model optimization.
 
 ---
 
-## 5. Worth Reading
+### 4. Community Pulse
 
-| Priority | Article | Why In-Depth |
-|----------|---------|-------------|
-| 🔥 | **[Everyone's Talking About Gemini 3.5 Flash. The Real Story at Google I/O 2026 Was a Skill File.](https://dev.to/sreejit_/everyones-talking-about-gemini-35-flash-the-real-story-at-google-io-2026-was-a-skill-file-4f3c)** | Most engaged-with post; Skill Files may represent a fundamental shift in how developers customize agent behavior—worth understanding before the abstraction layer solidifies. |
-| 🔥 | **[The Control Plane is Leaking: When Context Becomes Command](https://dev.to/toxy4ny/the-control-plane-is-leaking-when-context-becomes-command-29bp)** | Rare security-architecture perspective on LLM systems; addresses a vulnerability class most practitioners haven't named yet. |
-| 🔥 | **[A Network Allow-List Won't Stop Exfiltration](https://www.dergraf.org/notes/canister-egress-proxy-dlp/)** — [Discussion](https://lobste.rs/s/obnccl/network_allow_list_won_t_stop) | 13 comments indicate substantive debate; the "vibecoding" intersection with security is where 2026's most consequential engineering decisions will unfold. |
+The dominant theme across both platforms is the **operational maturity gap of AI agents**. Dev.to authors are eagerly documenting their Google I/O 2026 experiments and framework shootouts (LangGraph vs. AutoGen vs. Hermes), trying to find the blueprint for "production-grade" agents. A strong emphasis is placed on **cost optimization** (local models like Gemma 4, tiered routing for Qwen 3.6) and **enforcement** (Claude Code hooks).
+
+Conversely, Lobste.rs acts as a hard technical check on this momentum. The high engagement on the "Network Allow-List" story (14 comments) signals deep-rooted security anxieties about allowing AI to write and execute code. The "AI Resist List" and "Categorizing without an LLM" posts confirm a vocal minority demanding simpler, more secure, and more deterministic approaches.
+
+**Common concerns:** Cost scaling, evaluation hygiene, security boundaries, and a growing fear of over-reliance on black-box models.
+**Emerging patterns:** Hooks-based enforcement, smart model routing, and local-first experimentation are the strongest practical signals this week.
 
 ---
-*This digest is auto-generated by [agents-radar](https://github.com/duanyytop/agents-radar).*
+
+### 5. Worth Reading
+
+**1. How to Evaluate AI Agents: LLM-as-Judge Tutorial** (Dev.to)
+This should be mandatory reading for anyone shipping an agent to production. It moves the conversation from "my agent works" to "how do I measure that it works safely?"
+
+**2. A Network Allow-List Won't Stop Exfiltration** (Lobste.rs)
+The loudest security discussion of the day. It exposes a blind spot in the "vibe coding" workflow and sparked a 14-comment debate on data leakage that every team should review.
+
+**3. Choosing the Right Gemma 4 Model Matters More Than Choosing the Best One** (Dev.to)
+The longest and most strategic article published today. It provides a robust mental model for matching model capability to task complexity, a skill that is quickly becoming essential.
+
+---
+*This digest is auto-generated by [agents-radar](https://github.com/AlexdanerZe/agents-radar).*
