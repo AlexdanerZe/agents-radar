@@ -1,0 +1,118 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code发布security-guidance安全插件",
+      "Gemini CLI修复MCP黑名单绕过RCE漏洞",
+      "OpenCode Agent沙箱化诉求获47赞最高",
+      "DeepSeek TUI提交类型化工具权限系统PR",
+      "Kimi Code OpenAI兼容API呼声最高#2208",
+      "Pi要求官方支持本地LLM provider#3357"
+    ],
+    "ai-agents": [
+      "OpenClaw发布v2026.5.26-beta.1性能大修",
+      "OpenClaw发布v2026.5.25-beta.1修复iMessage",
+      "PR#85341内化Pi代理运行时架构突破",
+      "PR#81402运行状态迁移至SQLite",
+      "日活：379 Issues 500 PRs极高活跃度",
+      "P1回归问题集中爆发稳定性方差大"
+    ],
+    "ai-trending": [
+      "Understand-Anything单日暴涨近5000 Stars",
+      "ECC收获194k Stars日增1.9k",
+      "Anthropic推出knowledge-work-plugins规范技能",
+      "taste-skill日增1430 Stars关注输出品质",
+      "ai-engineering-from-scratch日增2155 Stars",
+      "记忆压缩与知识图谱等新型上下文成热点"
+    ],
+    "ai-web": [
+      "Anthropic任命KiYoung Choi为韩国代表理事",
+      "工程博客详解Claude容器化与权限控制",
+      "首次公开因爆炸半径大否决Mythos Preview",
+      "联合创始人Chris Olah在梵蒂冈发表AI演讲",
+      "OpenAI本次更新窗口无新动态",
+      "Anthropic加速全球实体化布局首尔办公室"
+    ],
+    "ai-hn": [
+      "LLM睡眠机制论文187分132评论登顶",
+      "Uber一季烧光全年AI预算引泡沫反思",
+      "Sam Altman等IPO前夕软化就业末日论",
+      "AI模型系统性宗教偏向讨论显著升温",
+      "Minicor YC项目主打Windows桌面自动化",
+      "Anthropic容器化Claude工程博客热度高"
+    ],
+    "ai-hf": [
+      "DeepSeek-V4-Pro点赞4315下载502万断层领先",
+      "字节跳动Lance全模态统一模型引讨论",
+      "阿里Qwen3.6-27B多模态旗舰下载457万",
+      "面壁MiniCPM5-1B小钢炮延续参数高效",
+      "腾讯Hy-MT2翻译模型专业赛道获认可",
+      "Supertone TTS模型高点赞垂直领域价值"
+    ],
+    "ai-community": [
+      "OpenClaw vs CraftBot本地Agent选型对比",
+      "LLM API调用4GIFs系列对初学者友好",
+      "Agent记忆标准化方向引发激烈讨论",
+      "RAG不再万能AI Agent搜索代码新思路",
+      "本地AI编程环境搭建Ollama+Continue",
+      "AI治理与底层性能成Lobste.rs焦点"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code v2.1.152 released.",
+      "GitLab integration top issue for Claude Code.",
+      "MCP standard universally recognized.",
+      "Codex CLI optimizes single-user coding.",
+      "Gemini CLI builds multi-agent infrastructure.",
+      "Regression fatigue hits established CLI tools."
+    ],
+    "ai-agents": [
+      "OpenClaw beta patches address performance bugs.",
+      "Windows daemon regression causes community friction.",
+      "379 issues and 500 PRs updated in 24h.",
+      "iMessage reliability improved in new patch.",
+      "Subagent orchestration stability issues reported.",
+      "Users pin versions to avoid .x release breaks."
+    ],
+    "ai-trending": [
+      "AutoGPT leads at 184,574 stars.",
+      "Claude Mem crosses 78k total stars.",
+      "Graphify surges with 54k stars.",
+      "Firecrawl is the standard for web conversion.",
+      "Vibe coding era ends, agent engineering begins.",
+      "Knowledge graphs make a strong comeback."
+    ],
+    "ai-web": [
+      "Claude can shut down internal Anthropic services.",
+      "Anthropic opens Seoul office for Asia expansion.",
+      "Chris Olah speaks at Vatican on AI encyclical.",
+      "OpenAI had zero new content this crawl cycle.",
+      "KiYoung Choi named Representative Director of Korea.",
+      "Blast radius is core safety metric for Anthropic."
+    ],
+    "ai-hn": [
+      "Sleep consolidation mechanism for LLMs proposed.",
+      "Sam Altman criticized for jobs claims reversal.",
+      "Uber blows through AI budget in one quarter.",
+      "Mythos-class models to be released by Anthropic.",
+      "Minicor launches for desktop automation.",
+      "Papal encyclical on AI sparks religious bias debate."
+    ],
+    "ai-hf": [
+      "DeepSeek-V4-Pro tops with 5M downloads.",
+      "Lance introduces any-to-any generation paradigm.",
+      "Qwen 3.6 family sees massive community extension.",
+      "Stable Audio 3 hits mainstream trending.",
+      "MiniCPM5-1B showcases strong edge deployment.",
+      "Unsloth drives GGUF quantization for local use."
+    ],
+    "ai-community": [
+      "Papal encyclical on AI dominates Lobste.rs.",
+      "Developers embrace local AI setups like Ollama.",
+      "Agent economy matures with memory standardization.",
+      "API limit fatigue drives local coding setups.",
+      "Skepticism grows toward one-size-fits-all RAG.",
+      "Self-healing architectures become a key focus."
+    ]
+  }
+}
