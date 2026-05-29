@@ -1,0 +1,118 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code 新功能兴奋但会话损坏回退严重",
+      "OpenAI Codex 稳定但Windows Sandbox受阻",
+      "Gemini CLI P1崩溃潮致信任下滑",
+      "GitHub Copilot CLI WebSocket中断核心功能",
+      "Kimi Code CLI 方向骤变引发信任危机",
+      "OpenCode Agent误删文件引安全担忧"
+    ],
+    "ai-agents": [
+      "OpenClaw 发布 v2026.5.27 双版本强化安全边界",
+      "native hook relay 在 5.26 后频繁不可用",
+      "group prompt 从系统提示剥离防信息外溢",
+      "拒绝未经身份验证的 Tailscale 暴露",
+      "命令包装器副作用拦截与环境变量保护",
+      "节点与设备角色授权审批逻辑增强"
+    ],
+    "ai-trending": [
+      "Agent技能生态爆发：Anthropic官方skills仓库发布",
+      "MoneyPrinterTurbo 单日近5k stars热度最高",
+      "Understand-Anything 转代码为知识图谱获3.7k stars",
+      "MOSS-TTS 开源语音模型家族降低AI门槛",
+      "LEANN 实现97%存储压缩革新RAG效率",
+      "DeepSeek V4-Pro HuggingFace周点赞双冠"
+    ],
+    "ai-web": [
+      "Anthropic 完成650亿美元H轮融资估值9650亿",
+      "Claude Opus 4.8发布引入精力控制动态工作流",
+      "Claude Design将AI能力从代码拓展到视觉设计",
+      "《爆炸半径》《Auto Mode》发布定义Agent安全治理",
+      "Fast Mode降价3倍推动AI Agent成本工作流",
+      "Anthropic 开设米兰办公室支持欧洲业务"
+    ],
+    "ai-hn": [
+      "Claude Opus 4.8发布 HN 讨论超1000条评论",
+      "Anthropic 650亿美元融资同期登热榜",
+      "LLM Smells 文章系统梳理LLM缺陷引发共鸣",
+      "微软内部数据称AI比人力更贵成本讨论激化",
+      "Claude Code动态工作流受开发者关注",
+      "开源上下文层Ktx填补LLM工具空白"
+    ],
+    "ai-hf": [
+      "DeepSeek V4-Pro 周点赞4407下载528万领跑",
+      "DeepSeek V4-Flash 轻量高效版下载332万",
+      "字节跳动 Lance 实现任意模态互转生成",
+      "Qwen3.6-27B 成视觉语言生态中心微调活跃",
+      "社区围绕Qwen3.6无审查版GGUF修复高赞",
+      "腾讯Hy-MT2翻译系列下载量惊人"
+    ],
+    "ai-community": [
+      "调试AI代码花费10倍时间排错社区共鸣",
+      "AI Agent仅完成80%代码仍需高级开发者",
+      "面向AI Agent提交的表单设计新范式",
+      "95% LLM响应被忽略工程化输出被深度解析",
+      "Agent=Model+Harness框架生产化部署方法论",
+      "教皇关于AI伦理通谕引发Lobste.rs高分讨论"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code session serialization meltdown",
+      "Gemini CLI ioctl EBADF crashes",
+      "OpenAI Codex Windows sandbox failure",
+      "Industry converging on MCP/ACP protocols",
+      "Session state management catastrophic failure",
+      "Claude Code v2.1.156 hotfix released"
+    ],
+    "ai-agents": [
+      "OpenClaw v2026.5.27 and beta released",
+      "373 issues and 500 PRs updated in 24h",
+      "Regressions from v2026.5.26 release fixed",
+      "Security hardening and content boundary enforcement",
+      "High velocity but systemic strain on infrastructure",
+      "Need for deeper root cause analysis"
+    ],
+    "ai-trending": [
+      "Anthropic skills repo triggers skill engineering wave",
+      "Persistent memory layers like mem0 solve amnesia",
+      "Chinese open-source projects dominate application layer",
+      "Leann: 97% storage savings for on-device RAG",
+      "MOSS-TTS: high-fidelity open-source speech",
+      "Microsoft markitdown tool for LLM ingestion"
+    ],
+    "ai-web": [
+      "Anthropic raises $65B at $965B valuation",
+      "Claude Opus 4.8 introduces user-controlled effort",
+      "Claude Design extends to visual creative tools",
+      "Deep engineering posts on agent containment",
+      "Anthropic opens Milan office for Italian enterprise",
+      "OpenAI releases governance framework and case study"
+    ],
+    "ai-hn": [
+      "Claude Opus 4.8 launch with massive community engagement",
+      "Anthropic $65B raise makes it most valuable AI startup",
+      "Various LLM Smells catalog of failure modes",
+      "Startup sued for trashing Airbnbs with robots",
+      "Microsoft: AI more expensive than human labor",
+      "Debate over AI-generated comments on HN"
+    ],
+    "ai-hf": [
+      "DeepSeek V4 Pro and Flash dominate HF trends",
+      "Qwen 3.6 family with hundreds of fine-tunes",
+      "ByteDance Lance any-to-any multimodal model",
+      "Community focuses on quantizing MoE releases",
+      "Stability AI and Supertone audio pipelines",
+      "DeepSeek V4 Pro: 4.4k likes, 5.3M downloads"
+    ],
+    "ai-community": [
+      "Debugging AI code takes 10x longer than writing",
+      "AI agents fail silently on business logic and security",
+      "Warning about model collapse from synthetic data",
+      "Vatican encyclical sparks debate on AI ethics",
+      "Community focuses on Harness Engineering approach",
+      "Structured middleware emerges as new priority"
+    ]
+  }
+}
