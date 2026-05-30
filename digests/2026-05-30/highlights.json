@@ -1,0 +1,134 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code 社区最大，定价争议极热",
+      "Codex 企业级功能爆发，远程与多Agent",
+      "Gemini CLI 修复密集，A2A进展快",
+      "Copilot CLI 稳定但MCP配置成槽点",
+      "Kimi Code 战略转型，限售争议突出",
+      "开源阵营OpenCode等架构重构蓄势"
+    ],
+    "ai-agents": [
+      "OpenClaw 连发4个Beta热修聚焦稳定性",
+      "子Agent独立工作目录，Hook作用域限制",
+      "破坏性变更：升级需执行 doctor --fix",
+      "每日处理330 Issue与500 PR",
+      "修复Codex故障连带摧毁共享状态",
+      "CI自动化清理依赖锁文件提升效率"
+    ],
+    "ai-trending": [
+      "MoneyPrinterTurbo单日+3567 stars领跑",
+      "Taste-Skill +2062 stars，赋予模型品味",
+      "Compound Engineering Plugin统一插件规范",
+      "Liteparse +701 stars，Rust文档解析受瞩目",
+      "Stable-Worldmodel与Stable-Pretraining上榜",
+      "ollama支持Kimi-K2.5等最新模型"
+    ],
+    "ai-web": [
+      "OpenAI发布Rosalind生物防御倡议",
+      "OpenAI聚焦AI安全与生物防御话语权",
+      "Anthropic今日零更新，或为下一代蓄力",
+      "OpenAI从模型领先者向规则制定者转型",
+      "新内容集中于负责任AI和评估标准",
+      "Anthropic静默期，团队或在关键研究阶段"
+    ],
+    "ai-hn": [
+      "Liquid AI发布8B MoE模型训练38T tokens",
+      "tiny-vLLM轻量高性能推理引擎受关注",
+      "AISlop检测AI代码坏味道引讨论",
+      "Claude Opus 4.8被指蒸馏Qwen模型",
+      "神秘公司月耗5亿美元Claude费用",
+      "AWS计划无视反对将Grok集成Bedrock"
+    ],
+    "ai-arxiv": [
+      "LLMSurgeon审计预训练数据混合",
+      "多组件Agent组成性非一致性被形式化",
+      "推理新范式：利用工作内存进行潜空间推理",
+      "LoRA适配器后门攻击与行为检测方法",
+      "数据组织策略对LLM训练效率的影响",
+      "CVE-Bench评估LLM Agent修复漏洞"
+    ],
+    "ai-hf": [
+      "DeepSeek V4 Pro登顶，MoE旗舰热度第一",
+      "Qwen3.6 Uncensored微调下载量达2.1M",
+      "NVIDIA LocateAnything-3B通用视觉定位",
+      "字节跳动Lance任意模态模型发布",
+      "美团LongCat-Video-Avatar-1.5数字人生成",
+      "Uncensored与Aggressive微调反映个性需求"
+    ],
+    "ai-community": [
+      "AI Agent生产化落地：安全预算与人工监督",
+      "零代码自动化移动测试借助AI实现",
+      "AGENTS.md统一管理多编码Agent配置",
+      "vibe coding复杂度超标后失效引反思",
+      "PM Agent加入人工否决权暴露实际问题",
+      "教皇Leo XIV首部AI通谕引伦理讨论"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code v2.1.157/158 hotfixes",
+      "Copilot CLI v1.0.57 fixes context bloat",
+      "Kimi Code CLI v1.46.0 stops rate fraud",
+      "Qwen Code v0.17.0 adds OOM fix telemetry",
+      "Claude Code TUI data loss billing bugs",
+      "OpenAI Codex Windows crash history loss"
+    ],
+    "ai-agents": [
+      "OpenClaw v2026.5.28-beta.1 runtime",
+      "4 beta releases in 24 hours",
+      "165 PRs merged for runtime fixes",
+      "330 issues and 500 PRs updated",
+      "Platinum hermit diamond lobster bugs",
+      "Codex event-loop reliability focus"
+    ],
+    "ai-trending": [
+      "taste-skill gains +2062 daily stars",
+      "MoneyPrinterTurbo +3567 stars",
+      "ECC solidifies as agent OS",
+      "liteparse Rust parser +701 stars",
+      "stable-worldmodel for world model",
+      "Ollama hits 172K local LLM runner"
+    ],
+    "ai-web": [
+      "OpenAI publishes Rosalind Biodefense",
+      "OpenAI focuses on safety oversight",
+      "Anthropic silent no new articles",
+      "OpenAI sets governance agenda",
+      "Asymmetric Anthropic OpenAI update",
+      "Triple-crawl for Rosalind article"
+    ],
+    "ai-hn": [
+      "Liquid AI 8B-A1B MoE 38T training",
+      "CVE-Bench tests agents on vulns",
+      "Claude Opus 4.8 quality controversy",
+      "Claude Code degradation security issues",
+      "500 million Claude billing incident",
+      "Gartner predicts agent failure wave"
+    ],
+    "ai-arxiv": [
+      "LLMSurgeon diagnoses data mixtures",
+      "Resolution Diagnostics challenges leaderboards",
+      "SoundnessBench for scientific AI",
+      "In-Context Reward Adaptation without retrain",
+      "Unlocking Working Memory in LLMs",
+      "LoRA backdoors supply chain security"
+    ],
+    "ai-hf": [
+      "DeepSeek-V4-Pro 4439 likes",
+      "DeepSeek-V4-Flash high-throughput",
+      "Qwen 3.6 27B VLM top downloads",
+      "MiniCPM5-1B on-device frontier",
+      "Liquid AI MoE efficient architecture",
+      "Tencent Hy-MT2 MoE gains traction"
+    ],
+    "ai-community": [
+      "No-code AI testing tools trending",
+      "Fullstack AI agents production playbook",
+      "Microsoft MarkItDown converts to MD",
+      "Papal encyclical AI ethics 131 points",
+      "Human-in-the-loop oversight quantified",
+      "Runtime agent controls for security"
+    ]
+  }
+}
