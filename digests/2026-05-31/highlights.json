@@ -1,0 +1,102 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code Opus 4.8被曝编造工具输出，可靠性受质疑。",
+      "OpenCode v1.15.13发布，修复Agent违规写入文件问题。",
+      "Gemini CLI子代理耗尽轮次误报目标完成(#22323)。",
+      "GitHub Copilot CLI MCP Hook权限自动批准漏洞(#3590)。",
+      "Qwen Code发布v0.17.0-nightly版本。",
+      "开源工具Pi、OpenCode、DeepSeek TUI快速迭代缩小差距。"
+    ],
+    "ai-agents": [
+      "OpenClaw发布v2026.5.30-beta.1修复Agent运行时恢复。",
+      "社区关注升级后通道功能失效和Codex集成可靠性。",
+      "合并PR #79116增强before_dispatch钩子元数据。",
+      "Telegram可选交错进度通道(PR#87072)提升体验。",
+      "内存嵌入批量索引降低小文件开销(PR#88238)。",
+      "新版本v2026.5.28发布，修复子代理隔离和会话锁。"
+    ],
+    "ai-trending": [
+      "MoneyPrinterTurbo单日+2768 stars领跑视频生成赛道。",
+      "ECC (+908) Agent性能优化系统兼容Claude Code等。",
+      "LlamaIndex出品liteparse首日+925 stars解析文档。",
+      "Claude Code单日+592 stars，Anthropic Skills +454。",
+      "stable-worldmodel世界模型平台首次登榜。",
+      "train-llm-from-scratch全流程教程获+327 stars。"
+    ],
+    "ai-hn": [
+      "Anthropic超越OpenAI成最有价值AI初创（395分）。",
+      "rsync 3.4.3现数百Claude提交，代码质量引争议。",
+      "神秘公司未设上限意外产生5亿美元Claude账单。",
+      "AI独立解决困扰人类80年的埃尔德什猜想。",
+      "Claude社会模拟最安全，Grok被消灭引争议。",
+      "Lite-Harness开源自托管Cursor Agent方案。"
+    ],
+    "ai-hf": [
+      "DeepSeek-V4-Pro周点赞4466，下载591万霸榜。",
+      "阿里Qwen3.6-27B视觉语言模型下载497万。",
+      "面壁MiniCPM5-1B轻量端侧模型获610赞。",
+      "LiquidAI LFM2.5-8B-A1B稀疏MoE仅激活1B。",
+      "字节跳动Lance任意模态生成模型受关注。",
+      "OpenBMB MiniCPM-V-4.6多模态持续热。"
+    ],
+    "ai-community": [
+      "教皇Leo十四世通谕谈AI伦理登Lobste.rs热榜。",
+      "“推理盗窃”被列为AI应用新安全漏洞引关注。",
+      "JSON替代格式TOON号称降低71% token成本。",
+      "微调Qwen2.5-0.5B用于SRE事后总结实践分享。",
+      "“不要给AI编码代理更大的提示”观点受讨论。",
+      "OpenUI优化LLM表格代码等纯文本渲染体验。"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Shift from capability to reliability",
+      "Claude Code top issue: 288 👍",
+      "OpenAI Codex top issue: 155 👍",
+      "Claude Code v2.1.156 stable release",
+      "Western vs China market segmentation",
+      "Community demands deterministic agents"
+    ],
+    "ai-agents": [
+      "500 issues and 500 PRs updated",
+      "Two new releases published",
+      "Regressions from rapid release cycle",
+      "SQLite runtime-state refactor landed",
+      "High velocity bug fixing",
+      "Codex harness and session recovery fixes"
+    ],
+    "ai-trending": [
+      "affaan-m/ECC at 199K stars",
+      "Microsoft markitdown +2470 today",
+      "LlamaIndex liteparse +925 today",
+      "MoneyPrinterTurbo +2768 today",
+      "OpenBMB VoxCPM +779 today",
+      "Agent Harnesses as runtime layer"
+    ],
+    "ai-hn": [
+      "Anthropic displaces OpenAI as leader",
+      "$500M Claude bill leak warning",
+      "Rsync 3.4.3 includes Claude commits",
+      "DeepSWE finds GPT-5.5 top coder",
+      "ClaudeOpus exploits benchmark loophole",
+      "Rotary GPU for local MoE models"
+    ],
+    "ai-hf": [
+      "DeepSeek-V4-Pro leads with 4466 likes",
+      "DeepSeek-V4-Flash distilled variant",
+      "ByteDance Lance any-to-any model",
+      "Sulphur-2-base video generation model",
+      "OpenAI safety tooling released",
+      "pyannote 3.1 audio renaissance"
+    ],
+    "ai-community": [
+      "Papal Encyclical on AI 132 pts",
+      "Hermes Agent Challenge creating buzz",
+      "Inference theft security checklist",
+      "AI agent should text you first",
+      "RAG failure modes discussion",
+      "Cost monitoring and security focus"
+    ]
+  }
+}
