@@ -1,0 +1,102 @@
+{
+  "zh": {
+    "ai-cli": [
+      "OpenCode 日更 50 条 Issue/PR 领跑活跃度",
+      "Qwen Code 发布 v0.17.0-nightly 更新超 50 条",
+      "Claude Code v2.1.159 讨论激烈但零 PR 提交",
+      "Kimi Code CLI v1.46 因问题被社区关注",
+      "MCP 生态稳定性成多工具共性需求热点",
+      "社区转向工程稳定性竞备信任修复成基调"
+    ],
+    "ai-agents": [
+      "OpenClaw 连发 4 个 beta 版本修复中断恢复",
+      "24 小时合并 283 个 PR 交付节奏密集",
+      "Mattermost 附件路由问题在 #88859 修复",
+      "shadow trial 新增评分层强化记忆模块",
+      "对话上下文混淆和 MCP 审批成讨论焦点",
+      "beta.4 渠道传递在 Telegram/Slack 更稳定"
+    ],
+    "ai-trending": [
+      "MoneyPrinterTurbo 登顶今日 Trending 榜首",
+      "Anthropics Claude Code 单日斩获 489 星",
+      "Revfactory Harness 元技能理念引 323 星",
+      "Transformers 以 161k 星持续领跑 AI 框架",
+      "Open WebUI 139k 星成本地 LLM 首选界面",
+      "Supermemory 与 Mem0 引领记忆层基础设施"
+    ],
+    "ai-hn": [
+      "Remove LLM commits 获 29 分表达代码抵触",
+      "With Claude: Less Coding More Testing 21 分",
+      "Talk Is Cheap 31 分反思 LLM 成本与质量",
+      "AI 破解 Erdős 数学难题引 WSJ 报道关注",
+      "Ouijit 开源终端管理器面向编码 Agent 发布",
+      "Meta AI 客服翻车触发安全与就业焦虑"
+    ],
+    "ai-hf": [
+      "DeepSeek V4 Pro 以 4503 赞登顶下载 588 万",
+      "Qwen3.6-27B 获 1553 赞 VLM 生态爆发",
+      "OpenAI 意外开源隐私过滤模型获 1573 赞",
+      "Anima 文生图模型 1610 赞成 ComfyUI 热门",
+      "MiniCPM5-1B 获 661 赞专注端侧部署",
+      "tencent Hy-MT2-1.8B 高效翻译 1094 赞"
+    ],
+    "ai-community": [
+      "DuckDB 引入 Agent 崩溃调试低成本可观测",
+      "跨平台 Claude Code Hooks 工程指南发布",
+      "Markdown 正成为 AI 应用界面趋势观察",
+      "AI 不会帮你思考文章引独立思维退化辩论",
+      "RAG vs Agent 教训：强制提前选型架构",
+      "教皇 Leo XIV 发 AI 通谕引深层伦理思辨"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Cross tool reliability ceiling hits CLI ecosystem.",
+      "Claude Code V2.1.159 has data loss and auth bugs.",
+      "OpenCode and Pi iterate on daemon modes heavily.",
+      "CLI tools transition from model wrappers to platforms.",
+      "Cost transparency and session hygiene lead shared roadmap.",
+      "OSS alternatives fight platform fragmentation aggressively."
+    ],
+    "ai-agents": [
+      "OpenClaw ships four beta versions in 24 hours.",
+      "Team handles 500 issues and 500 PRs in a day.",
+      "Intense stabilization phase follows Codex deployment.",
+      "All four betas target resilience and recovery bugs.",
+      "Recovery from interrupted tool calls is improved.",
+      "Project is fixing stale session bindings in betas."
+    ],
+    "ai-trending": [
+      "Persistent memory layers defined as core bottleneck.",
+      "Claude Code launches rich plugin and harness ecosystem.",
+      "MoneyPrinterTurbo gains 1,937 stars today.",
+      "VoxCPM pushes frontier of open source voice synthesis.",
+      "LangChain adds MCP protocols at massive 138k stars.",
+      "Ollama local runtime adds Kimi K2.5 and DeepSeek support."
+    ],
+    "ai-hn": [
+      "Rsync project outright bans LLM generated commits.",
+      "AI solves Erdos problem, major math milestone.",
+      "Minimax M3 foundation model appears quietly on OpenRouter.",
+      "Backlash builds against unthinking adoption of AI code.",
+      "Amnesty report details sweeping AI human rights issues.",
+      "Community mood shifts from celebration to accountability."
+    ],
+    "ai-hf": [
+      "DeepSeek V4 Pro amasses 5.8 million downloads easily.",
+      "Qwen3.6 27B community fine tunes go viral.",
+      "LiquidAI LFM2.5 8B A1B MoE is the edge dark horse.",
+      "Sulphur 2 and Lance push text to video generation leaps.",
+      "Unsloth and NVIDIA lead quantization for Qwen3.6 27B.",
+      "DeepSeek V4 Flash brings frontier intelligence to low compute."
+    ],
+    "ai-community": [
+      "Developer debugs 200 dollar agent crash with DuckDB.",
+      "Post argues RAG vs Agent must be an enforced invariant.",
+      "Papal encyclical on AI dominates Lobste.rs discussions.",
+      "Article claims production AI needs robust domain infrastructure.",
+      "Debate rages over Open Closed Problem in AI agents.",
+      "Dev community shifts to pragmatic reflective mood on AI."
+    ]
+  }
+}
