@@ -1,0 +1,134 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code v2.1.160发布，解析崩溃引热议",
+      "Qwen Code v0.17.0-nightly，社区超高活跃",
+      "OpenAI Codex rust-v0.136.0，Windows怨气重",
+      "Gemini CLI v0.45.0-nightly，稳定性质疑多",
+      "生态进入安全攻坚期，三大焦虑浮现",
+      "Agent安全与权限管控成跨工具焦点"
+    ],
+    "ai-agents": [
+      "OpenClaw发布v2026.6.1-beta两版本，修复稳定性",
+      "日增459条Issue和500条PR，社区极度活跃",
+      "修复非Codex插件陈旧认证导致故障",
+      "修复doctor命令在Windows上错误报告",
+      "运行时从Pi切Codex，稳定性面临挑战",
+      "社区热点聚焦Codex OAuth和SQLite迁移"
+    ],
+    "ai-trending": [
+      "MoneyPrinterTurbo单日+3375 Stars，短视频生成",
+      "VoxCPM Tokenizer-Free语音生成，+888 Stars",
+      "TradingAgents多智能体金融交易+299 Stars",
+      "supermemory AI记忆API，+647 Stars",
+      "train-llm-from-scratch教程+861 Stars",
+      "ollama一键运行大模型，17.2万Stars首选"
+    ],
+    "ai-web": [
+      "Anthropic向SEC秘密提交S-1草案，启动IPO",
+      "完成650亿美元H轮融资，估值9650亿美元",
+      "发布Claude Opus 4.8，引入Effort Control",
+      "年化营收470亿美元，资本押注AI基建",
+      "OpenAI Frontier Models与Codex上线AWS",
+      "资金用于安全研究、算力扩展和产品规模化"
+    ],
+    "ai-hn": [
+      "Anthropic机密提交S-1启动IPO，社区热议",
+      "佛州总检察长起诉OpenAI协助大规模枪击",
+      "Stanford课程强制使用AI Agent，获346分",
+      "GitHub Copilot转计量计费，开发者不满",
+      "社区对AI资本化兴奋与安全批评两极",
+      "五角大楼推进战场AI，军方呼吁谨慎"
+    ],
+    "ai-arxiv": [
+      "DFlare扩大草稿容量，提升推测解码加速",
+      "思维链熵动态揭示不确定→置信两阶段",
+      "HMPO用强化学习压缩思维链中间长度",
+      "OpenWebRL开源视觉Web智能体训练管线",
+      "SafeMCP针对MCP协议提出智能体防御",
+      "AlphaToken路径感知令牌价值评估"
+    ],
+    "ai-hf": [
+      "DeepSeek V4 Pro获4536赞，下载580万领跑",
+      "Qwen 3.6-27B下载515万，生态全面开花",
+      "SulphurAI文生视频模型下载165万成新星",
+      "MiniCPM5-1B仅1B参数，瞄准移动端",
+      "LiquidAI MoE架构8B总参仅激活1B",
+      "pyannote说话人分离霸榜，下载959万"
+    ],
+    "ai-community": [
+      "Vibe coding进入反思期，多篇质疑代码质量",
+      "员工被66万AI平台替代，凌晨运维出事故",
+      "自愈系统实践：115个自愈PR，每次加固守则",
+      "MCP生态泡沫：没人安装你的服务器",
+      "后训练重要性获Lobste.rs高分共鸣",
+      "AI Agent被利用为C2服务器安全警告"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code faces Opus 4.7 parsing regression crisis.",
+      "Qwen Code suffers streaming body timeouts in agents.",
+      "Pi agent workflows experience silent hangs.",
+      "OpenCode leads open, extensible platform trend.",
+      "Windows and Linux parity remains unresolved.",
+      "Token cost observability becomes reliability metric."
+    ],
+    "ai-agents": [
+      "OpenClaw v2026.6.1-beta.2 improves agent recovery.",
+      "Codex runtime migration stabilization is dominant.",
+      "Regression fixes and fallback logic improvements.",
+      "Channel delivery reliability for Telegram and WhatsApp.",
+      "Community files detailed regression reports.",
+      "Rapid iteration around Codex causes friction."
+    ],
+    "ai-trending": [
+      "MoneyPrinterTurbo gains +3,375 stars for AI video.",
+      "Ollama updates to support Kimi-K2.5 and GLM-5.",
+      "Microsoft markitdown +3,034 stars for doc conversion.",
+      "D4Vinci Scrapling gains +1,486 stars for scraping.",
+      "Agent harness meta-frameworks on the rise.",
+      "Train-llm-from-scratch empowers accessible LLM training."
+    ],
+    "ai-web": [
+      "Anthropic files confidential S-1 for IPO.",
+      "Anthropic raises $65B Series H at $965B valuation.",
+      "Claude Opus 4.8 introduces effort controls.",
+      "OpenAI makes Frontier Models available on AWS.",
+      "Both companies race for enterprise deployment.",
+      "Strategic announcements escalate AI infrastructure race."
+    ],
+    "ai-hn": [
+      "Anthropic S-1 IPO filing scores 465 points.",
+      "Florida sues OpenAI over AI harms.",
+      "Stanford AI agent guidelines score 346 points.",
+      "Developer fatigue with rising AI costs debated.",
+      "GitHub Copilot metered billing sparks backlash.",
+      "Cloudflare usage limits face community criticism."
+    ],
+    "ai-arxiv": [
+      "Chain-of-thought reasoning reveals two-phase structure.",
+      "Tractable proposals correct constrained decoding bias.",
+      "State-adaptive optimization improves robust fine-tuning.",
+      "LLMs flatten long-form public debate structure.",
+      "CARTE benchmark evaluates cultural understanding in LLMs.",
+      "Efficiency research advances speculative decoding methods."
+    ],
+    "ai-hf": [
+      "DeepSeek-V4-Pro tops trending with 4,536 hearts.",
+      "DeepSeek-V4-Flash downloads reach 3,511,636.",
+      "Qwen 3.6 family sparks fine-tuning and quantization wave.",
+      "LiquidAI LFM2.5 achieves 1B active parameters.",
+      "ByteDance Lance pushes any-to-any generation.",
+      "Meituan LongCat-Video-Avatar expands multimodal generation."
+    ],
+    "ai-community": [
+      "Debloating AI-grown codebase emerges as new discipline.",
+      "$660K AI platform failure draws heavy comments.",
+      "Post-training alignment argued as true AI moat.",
+      "Background agents represent unsecured C2 surface.",
+      "Rising security concerns over LLM permission models.",
+      "Structured thinking urged for nontechnical builders."
+    ]
+  }
+}
