@@ -1,0 +1,134 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code v2.1.161 计费焦虑 #38335 热度 761",
+      "OpenAI Codex 认证全链路异常 7 个 PR 重构",
+      "Gemini CLI 修复 Agent 挂起 P1 Bug 积极",
+      "GitHub Copilot CLI 新增语音和 MCP 修复",
+      "Kimi CLI 暂停无活动，战略意图待观察",
+      "Qwen Code v0.17.0 支持 Body Timeout 和 MCP 审批"
+    ],
+    "ai-agents": [
+      "OpenClaw 24h 处理 425 Issue 500 PR",
+      "OpenClaw 合并 109 个 PR 修复会话稳定性",
+      "社区热点: 会话断裂 Issue #52875 高关注",
+      "Codex 回归 Issue #88312 引发社区讨论",
+      "OpenClaw 新增小米 MiMo Token Plan 支持",
+      "OpenClaw 修复会话数据丢失和假阳性校验"
+    ],
+    "ai-trending": [
+      "ECC Agent 系统日增 1533 星，社区热捧",
+      "Headroom 压缩 Token 60-95% 首登热榜",
+      "Hermes WebUI 日增 1500+ 星 Agent 界面工具",
+      "VoxCPM2 多语言语音克隆获 783 星",
+      "DeepSeek V4 Pro 登 Hugging Face 榜首 4.6k 赞",
+      "ollama 本地推理 173k 星持续领先"
+    ],
+    "ai-web": [
+      "Anthropic Glasswing 扩展至 200 机构 15 国",
+      "Anthropic 发现 1 万+高危代码漏洞",
+      "Anthropic 绑定政府与开源社区建安全标准",
+      "OpenAI 发青少年安全文章但详情受限",
+      "OpenAI 发 Codex 全角色工具工作流摘要",
+      "Anthropic 供应链安全策略打击软件根源"
+    ],
+    "ai-hn": [
+      "AI 骚扰求职者成 HN 最高分道德讨论",
+      "斯坦福研究 AI 法律推理超越教授获 129 分",
+      "Michael Burry 炮轰 AI 公司估值泡沫",
+      "LLM 可解释性文章打破黑盒迷信获 53 分",
+      "Anthropic Glasswing 扩张引爆失业辩论",
+      "YC Rudus 将 AI 带入混凝土承包商行业"
+    ],
+    "ai-arxiv": [
+      "黑盒对抗攻击框架系统化评估 LLM 鲁棒性",
+      "HRS 幻觉拒绝采样抑制长文本幻觉雪崩",
+      "模型合并破坏 MoE 路由，提出无训练校准",
+      "RogueMerge 首次攻击模型合并供应链",
+      "多源校准数据混合对高稀疏剪枝至关重要",
+      "置信度条件测试时 RL 优化推理 Pass@k"
+    ],
+    "ai-hf": [
+      "DeepSeek V4 Pro 4577 赞居 Hugging Face 第一",
+      "DeepSeek V4 Flash 1368 赞 MIT 许可高效推理",
+      "Qwen3.6-27B 视觉语言模型下载超 520 万",
+      "nVIDIA 发布定位超分视频生成多模型",
+      "bytedance Lance 支持任意模态互转",
+      "MiniCPM5-1B 边缘端仅 1B 参数"
+    ],
+    "ai-community": [
+      "Agent 失败主因是速率限制非幻觉新认知",
+      "AI 调试 AI 代码 6 小时一行 Bug 引共鸣",
+      "开源团队被 CTO 买 800 万竞品后解散",
+      "LlamaStash 对比 Ollama 本地模型基准测试",
+      "微软从 OS 转向 Agent 行业叙事转向",
+      "后训练阶段价值讨论引发深度思考"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code adds OpenTelemetry support",
+      "Copilot CLI launches /voice command",
+      "CodeWhale completes rebrand",
+      "Billing regressions dominate discourse",
+      "Users demand deterministic behavior",
+      "Enterprise vs extensibility axes diverge"
+    ],
+    "ai-agents": [
+      "425 issues, 500 PRs in 24 hours",
+      "P1 regressions in session and Codex",
+      "No new releases, rapid main iteration",
+      "PR #89065 fixes silent data loss",
+      "Community engaged but regression fatigue",
+      "272 active issues, 153 closed today"
+    ],
+    "ai-trending": [
+      "Microsoft/markitdown gains +3,618 stars",
+      "affaan-m/ECC at 204,230 stars",
+      "VoxCPM tokenizer-free multilingual TTS",
+      "Supermemory codifies memory as API",
+      "Shift from agents to input optimization",
+      "Agent harness performance systems emerge"
+    ],
+    "ai-web": [
+      "Project Glasswing expands to 200 orgs",
+      "Claude Mythos finds 10,000+ vulns",
+      "OpenAI youth safety initiative launched",
+      "Codex expands to every role workflow",
+      "Anthropic builds moat in security",
+      "OpenAI balances regulation and expansion"
+    ],
+    "ai-hn": [
+      "Anthropic dominates: Glasswing, Mythos, IPO",
+      "Michael Burry warns Anthropic overvalued",
+      "Stanford study: AI beats law professors",
+      "LLMs not black box, deterministic debate",
+      "Job spam plea scores 901 points",
+      "Community split on displacement"
+    ],
+    "ai-arxiv": [
+      "Unified attack framework for LLMs",
+      "Model merging breaks MoE routing",
+      "False credit propagation fixed in RL",
+      "Geometric deep learning: graph models",
+      "Hybrid physics-ML methods advance",
+      "PipeDream pipeline analyzed formally"
+    ],
+    "ai-hf": [
+      "DeepSeek-V4-Pro: 5.8M downloads",
+      "DeepSeek-V4-Flash: MIT licensed",
+      "NVIDIA LocateAnything-3B viral",
+      "Qwen3.6 most fine-tuned platform",
+      "ByteDance Lance unifies compression",
+      "1.58-bit bonsai diffusion model"
+    ],
+    "ai-community": [
+      "Rate limits top AI agent failure cause",
+      "6 hours debugging one AI line",
+      "Vibe coding backlash grows",
+      "Logic drift challenges model quality",
+      "Local-first vs enterprise platforms",
+      "Microsoft: agents over apps future"
+    ]
+  }
+}
