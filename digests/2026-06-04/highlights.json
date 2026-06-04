@@ -1,0 +1,118 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code v2.1.162 发布，修复续杯机制",
+      "OpenAI Codex 发布 v0.137.0 及 alpha.5",
+      "Gemini CLI 预览版 v0.46.0-preview.1",
+      "Qwen Code 发布 v0.17.1 及 nightly 版本",
+      "DeepSeek TUI v0.8.53，修复分支工作流",
+      "Token 成本透明化成 CLI 工具核心诉求"
+    ],
+    "ai-agents": [
+      "OpenClaw 发布 v2026.6.2-beta.1 重构安全策略",
+      "正式版 v2026.6.1 改善 Agent 与 CLI 稳定性",
+      "Windows UI 输入文本被吞问题已修复",
+      "WebChat 重复回复问题已修复",
+      "队列模式 collect 修复按 debounceMs 批处理",
+      "Auth 路由安全修复多 Provider 配置错误"
+    ],
+    "ai-trending": [
+      "headroom 首日获 3530 stars，压缩 token 60-95%",
+      "微软 markitdown 开源文档转 Markdown",
+      "ECC 获 205k stars，Agent 性能优化系统",
+      "hermes-agent 获 179k stars 可扩展 Agent",
+      "ollama 173k stars，已支持 Kimi-K2.6",
+      "firecrawl 128k stars 专为 AI Agent 爬虫"
+    ],
+    "ai-web": [
+      "Anthropic 披露 Claude 产品安全架构与爆炸半径",
+      "Claude Mythos 模型因风险过高被暂缓发布",
+      "分析 832 个禁用账号，发布 AI 威胁报告",
+      "与 Verizon DBIR 合作挑战 MITRE ATT&CK",
+      "Claude Partner Network 启动 4 万企业申请",
+      "OpenAI 发布 GPT Rosalind 新能力公告"
+    ],
+    "ai-hn": [
+      "花 $1500 测试 LLM 渗透能力引发热议（81 分）",
+      "Anthropic 公开 Claude 安全架构获 62 分",
+      "YC 新公司 Hyper 推 Agent 平台（57 分）",
+      "Claude Opus 4.8 Max 对空消息产生奇怪响应",
+      "Google Gemma 4 12B 可在 16GB 笔记本运行",
+      "Mnemo 开源本地 AI 记忆层基于 Rust+SQLite"
+    ],
+    "ai-arxiv": [
+      "STRIDE 通过子集扰动实现可扩展数据归因",
+      "Failed Reasoning Traces 区分可修复失败",
+      "基座 LLM 内省自我校准能力已在预训练",
+      "StreamMA 流式多智能体推理降低延迟",
+      "Fast & Faithful Function Vectors 研究",
+      "RL from Rich Feedback 结合 DAgger 学习"
+    ],
+    "ai-community": [
+      "webMCP 演示 AI 构建网站新范式获 46 赞",
+      "Ben 质疑万物皆可 Agent 提醒避免跟风",
+      "开发者焦虑：AI 世界中个人变得太慢？",
+      "Docker 沙箱教程安全运行 AI Coding Agent",
+      "故事：公司花 $470K 买 AI 拒绝员工加薪",
+      "Agent 在生产失败后难以复现的困境"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code v2.1.162 released",
+      "OpenAI Codex rust-v0.137.0 hits 597 comments",
+      "Gemini CLI v0.46.0-preview.1 fixes SSRF/HITL",
+      "GitHub Copilot CLI v1.0.59 faces context ceiling",
+      "Challengers ship server-side agent architectures",
+      "Ecosystem shifts from session to agent runtime"
+    ],
+    "ai-agents": [
+      "OpenClaw ships three releases in one cycle",
+      "Security overhaul for plugin installation",
+      "500 issues and 500 PRs updated in 24h",
+      "P1 issues stuck awaiting maintainer review",
+      "Focus on stripping reasoning tags from replies",
+      "Ecosystem covers 13 projects including NanoBot"
+    ],
+    "ai-trending": [
+      "headroom surges +3530 stars for token compression",
+      "ECC reaches 205961 stars as agent harness",
+      "hermes-agent grows to 179424 stars",
+      "browser-use becomes de facto web automation",
+      "OpenHands leads AI software development",
+      "AI-native data infrastructure sees investment"
+    ],
+    "ai-web": [
+      "Anthropic withheld Claude Mythos Preview due to safety",
+      "832 banned cyber threat accounts analyzed by Anthropic",
+      "Big 4 consultancies deploy Claude to 1M+ professionals",
+      "OpenAI teases Gpt Rosalind in metadata-only article",
+      "Anthropic dominates with three strategic publications",
+      "AI enables autonomous multi-stage cyber attacks"
+    ],
+    "ai-hn": [
+      "Top post is non-AI Clojure/Htmx nutrition app",
+      "LLMs autonomously hack web apps (81 pts)",
+      "Anthropic's containment post earns deep respect",
+      "Google's Gemma 4 12B runs on 16GB laptops",
+      "Claude Opus 4.8 Max creates gibberish to empty message",
+      "OpenAI governance blueprint gets muted response"
+    ],
+    "ai-arxiv": [
+      "Self-evaluation latent in base LLMs with few shots",
+      "RISC boosts self-consistency by ranking paths",
+      "Depth-Attention breaks residual stream bottleneck",
+      "StreamMA reduces latency in multi-agent pipelines",
+      "AutoLab benchmarks long-horizon tasks",
+      "Validity Threats taxonomy of experimental weaknesses"
+    ],
+    "ai-community": [
+      "Tokenmaxxing is a 2026 anti-pattern for agents",
+      "Docker sandboxes become non-negotiable for agents",
+      "Ben Halpern questions embedded coding agents value",
+      "Vibecoding era critiqued missing post-training work",
+      "Jane Street explores TUI renaissance for ML tools",
+      "AI tools offer speed loan but maintenance due now"
+    ]
+  }
+}
