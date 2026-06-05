@@ -1,0 +1,118 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code v2.1.163 发布，强化企业管控",
+      "OpenAI Codex 密集发版，rust-v0.138.0-alpha",
+      "Gemini CLI 超活跃：50+ Issues、34 PRs",
+      "Copilot CLI v1.0.60-0 小版本迭代，稳定但停滞",
+      "Kimi Code CLI 修复终端与会话基础问题",
+      "Qwen Code 大合入 Daemon，v0.17.1-nightly 发布"
+    ],
+    "ai-agents": [
+      "OpenClaw 2026.6.1 引入破坏性变更致信任危机",
+      "PR #90399 修复 OpenAI ChatGPT OAuth 内容类型",
+      "PR #90138 修复 MiniMax-M3 因 thinking 字段中断",
+      "PR #90389 解决 Mattermost 503 回归问题",
+      "PR #90132 为 QQBot 输出添加推理脱敏逻辑",
+      "项目当日 500 Issues/500 PRs，合并 103 PRs"
+    ],
+    "ai-trending": [
+      "headroom 新项目单日 3142 stars，可降 Token 60-95%",
+      "hermes-agent 专注记忆与技能扩展，日增 1913 stars",
+      "ECC Agent 性能优化系统日增 1750 stars",
+      "NVIDIA Cosmos 世界模型平台开源登 Trending",
+      "ollama 已支持 Kimi、GLM 等模型，本地运行首选",
+      "GitHub copilot-sdk 官方发布多平台 Agent 集成 SDK"
+    ],
+    "ai-web": [
+      "OpenAI 官网出现三篇重复神秘页面 Chatgpt Memory Dreaming",
+      "页面正文无法获取，仅 URL 和元数据可见",
+      "Memory Dreaming 为全新复合概念，疑新产品预告",
+      "Anthropic 同日零更新，可能处于重大发布前静默期",
+      "分析师认为是强烈战略信号，指向记忆与自主性领域",
+      "OpenAI 同日新增 3 篇内容但均为同一 URL 技术性重复"
+    ],
+    "ai-hn": [
+      "Anthropic 递归自我改进文章获 363 分 475 评论",
+      "Anthropic 开源 AI 漏洞发现框架获 301 分",
+      "NSA 使用 Anthropic Mythos 模型独家报道 79 分",
+      "Timnit Gebru LLM 安全警告被验证获 106 分",
+      "韩国推行 AI 图像审查引起社区关注 26 分",
+      "Claude 难以理解政治人物隐藏动机研究曝光"
+    ],
+    "ai-hf": [
+      "DeepSeek V4-Pro 以 4632 点赞成为本周最热开源 LLM",
+      "NVIDIA LocateAnything-3B 定位模型表现亮眼",
+      "Google Gemma-4 多模态 any-to-any 模型正式上线",
+      "Qwen3.6 微调量化活跃，uncensored 版下载破百万",
+      "视频生成 Sulphur-2-base 与 Marlin-2B 赛道爆发",
+      "LiquidAI LFM2.5-8B-A1B 高效 MoE 仅激活 1B 参数"
+    ],
+    "ai-community": [
+      "AI Agent 生产失败根因在于基础设施而非模型",
+      "AI Gateway 在治理、安全与路由中关键作用解析",
+      "GitHub Copilot 新计费暴露同级模型 24 倍价差",
+      "headroom 可降 LLM Token 用量 95% 不牺牲质量",
+      "PewDiePie 开源 AI 工作区强调数据主权与隐私",
+      "MCP 服务器破两万，协议驱动取代胶水代码"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "AI CLI tools face crisis of confidence",
+      "Data regressions erode CLI tool trust",
+      "Agent loops cause false success reports",
+      "Incumbents target enterprise governance",
+      "Reliability is the defining challenge",
+      "Plugin ecosystems and daemon architectures grow"
+    ],
+    "ai-agents": [
+      "500 issues and 500 PRs hit OpenClaw",
+      "No new releases as OpenClaw fixes bugs",
+      "SQLite session migration causes widespread bugs",
+      "103 PRs merged in stabilization sprint",
+      "Community rallies to fix OpenClaw regressions",
+      "OpenClaw 2026.6.1 causes regression tsunami"
+    ],
+    "ai-trending": [
+      "headroom gains 3,142 stars for cost cutting",
+      "Interruptible voice AI goes open source",
+      "ECC and Hermes-Agent lead agent harness trend",
+      "NVIDIA cosmos opens Physical AI to developers",
+      "ollama hits 173k stars, supports latest models",
+      "vllm hits 81k stars for AI inference serving"
+    ],
+    "ai-web": [
+      "Anthropic pauses official content output",
+      "OpenAI publishes ChatGPT memory dreaming",
+      "ChatGPT persistent memory features evolve",
+      "Anthropic silence marks strategic pause",
+      "OpenAI focused update on memory features",
+      "Divergent cadence between Anthropic and OpenAI"
+    ],
+    "ai-hn": [
+      "Anthropic When AI Builds Itself tops HN",
+      "HN debates Anthropic recursive self-improvement",
+      "Anthropic open sources vulnerability framework",
+      "Timnit Gebru vindication sparks ethical debate",
+      "Agent cloud cost management dominates Show HN",
+      "Global AI pause call divides HN community"
+    ],
+    "ai-hf": [
+      "DeepSeek V4 Pro dominates Hugging Face this week",
+      "Sulphur-2 marks Linux moment for video AI",
+      "MoE solidifies as dominant LLM architecture",
+      "Nvidia Cosmos3 pushes omni-generation AI",
+      "LocateAnything-3B advances visual grounding",
+      "MiniCPM5 leads trend for small efficient LLMs"
+    ],
+    "ai-community": [
+      "MCP becomes dominant pattern for agent skills",
+      "Copilot pricing gap triggers community debates",
+      "PewDiePie launches Odysseus AI workspace",
+      "AI agents fail in production due to infrastructure",
+      "Lobste.rs debates post-training data primacy",
+      "Practical challenges of Agent Economy surface"
+    ]
+  }
+}
