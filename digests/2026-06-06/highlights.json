@@ -1,0 +1,134 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code 24小时3个Release，迭代密集",
+      "Gemini CLI日更50议题31PR，活跃度极高",
+      "OpenAI Codex架构推进快，发布rusty-v8+alpha.5",
+      "GitHub Copilot CLI v1.0.60发布后暂停代码活动",
+      "OpenCode v1.16.0/1.16.2发布，功能增强密集",
+      "多智能体协作与子代理透明性成焦点"
+    ],
+    "ai-agents": [
+      "OpenClaw社区24小时469议题500PR，极度活跃",
+      "2026.6.1版本引入多严重回归Bug",
+      "修复macOS节点模式重连问题（PR #90736)",
+      "WebUI模型选择器运行时标签暴露提案（#90328)",
+      "子代理工具权限转发补齐多代理拼图（#78441)",
+      "sessions.list并发性能修复直指性能根因"
+    ],
+    "ai-trending": [
+      "headroom单日暴涨2473⭐，压缩Token减少60-95%",
+      "hermes-agent+1845⭐，持续学习Agent框架最热",
+      "ECC性能优化系统+1361⭐，集成多模块",
+      "NVIDIA Cosmos世界模型平台开源+479⭐",
+      "PaddleOCR+747⭐，文档结构化喂给LLM",
+      "OpenAI Plugins仓库更新，Plugin生态标准推进"
+    ],
+    "ai-web": [
+      "Anthropic披露Claude Mythos因风险过高被推迟发布",
+      "发布“How we contain Claude”安全工程宣言",
+      "Natural Language Autoencoders突破性可解释技术",
+      "联合创始人承认激励机制问题呼吁外部监管",
+      "与15+宗教伦理团体对话拓展Claude宪法",
+      "模型“奖励黑客”可自然涌现恶意对齐"
+    ],
+    "ai-hn": [
+      "Claude对rsync项目影响引发代码质量辩论",
+      "Anthropic呼吁暂停AI开发却模型大规模错误",
+      "LLM代理修复真实漏洞基准测试受积极评价",
+      "开发者故意削弱编码agent引工作效率讨论",
+      "AI生成代码可靠性问题引热议",
+      "OpenAI与特朗普政府商议政府持股争议"
+    ],
+    "ai-arxiv": [
+      "PC Layer多项式预条件子加速LLM预训练收敛",
+      "You Only Index Once跨层稀疏注意力降解码开销",
+      "Agent Memory系统刻画持久化工作负载",
+      "Goedel-Architect蓝图自动构造形式证明Agent",
+      "Latent Reasoning with Normalizing Flows潜在空间推理",
+      "RREDCoT段级奖励再分配改善GRPO推理"
+    ],
+    "ai-hf": [
+      "DeepSeek-V4-Pro以4658赞556万下载霸榜",
+      "Google Gemma-4系列首次亮相支持any-to-any",
+      "HauhauCS Qwen3.6非审查版下载破268万",
+      "NVIDIA Nemotron-3 Ultra 550B超大MoE",
+      "LiquidAI LFM2.5-8B-A1B高效稀疏MoE",
+      "openbmb MiniCPM5-1B端侧模型社区热度高"
+    ],
+    "ai-community": [
+      "Agent空转制动机制降低成本62%教科书案例",
+      "MCP安全审计揭示资源枚举权限提升威胁",
+      "Inference Theft: AI端点成他人免费模型",
+      "开发者从Agent手中夺回键盘揭示PMP盲区",
+      "Gemma4 12B本地多模态模型解锁新可能",
+      "Agent凭证过期漏洞引入严重安全风险"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Ecosystem moves from capability to reliability engineering.",
+      "Community demands multi-user auth and audit transparency.",
+      "Claude Code hot issues: parser and credential failures.",
+      "Session state corruption and silent cost leaks cited.",
+      "OAuth fragility and Windows/WSL2 regressions noted.",
+      "Plugin metadata PRs submitted for Claude Code."
+    ],
+    "ai-agents": [
+      "469 issues and 500 PRs updated in 24 hours.",
+      "Community fixes 132 issues and merges 137 PRs today.",
+      "Project battles regressions from v5.x and v6.x releases.",
+      "No new releases today; team focuses on hotfix cycle.",
+      "ClawSweeper automates merging of critical patches.",
+      "macOS node-mode reconnection loop patched."
+    ],
+    "ai-trending": [
+      "chopratejas/headroom crushes context to cut costs (+2473★).",
+      "affaan-m/ECC structures skills for coding agents (+1361★).",
+      "NousResearch/hermes-agent auto-grows skills (+1845★).",
+      "lfnovo/open-notebook is open-source NotebookLM (+1152★).",
+      "NVIDIA/cosmos (+479★) brings Physical AI world models.",
+      "CopilotKit gains 366★ as front-end for Generative UI."
+    ],
+    "ai-web": [
+      "Anthropic publishes 17 articles in a single day.",
+      "Blast radius containment formalized for agent safety.",
+      "Claude Mythos Preview model withheld due to high risk.",
+      "NLAs convert activations into human-readable text.",
+      "Reward hacking leads to emergent misalignment and sabotage.",
+      "OpenAI records zero new articles this crawl cycle."
+    ],
+    "ai-hn": [
+      "Claude bugs in rsync spark code quality debate.",
+      "Developers now document code for LLMs, not humans.",
+      "Anthropic AI uncovers Zcash vulnerability; ZEC drops 30%.",
+      "Community debates global pause on frontier AI development.",
+      "Nerfing over-eager agents to control costs and verbosity.",
+      "Scaling Claude Code swarms in production discussed."
+    ],
+    "ai-arxiv": [
+      "Agentic reasoning advances via persistent memory.",
+      "Vortex, DoPr, PC Layer improve LLM training efficiency.",
+      "RREDCoT improves credit assignment in RL post-training.",
+      "HANDOFF advances robotics with domain-specific model.",
+      "Comparative Radiology foundation model for medical imaging.",
+      "TailLoR protects features in continual learning."
+    ],
+    "ai-hf": [
+      "DeepSeek-V4-Pro tops with 5.5M downloads and 4.6k likes.",
+      "DeepSeek-V4-Flash with 3.4M downloads, optimized speed.",
+      "Sulphur-2-base and Cosmos3 drive open-source video AI.",
+      "Nvidia releases models from 3B to 550B MoE in one suite.",
+      "LiquidAI LFM2.5-8B MoE balances performance and compute.",
+      "MiniCPM5-1B proves small models pack a punch."
+    ],
+    "ai-community": [
+      "Inference theft: AI endpoints targeted for free model use.",
+      "Human hand-offs critical for agent orchestration.",
+      "Adding one tweak to Claude Code cut AI costs by 62%.",
+      "MCP standardization debate: token costs and security risks.",
+      "OWASP MCP tackles growing security attack surface.",
+      "New models Gemma 4 12B and MAI-Thinking-1 released."
+    ]
+  }
+}
