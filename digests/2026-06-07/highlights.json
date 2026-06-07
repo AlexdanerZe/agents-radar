@@ -1,0 +1,102 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code 社区最热但Bug密集，Opus回归性问题突出",
+      "OpenAI Codex 会话丢失Bug发酵，架构重构进行中",
+      "Gemini CLI 安全加固密集，Agent假完成问题成焦点",
+      "GitHub Copilot CLI WSL性能回归与Autopilot越权危机",
+      "Kimi Code CLI 静默开发，聚焦MCP降级与多模态优化",
+      "OpenCode 高度活跃，推进沙箱隔离与后台任务等前沿功能"
+    ],
+    "ai-agents": [
+      "OpenClaw 提交500条PR，296条Issue，发布v2026.6.5-beta.2",
+      "修复QQBot推理内容泄露，剥离<thinking>标签",
+      "修复OpenRouter流式请求费用核算不准问题",
+      "强化飞书API请求限流重试，提升稳定性",
+      "DeepSeek Prompt Cache失效导致成本飙升成核心矛盾",
+      "v2026.6.1引入的OpenAI Responses集成回归问题待解"
+    ],
+    "ai-trending": [
+      "CopilotKit 今日+631星，Agent技能化浪潮爆发",
+      "open-notebook +794星，开源NotebookLM替代品登顶",
+      "MemPalace +446星，AI记忆系统与知识管理升温",
+      "VibeVoice +216星，微软开源语音AI与Whisper竞逐",
+      "OpenAI/plugins 今日+213星，第三方插件生态重启",
+      "mem0 57,906星，通用AI记忆层持续走红"
+    ],
+    "ai-hn": [
+      "标普500拒绝AI公司快速纳入，1387分热议商业模式",
+      "Meta确认数千Instagram账户因AI聊天机器人被黑",
+      "OpenAI推出Lockdown Mode抵御提示注入，86分讨论",
+      "开发者用Claude一次性修复41TB损坏BTRFS文件系统",
+      "开源工具ccgs将Claude编码会话保存至Git分支",
+      "讽刺论文质疑LLM人化，社区认同呈祛魅心态"
+    ],
+    "ai-hf": [
+      "DeepSeek-V4-Pro 以4681赞断层领先，性能比肩闭源",
+      "NVIDIA发布LocateAnything-3B通用视觉定位模型",
+      "Google Gemma-4系列首个any-to-any多模态模型",
+      "Nemotron-3 Ultra 550B参数超大MoE开放下载",
+      "Qwen3.6 Uncensored GGUF下载近280万，量化热度不减",
+      "LiquidAI LFM2.5-8B-A1B高度稀疏MoE，1B激活达8B性能"
+    ],
+    "ai-community": [
+      "Agent生产化三检查清单：可观测性、安全性、成本归因",
+      "AI Slop成工程债务，质量门禁工具aislop问世",
+      "LLM成本失控与FinOps团队级API花费追踪指南",
+      "碳感知模型训练：按电网碳强度调度GPU任务",
+      "AI协作时代编码为何依然重要引开发者共鸣",
+      "Agent Demo与生产版本差距成社区讨论核心"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code v2.1.168 ships amid VM Bloat concerns",
+      "Reliability plateau dents trust in AI CLI tools",
+      "Proprietary vs open-source CLI tools bifurcate",
+      "MCP fragmentation taxes ecosystem integration",
+      "OpenAI Codex strict mode deepens vertical grip",
+      "Qwen Code daemon mode bridges heterogeneous envs"
+    ],
+    "ai-agents": [
+      "OpenClaw ships v2026.6.5-beta.1 and beta.2",
+      "500 PRs and 296 issues in the last 24 hours",
+      "QQBot leak fixed: thinking blocks no longer public",
+      "MCP runtime silently coerces malformed tool outputs",
+      "Maintainers close half of all open issues actively",
+      "OpenAI/ChatGPT transport regressions hit users"
+    ],
+    "ai-trending": [
+      "open-notebook explodes +794 stars as NotebookLM rival",
+      "obra/superpowers defines agent skills framework",
+      "Agent-Reach offers free web access (+683)",
+      "MemPalace enters agent memory layer race (+446)",
+      "PaddleOCR scores +433 stars for vision agent input",
+      "Modular memory agents dominate open source trends"
+    ],
+    "ai-hn": [
+      "S&P 500 explicitly rejects OpenAI and Anthropic",
+      "Meta confirms Instagram hacked via AI chatbot",
+      "OpenAI Lockdown Mode fights prompt injection",
+      "Anthropic converts Claude into a domain chemist",
+      "Gwern analyzes novel LLM Catapult scaling",
+      "HN community debates AI as greatest money waste"
+    ],
+    "ai-hf": [
+      "DeepSeek V4 Pro dominates open-weight reasoning",
+      "NVIDIA shifts to full-stack AI middleware provider",
+      "Sulphur-2 leads video generation explosion",
+      "LiquidAI LFM2.5 8B MoE trends for efficiency",
+      "DeepSeek V4 Flash rules scalable cost inference",
+      "Domain models like HRM-Text see massive adoption"
+    ],
+    "ai-community": [
+      "Community shifts from demos to production",
+      "AI vs Human scorecard cuts through binary debate",
+      "Carbon-aware GPU scheduling goes mainstream",
+      "Autonomous AI Worm malware research emerges",
+      "AI companies pay millions for Reddit training data",
+      "Lobste.rs attacks vibes-based AI engineering"
+    ]
+  }
+}
