@@ -1,0 +1,102 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code Max配额秒空，1476条评论引爆成本争议",
+      "Qwen Code发布v0.17.1-nightly，PR活跃度最高",
+      "Linux桌面原生支持获高赞：Codex 510，Claude 316",
+      "Gemini CLI通用Agent挂起及子代理虚假成功",
+      "OpenCode修复子Agent挂起问题(PR#31299)",
+      "DeepSeek TUI出现Ghostty闪屏Bug(##1556)"
+    ],
+    "ai-agents": [
+      "OpenClaw单日294条Issue，500条PR，Bug扫荡活跃",
+      "模型选择器代理运行时暴露(PR#90328)，改善配置透明",
+      "保留关闭通道诊断信息(PR#90937)，防运维误判",
+      "对齐Skill Workshop钩子超时(PR#87504)，防会话阻塞",
+      "Doctor命令检测无效钩子加载器形状(PR#89319)",
+      "文本泄漏、认证安全、会话丢失为高优回归Bug"
+    ],
+    "ai-trending": [
+      "hermes-agent日增1112星，记忆与进化能力受热捧",
+      "turbovec日增1554星，Rust量化加速本地RAG",
+      "last30days-skill日增1111星，跨平台研究技能",
+      "open-notebook日增554星，开源NotebookLM替代",
+      "goose日增322星，Rust构建可扩展Agent",
+      "taste-skill日增1103星，为AI注入品味拒绝千篇一律"
+    ],
+    "ai-hn": [
+      "Claude Code替代Figma做设计，275分引热议",
+      "LLM拟人化讽刺论文：如同帝国时代II，获104分",
+      "AI公司亏损严重：每赚100美元亏损1000美元",
+      "Anthropic Linux客户端缺失请愿成社区焦点",
+      "MoE专家选择可泄露文本信息，隐私风险引关注",
+      "Token入门科普帖获10分，社区新人持续涌入"
+    ],
+    "ai-hf": [
+      "DeepSeek V4 Pro 4700赞登顶，下载量超551万",
+      "Sulphur-2文生视频模型跃升第二，周下载170万",
+      "MiniCPM5-1B约1B参数，边缘设备高效推理",
+      "LiquidAI LFM2.5-8B-A1B：8B参仅激活1B高效MoE",
+      "NVIDIA LocateAnything-3B定位模型新成员",
+      "Unsloth为Gemma-4和Qwen3.6提供GGUF量化支持"
+    ],
+    "ai-community": [
+      "多Agent工作流执行安全危机及架构解决模式",
+      "VP让AI自测三天烧钱280万美元，引发管理警示",
+      "40年老兵批判8倍AI生产力神话，强调工程理性",
+      "AI Agent审计日志法律效力不足，需强化证据链",
+      "幻觉检测归于基础设施问题，非模型层面",
+      "社区共识：AI从炫技走向可靠可控生产级基础设施"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code billing crisis (691👍)",
+      "Linux client issue #65697 (316👍)",
+      "OpenAI Codex gpt-5.5 404 error",
+      "Cost wall drives need for caching",
+      "Protocol standardization push (MCP/ACP)",
+      "Gemini CLI agent hangs (#21409)"
+    ],
+    "ai-agents": [
+      "800+ updates in 24h post-release",
+      "P1 regressions in session state",
+      "SQLite session migration via abstraction",
+      "Voice providers and runtime self-context",
+      "Subagent tool forwarding new feature",
+      "Maintainers use clawsweeper triage bot"
+    ],
+    "ai-trending": [
+      "taste-skill tackles LLM output quality",
+      "last30days-skill for grounded research",
+      "turbovec Rust vector index +1,554★",
+      "pg_durable brings ACID to agent workflows",
+      "goose orchestrates full dev lifecycle",
+      "NousResearch hermes-agent +1,112★"
+    ],
+    "ai-hn": [
+      "Developers demand official Linux Claude",
+      "Jane Street designer prefers Claude over Figma",
+      "Lathe project tutors via LLMs",
+      "AI labs spend ten times what they earn",
+      "Discussion on thinking efforts mechanics",
+      "MoE expert selection leaks input info"
+    ],
+    "ai-hf": [
+      "DeepSeek-V4-Pro top with 5.5M downloads",
+      "Nvidia LocateAnything-3B visual grounding",
+      "Cosmos3 suite for world simulation",
+      "Sulphur-2 video gen 1.7M weekly downloads",
+      "Gemma 4 quants by Unsloth thriving",
+      "Magenta real-time music synthesis arrives"
+    ],
+    "ai-community": [
+      "VP story: $2.8M cost from AI testing",
+      "Challenges 8x productivity myth (40yr view)",
+      "Execution safety crisis in multi-agent flows",
+      "Vibe coding security paradox debated",
+      "Cautionary tales of runaway agent costs",
+      "Multi-agent safety as key unsolved problem"
+    ]
+  }
+}
