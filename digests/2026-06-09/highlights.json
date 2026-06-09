@@ -1,0 +1,134 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code 发v2.1.169，用户丢失上下文",
+      "OpenAI Codex 发rust-v0.138.0，修复WSL退化",
+      "Gemini CLI 发v0.47.0，修复子代理挂起误报",
+      "Pi 发v0.79.0，Project Trust 新功能被吐槽",
+      "DeepSeek-TUI 更名CodeWhale并发布v0.8.54",
+      "Kimi Code CLI 出现@filename语法回归与API Key移除"
+    ],
+    "ai-agents": [
+      "OpenClaw 连发两Beta版，修复QQ思维链泄露",
+      "MCP 工具结果类型强制，减少下游意外错误",
+      "合并144个PR，增强配置安全与Node兼容",
+      "社区聚焦安全注入风险与多Agent编排不稳定",
+      "项目快速推进但安全与体验基础待夯实",
+      "QQ渠道用户建议立即升级以修复信息泄露"
+    ],
+    "ai-trending": [
+      "last30days-skill 日增3558星，Agent技能市场爆发",
+      "google/skills 日增461星，谷歌官方技能受关注",
+      "turbovec 日增1729星，Rust向量索引新选择",
+      "goose 日增699星，开源Agent引擎取代专有云",
+      "career-ops 总星5万+，求职Agent商业潜力大",
+      "whichllm 按硬件推荐本地模型，解决选型痛点"
+    ],
+    "ai-web": [
+      "Anthropic 发布生物学智能体文章，需确定性检索层",
+      "实验表明最强模型在科学数据检索上不可靠",
+      "确定性工具加模型可使准确率近100%",
+      "OpenAI 提交S-1报告，启动上市流程",
+      "OpenAI 发布惠及所有人计划与经济研究交流",
+      "Anthropic构建AI for Science行业准入标准"
+    ],
+    "ai-hn": [
+      "OpenAI 提交S-1上市，HN得分306评论223",
+      "Anthropic联合Schneier更新安全评估框架",
+      "Microsoft被攻陷，向Claude和Gemini投毒",
+      "ChatGPT预告“聊天已死”式重大改版",
+      "Apple发布第三代端侧模型，隐私性能并重",
+      "社区呼吁过滤AI垃圾，取代焦虑持续发酵"
+    ],
+    "ai-arxiv": [
+      "端到端KV缓存压缩降低长上下文推理开销",
+      "梯度引导推理时对齐替代穷举采样降成本",
+      "Qwen3思考开关提升复杂约束但降低简单遵循",
+      "SpatialWorld首个交互式空间推理评估基准",
+      "双过程记忆系统：工作记忆加长期记忆增强智能体",
+      "PRISM从激活恢复指令集用于智能体安全监控"
+    ],
+    "ai-hf": [
+      "DeepSeek V4 Pro 日点赞4723，开源MoE旗舰",
+      "DeepSeek V4 Flash 高效蒸馏版下载330万",
+      "NVIDIA Nemotron-3 Ultra 55B激活探索Scaling",
+      "LiquidAI LFM2.5 仅1B激活，稀疏MoE极高效率",
+      "Google Gemma 4-12B多模态指令模型下载55万",
+      "LocateAnything-3B通用视觉定位新范式"
+    ],
+    "ai-community": [
+      "AI打包12年经验后裁员，警示AI取代风险",
+      "重新引入Cucumber/TDD约束AI行为",
+      "Claude Code扩展选择原则：最轻优先",
+      "提示工程已死，系统工程是未来",
+      "RAG与pgvector在TypeScript中的管道实践",
+      "社区关注Agent错误累积与成本控制"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Gemini CLI catastrophic data loss shakes trust",
+      "Claude Code 2.1.169 ships with safe mode guardrails",
+      "Claude Code fabricated tool calls spark crisis",
+      "Open source Pi and Qwen Code lead innovation",
+      "Polished Windows WSL tools remain a market void",
+      "Focus shifts from capability to safety and trust"
+    ],
+    "ai-agents": [
+      "OpenClaw sees 500 daily issues and 473 PRs",
+      "Hotfix betas v2026.6.5-beta.3 and beta.5 ship",
+      "GPT-5.x transport failures break compatibility",
+      "Node 23 SQLite crashes prompt urgent upstream fixes",
+      "ClawHub skill marketplace deeply frustrates users",
+      "Stale critical bugs suggest maintainer bottleneck"
+    ],
+    "ai-trending": [
+      "Composable skills explode last30days-skill +3558 stars",
+      "Google launches official skills marketplace",
+      "Rust vector index turbovec hits 1729 daily stars",
+      "Roboflow supervision CV toolkit grows steadily",
+      "Agent memory race heats up with mem0 and cognee",
+      "Market shifts from monolithic agents to compositions"
+    ],
+    "ai-web": [
+      "Anthropic explores agents for biology data retrieval",
+      "OpenAI confidentially files for IPO",
+      "OpenAI publishes Built To Benefit Everyone plan",
+      "OpenAI launches Economic Research Exchange",
+      "Frontier LLMs fail real-world biology retrieval tasks",
+      "Deterministic augmentation achieves perfect accuracy"
+    ],
+    "ai-hn": [
+      "OpenAI IPO filing dominates Hacker News debates",
+      "Chat is dead OpenAI preps massive UX overhaul",
+      "Anthropic Project Glasswing keeps safety alive",
+      "Intuned and Command Center praised for reliability",
+      "Community split on AGI safety vs shareholder value",
+      "AI slop and Microsoft hack ground optimism"
+    ],
+    "ai-arxiv": [
+      "Study shows built-in thinking harms instruction following",
+      "LLMs fail catastrophically at graph isomorphism tasks",
+      "Emergent misalignment explained by persona selection",
+      "Advances in context compression and dynamic routing",
+      "Hardware-aware simulators move agents beyond RAG",
+      "Evaluation shifts to spatial reasoning and UX"
+    ],
+    "ai-hf": [
+      "DeepSeek V4 Pro dominates Hugging Face with 4.7k likes",
+      "Google launches full Gemma 4 model family",
+      "NVIDIA executes formidable full-stack strategy on hub",
+      "LiquidAI LFM2.5 MoE pushes efficiency frontier",
+      "Mixture-of-Experts solidifies as dominant scaling arch",
+      "LTX-2.3 text-to-video community fine-tune heats up"
+    ],
+    "ai-community": [
+      "Tale of layoff after 12 years extracted into AI",
+      "Adversarial evaluation framework breaks all 5 LLMs",
+      "Prompt Engineering declared dead by community",
+      "Agent mistake compounding becomes key anxiety",
+      "System engineering replaces the vibe coding era",
+      "GPU cost breakdowns and robust pipelines lead"
+    ]
+  }
+}
