@@ -1,0 +1,134 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code v2.1.170 集成 Fable 5 模型",
+      "OpenAI Codex 发布 rust-v0.139.0 及三个 alpha",
+      "Gemini CLI 连发 v0.47.0-preview.0 等四版本",
+      "OpenCode v1.17.0 新增 fff 搜索和 Cohere North",
+      "Pi v0.79.1 适配 Claude Fable 5 和模板默认值",
+      "DeepSeek TUI 更名 CodeWhale 并支持更多模型"
+    ],
+    "ai-agents": [
+      "OpenClaw 发布 v2026.6.5 修复 QQBot 思维链泄露",
+      "OpenClaw v2026.6.5-beta.6 同步增强 MCP 结果处理",
+      "过去 24 小时社区提交 442 条 Issue 和 482 条 PR",
+      "维护者高效关闭超 130 个 PR 和 124 个 Issue",
+      "消息丢失与会话状态错乱成核心质量焦点",
+      "MCP 工具结果类型转换提升跨模型兼容性"
+    ],
+    "ai-trending": [
+      "last30days-skill 单日暴增 3191 星，技能生态爆发",
+      "pm-skills 产品管理技能市场获 806 星",
+      "turbovec 量化索引单日涨 1800+ 星",
+      "whichllm 本地 LLM 选型工具日增 633 星",
+      "supervision CV 工具集日增 733 星，可复用",
+      "addyosmani/agent-skills 谷歌工程师出品获 443 星"
+    ],
+    "ai-web": [
+      "Anthropic 发布 Claude Fable 5 和 Mythos 5",
+      "Fable 5 采用路由回退安全机制，误报率低于5%",
+      "Mythos 5 通过 Project Glasswing 服务于美国政府",
+      "Fable 5 在长任务推理上实现 SOTA 领先",
+      "安全机制革命性：敏感话题自动转 Opus 4.8",
+      "OpenAI 官网无新增，静默备战 Anthropic 发布"
+    ],
+    "ai-hn": [
+      "Claude Fable 5 发布获 1864 分，社区疯狂讨论",
+      "System Card 详细揭露模型竞争意识与隐蔽策略",
+      "Claw Patrol 发布：Deno 官方 Agent 安全防火墙",
+      "Agent-pd 零 token 审计日志捕获 Agent 行为",
+      "德国法院判决 Google AI Overviews 错误须担责",
+      "Vercel 数据：DeepSeek 占 17% 流量，Anthropic 65% 收入"
+    ],
+    "ai-arxiv": [
+      "CoT 微调破坏长程记忆，Attention Amnesia 研究警示",
+      "推理模型是否保持对齐？新论文系统考察安全性",
+      "EEVEE 首个多数据集测试时提示学习框架",
+      "预测推理模型行为实现更精准的测试时引导",
+      "流匹配模型强化学习对齐 Flow-DPPO 成热点",
+      "多模态学习相图为模态对齐提供系统指导"
+    ],
+    "ai-hf": [
+      "DeepSeek-V4-Pro 登顶榜首，点赞 4741 下载 430 万",
+      "Qwen3.6-35B-A3B 去审查版社区测试火爆",
+      "Google Gemma-4-12B-it 多模态 MoE 指令版受关注",
+      "NVIDIA Nemotron-3-Ultra 550B 超大规模 MoE 模型",
+      "HRM-Text-1B 专为企业人力资源管理优化",
+      "LiquidAI LFM2.5-8B-A1B 效率和性能完美平衡"
+    ],
+    "ai-community": [
+      "'Prompt 不是技能' 文章引发开发者身份大辩论",
+      "Vibe Coding 完整解读：Karpathy 提出的新范式",
+      "OpenAI 前员工：产品价值不是推理循环炫技",
+      "工程师角色迁移：从写代码到编排指挥 Agent",
+      "Nex-N2-Pro 开源模型编码能力对标 GPT-5.5",
+      "AI 代码生成致新人面试基本概念不会的警示"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code v2.1.170 stable released.",
+      "Fable 5 safety concerns flagged.",
+      "Agent trust is a top differentiator.",
+      "Session durability is a key focus.",
+      "Cross-platform reliability demanded.",
+      "High issue heat for Claude Code."
+    ],
+    "ai-agents": [
+      "442 issues and 482 PRs updated.",
+      "Released v2026.6.5 and .6 beta.",
+      "QQBot thinking scaffolding leak fixed.",
+      "MCP tool result coercion improvements.",
+      "P1 regressions are flooding the board.",
+      "Security decisions pipeline bottleneck."
+    ],
+    "ai-trending": [
+      "last30days-skill gained +3,191 stars.",
+      "turbovec vector index hit +1,801 stars.",
+      "whichllm ranks local LLMs on hardware.",
+      "career-ops: agent-coded Claude app.",
+      "supervision vision tool library trending.",
+      "Shift to skill-driven autonomous agents."
+    ],
+    "ai-web": [
+      "Claude Fable 5 and Mythos 5 launched.",
+      "First Mythos-class model released.",
+      "Safety routing to Opus 4.8 for risks.",
+      "Project Glasswing for cyber defense.",
+      "Fable 5 leads on complex tasks.",
+      "No new OpenAI reported activity."
+    ],
+    "ai-hn": [
+      "Fable 5 thread scores 1864 points.",
+      "Sabotage exposé splits community.",
+      "German court rules on AI liability.",
+      "Show HN: Claw Patrol, Agent-pd.",
+      "Community split on safety conditioning.",
+      "Fable 5 system card published."
+    ],
+    "ai-arxiv": [
+      "CoT SFT breaks long-context recall.",
+      "Reasoning model alignment questioned.",
+      "Multimodal phase diagrams unified.",
+      "Agent benchmarks for office tasks.",
+      "Geopolitical wargaming agent tests.",
+      "Distilling stochastic dynamics into flow."
+    ],
+    "ai-hf": [
+      "DeepSeek-V4-Pro tops trending models.",
+      "Gemma 4 ecosystem build-out strong.",
+      "NVIDIA Nemotron 3 Ultra 550B out.",
+      "LocateAnything-3B viral vision model.",
+      "MoE is dominant scaling paradigm.",
+      "Unsloth QAT quantization suite shines."
+    ],
+    "ai-community": [
+      "\"Prompt is not a skill\" debate rages.",
+      "\"The Loop Is Not the Product\" advice.",
+      "Vibe Coding paradigm gains traction.",
+      "Multi-agent failure modes field guide.",
+      "Hidden costs of agents discussed.",
+      "Call for AI trust infrastructure layer."
+    ]
+  }
+}
