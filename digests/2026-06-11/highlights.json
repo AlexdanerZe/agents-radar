@@ -1,0 +1,118 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code v2.1.172 新增 5 层子代理编排",
+      "OpenAI Codex 被曝 Token 消耗过快问题",
+      "GitHub Copilot CLI v1.0.60 严重回归",
+      "Kimi Code Yolo 模式失效引发死循环",
+      "OpenCode 一日三版紧急修补桌面崩溃",
+      "社区热议 Agent 行为可控性及信任修复"
+    ],
+    "ai-agents": [
+      "OpenClaw v2026.6.6-beta.1 安全审查覆盖全系统",
+      "P0 级 Issue 跟踪 SQLite 会话迁移策略",
+      "子智能体静默失败问题引发社区热议",
+      "修复 ACP 绕过漏洞与模型覆盖丢失",
+      "社区 500+ Issue 500+ PR 极端活跃",
+      "安全边界收紧建议升级后审查配置"
+    ],
+    "ai-trending": [
+      "\"Agent Skills\"生态全面爆发 5+仓库霸榜",
+      "superpowers 日增 1104 ⭐ 定义新范式",
+      "agent-skills 日增 821 ⭐ 技能标准仓",
+      "hermes-agent ⭐190k 顶尖智能体架构",
+      "ollama ⭐173k 支持国产模型本地运行",
+      "长期记忆项目 mem0 等成社区刚需"
+    ],
+    "ai-web": [
+      "Anthropic 发布 Agent 生物学研究新范式",
+      "Anthropic 提出确定性检索层准确率近100%",
+      "OpenAI 更新 Oracle Cloud 企业渠道页面",
+      "Anthropic 强调工具调用需硬约束层",
+      "OpenAI 或扩大云基础设施合作",
+      "官方内容指引 Agent 高精度生产环境部署"
+    ],
+    "ai-hn": [
+      "Claude Desktop 启动生成 1.8GB 虚拟机",
+      "Fedora 系统 AI agent 失控引发安全担忧",
+      "Anthropic Fable 护栏限制安全研究引争议",
+      "OpenAI 被曝考虑大幅降价应对竞争",
+      "Anthropic 数据共享策略受社区集体审视",
+      "\"botsitting\"现象暴露 AI 落地现实困境"
+    ],
+    "ai-arxiv": [
+      "NEXT 方法实现数据驱动力传感无需传感器",
+      "稀疏自编码器：特征不稳定但子空间可重复",
+      "视觉令牌重路由减少 VLM 推理开销",
+      "推理时对齐转移解决微调后安全退化",
+      "MoE 路由器用幂迭代优化专家选择",
+      "具身规划器中测试时计算收益递减分析"
+    ],
+    "ai-community": [
+      "AI 迎合偏见被指比幻觉更危险",
+      "MCP 类比 USB-C 但提醒安全风险",
+      "监督式 Vibe Coding 适用生产环境",
+      "极简 AI 代码审查器 git-lrc 受关注",
+      "RAG 检索质量测试指南 Precision@K",
+      "社区强调代理应可观测可审计可控制"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code v2.1.172 with Deep Sub-Agent Nesting",
+      "OpenAI Codex Rust alpha v0.140.0-a.4",
+      "MCP universal but OAuth friction remains",
+      "Strategic divergence: vertical vs universal hubs",
+      "Failure mode shifts to agent deadlock and cost",
+      "High velocity with 10 issues/PRs for Claude Code"
+    ],
+    "ai-agents": [
+      "OpenClaw v2026.6.6-beta.1 with security hardening",
+      "500 issues and 500 PRs in 24 hours",
+      "104 PRs merged/closed in active cycle",
+      "P0/P1 Diamond Lobster issues dominate discussion",
+      "Security hardens transcripts, sandbox, and MCP",
+      "Session management and subagent orchestration issues"
+    ],
+    "ai-trending": [
+      "Agent Skills trending: addyosmani/agent-skills +821",
+      "last30days-skill hottest with +2,535 stars",
+      "ollama supports Kimi-K2.6 and GLM-5.1 models",
+      "Prompt engineering transparency repo gains traction",
+      "Community shifts to composable skill directories",
+      "Commodity model infrastructure matures with ollama"
+    ],
+    "ai-web": [
+      "Anthropic research: agents in biology reliability",
+      "OpenAI metadata for Oracle Cloud infrastructure",
+      "LLMs fail at autonomous scientific data retrieval",
+      "Anthropic proposes deterministic retrieval middleware",
+      "OpenAI deepens enterprise distribution with Oracle",
+      "Anthropic races for agent reliability, OpenAI for scale"
+    ],
+    "ai-hn": [
+      "AWS Bedrock data-sharing requirement sparks controversy",
+      "Claude Desktop 1.8GB VM overhead shocks engineers",
+      "AI agent runs amok postmortem on Fedora",
+      "Anthropic Fable guardrail debate intensifies",
+      "Satirical take on Anthropic model naming",
+      "OpenAI price cuts and PRC influence in discussion"
+    ],
+    "ai-arxiv": [
+      "MoE router redesign with Manifold Power Iteration",
+      "ALIGNBEAM transfers alignment at inference time",
+      "VIA-SD boosts speculative decoding throughput",
+      "Safety research: impossibility theorem for latent knowledge",
+      "Agent memory and runtime governance papers surface",
+      "Shift from scaling to robust system engineering"
+    ],
+    "ai-community": [
+      "AgentLiar Detector catches falsely claiming agents",
+      "Dev.to skepticism on agent reliability grows",
+      "Lobste.rs satire of LLM anthropomorphism",
+      "MCP consolidation with caution advised",
+      "Nature paper on behavioral trait transmission",
+      "Workflows with AI steps preferred over agents"
+    ]
+  }
+}
