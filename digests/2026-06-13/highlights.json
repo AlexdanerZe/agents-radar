@@ -1,0 +1,134 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code v2.1.175-177发布但社区面临宕机与成本失控",
+      "Copilot CLI连续两版致命回归引发信任危机",
+      "Kimi Code CLI付费用户不满对话计费争议",
+      "Qwen Code v0.18.0发布OAuth调整引争论",
+      "Pi (pi-mono) v0.79.2发布多Provider扩展获好评",
+      "Agent安全与成本失控：子Agent递归致指数级Token消耗"
+    ],
+    "ai-agents": [
+      "OpenClaw项目飙500条Issues与PR高度活跃",
+      "发布v2026.6.6稳定版和beta.2安全边界全面加固",
+      "P0级Bug内存泄漏#91588及记忆搜索损坏#91778未解",
+      "修复Kimi K2.6长对话压缩后reasoning_content缺失",
+      "修复并行三子代理导致Gateway事件循环饱和",
+      "安全修复Bootstrap Token路径DoS攻击加速率限制"
+    ],
+    "ai-trending": [
+      "agent-skills今日热榜第一单日暴增2656星",
+      "LMCache首次登榜为LLM提供最快KV缓存层",
+      "vllm 82.7k星稳居生产级推理引擎标杆",
+      "rig 7.6k星代表Rust语言LLM框架崛起",
+      "Google Workspace CLI集成Agent技能27k星",
+      "AutoGPT等代理框架持续活跃在生态前列"
+    ],
+    "ai-web": [
+      "Claude Fable 5发布仅数日被美国政府紧急下架",
+      "Anthropic回应政府指令揭露安全评估鸿沟",
+      "TCS与Anthropic合作将Claude带入受监管行业",
+      "Anthropic宣布与DXC合作扩展企业生态",
+      "发布5.2万人民调和1.5亿美元人才计划强攻信任",
+      "OpenAI静默仅有一则收购新闻流出"
+    ],
+    "ai-hn": [
+      "Fable 5暂停访问主帖获1100分720条评论激辩",
+      "开源AI必须赢帖213分反映封闭模型忧虑",
+      "OpenAI考虑大幅降价点燃AI价格战讨论",
+      "World of ClaudeCraft 86分展示Fable 5原型潜力",
+      "批量删除Claude聊天脚本53分满足数据控制需求",
+      "Launch HN: BitBoard (YC P25)为Agent提供分析工作区"
+    ],
+    "ai-arxiv": [
+      "Beyond the Commitment Boundary质疑CoT步骤必要性",
+      "One Polluted Page Is Enough揭示RAG安全风险",
+      "EvoArena构建动态环境评估智能体记忆演化",
+      "EurekAgent自动搭建实验环境加速科学发现",
+      "HyperTool超工具抽象提升工具Agent效率与控制",
+      "Multi-Agent RL从延迟市场反馈学习三方调度"
+    ],
+    "ai-hf": [
+      "DeepSeek-V4-Pro获4796赞下载超338万引轰动",
+      "NVIDIA LocateAnything-3B目标定位模型1927赞",
+      "Google Gemma-4系列多模态模型大幅扩展生态",
+      "DiffusionGemma 26B MoE仅激活4B推理高效",
+      "小米MiMo-V2.5-Pro-FP4量化模型针对Agent优化",
+      "Ideogram-4-fp8发布多精度版本生成赛道升温"
+    ],
+    "ai-community": [
+      "Agent Toolkit for AWS实战评测获12赞引发讨论",
+      "DiffusionGemma达1000 tokens/s改变推理经济学",
+      "AI Agent Memory Store构建持久化记忆架构指南",
+      "本地SQLite击败全量GPT-4夺LongMemEval 79%",
+      "AI Observability入门覆盖日志Prompt和成本监控",
+      "Lobste.rs哲学思辨与Nature论文为狂热提供冷静注脚"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code releases three new versions",
+      "Windows failures generate community backlash",
+      "Runaway agent costs from unbounded recursion",
+      "Demand for declarative agent definitions rises",
+      "CodeWhale and Pi strip vendor lock-in",
+      "Fable-5 outage and CLI freeze issues"
+    ],
+    "ai-agents": [
+      "Security hardening sweep in v2026.6.6",
+      "Two P0 critical bugs demand immediate fix",
+      "144 pull requests merged in this cycle",
+      "500 issues and 500 PRs in 24 hours",
+      "Gateway memory leak and broken search index",
+      "New releases v2026.6.6 and beta published"
+    ],
+    "ai-trending": [
+      "Agent skills marketplaces dominate trending",
+      "addyosmani/agent-skills stars surge",
+      "Persistent session memory eclipses vector search",
+      "Ollama reaches 173,984 stars",
+      "Healthcare AI push with openmed",
+      "Edge RAG storage efficiency with LEANN"
+    ],
+    "ai-web": [
+      "U.S. government orders shutdown of Claude Fable 5",
+      "Anthropic complies with suspension order",
+      "Claude Fable 5 launched then suspended",
+      "TCS and DXC alliances for enterprise Claude",
+      "OpenAI acquisition of Ona reported",
+      "Safeguards route 5% of queries to Opus 4.8"
+    ],
+    "ai-hn": [
+      "Claude Fable 5 suspension dominates HN front page",
+      "1,162-point thread on state control",
+      "Jailbreak attempts and vibe-coded projects",
+      "Open source AI must win narrative",
+      "Looming AI price war discussed",
+      "Grim Meta AI insider reports surface"
+    ],
+    "ai-arxiv": [
+      "Agent systems dominate new arXiv submissions",
+      "Operad theory provides mathematical foundation",
+      "Causal probing maps chain-of-thought commitment",
+      "Robotics achieves articulated tool manipulation",
+      "A2D2 framework for any-length diffusion fine-tuning",
+      "Multi-agent systems tackle low-resource medical tasks"
+    ],
+    "ai-hf": [
+      "Gemma 4 ecosystem matures and expands",
+      "DeepSeek-V4-Pro leads with 4,796 likes",
+      "NVIDIA LocateAnything-3B for practical vision",
+      "Unsloth makes multimodal accessible on consumer hardware",
+      "Uncensored Qwen3.6 MoE fine-tune tops downloads",
+      "Xiaomi agent-focused MiMo-V2.5-Pro-FP4"
+    ],
+    "ai-community": [
+      "Shift from building agents to safe affordable agents",
+      "DiffusionGemma hits 1,000 tok/s on RTX 4090",
+      "AWS Agent Toolkit gains adoption",
+      "Sandbox escape security concerns arise",
+      "MCP agent stores dominate Dev.to",
+      "Local inference and cost efficiency push"
+    ]
+  }
+}
