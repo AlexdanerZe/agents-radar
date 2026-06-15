@@ -1,0 +1,110 @@
+{
+  "zh": {
+    "ai-cli": [
+      "OpenCode 发布 v1.17.7，修复多项 Agent 稳定性问题。",
+      "CodeWhale 品牌更名，发布 v0.8.60，原 DeepSeek TUI。",
+      "社区呼吁 Agent 预算上限与沙箱执行，终结无限递归。",
+      "Windows 用户崩溃白屏，跨平台体验鸿沟引发不满。",
+      "Kimi Code #2123 质疑宣传额度与实际不符，争议升温。",
+      "Claude Code #32544 指控虚假限流扣费，透明定价成焦点。"
+    ],
+    "ai-agents": [
+      "OpenClaw 24小时 500 Issue 500 PR，社区极度活跃。",
+      "OpenClaw v2026.6.8-beta.1 强化 Telegram 富文本投递。",
+      "WhatsApp 投递边界检查增强，减少媒体格式异常。",
+      "P1 稳定性 Bug 大量开放：消息截断、会话冲突待修复。",
+      "DeepSeek Prompt Cache 升级后失效，用户谨慎升级。",
+      "84 个 PR 合并，会话锁机制调整需测试环境验证。"
+    ],
+    "ai-trending": [
+      "NVIDIA SkillSpector 日增 964 星，Agent 安全扫描新标杆。",
+      "吴恩达 aisuite 发布，一行代码切换多模型接口。",
+      "金融大模型 Kronos 获 244 星，行业模型加速落地。",
+      "Hermes Agent 193k 星持续领跑，多智能体框架竞争白热化。",
+      "TradingAgents 86k 星异军突起，专注多智能体交易。",
+      "ollama 本地运行 LLM 持续支持最新模型，私有部署首选。"
+    ],
+    "ai-web": [
+      "OpenAI 正式推出伙伴网络，商业化转向生态渠道。",
+      "Anthropic 发布静默期，可能蓄力下一代基础模型。",
+      "OpenAI 合作伙伴网络细节未公开，待进一步探索。",
+      "OpenAI 建立标准化产品交付体系，企业采购更便捷。",
+      "双方一静一动：Anthropic 蓄力技术深度，OpenAI 建护城河。",
+      "未来 5-7 天关注 Anthropic 是否有高含金量发布。"
+    ],
+    "ai-hn": [
+      "里约 LLM 被曝旧模型合并，政府 AI 透明度遭质询。",
+      "Anthropic 多重争议登 HN 热榜：态度到出口管制。",
+      "OpenAI 遭多州调查，IPO 前夕负面新闻密集。",
+      "Apple 私有云计算限制第三方，开发者不满。",
+      "AI Has Amnesia 讨论记忆缺失，LLM 局限性受关注。",
+      "Show HN: 基于 Claude Code 从 Issue 到 PR 自动化工具。"
+    ],
+    "ai-hf": [
+      "DeepSeek-V4-Pro 周赞 4.8k 下载 300 万，本周最火。",
+      "Google Gemma-4-12B 下载超百万，生态全面爆发。",
+      "Unsloth 量化版本快速上线，降低本地部署门槛。",
+      "Nvidia LocateAnything-3B 视觉定位黑马，点赞 2k。",
+      "Ideogram-4 fp8/nf4 版推动开源图像生成质量。",
+      "Uncensored 系列下载近 300 万，用户定制需求强烈。"
+    ],
+    "ai-community": [
+      "Claude Code vs Codex 分工实战：协作模式公开。",
+      "Mac Mini 本地跑 LLM 替代订阅，省钱隐私兼得。",
+      "8 个 AI 代理荒岛社会模拟，群体智能涌现引发关注。",
+      "AI 记忆闭环验证 CLAIM-31，实现连续性记忆。",
+      "Agent 工程化挑战：记忆管理与隐私安全成焦点。",
+      "Apple 扩展 Private Cloud Compute，但 Siri 推理仍受限。"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "OpenAI Codex ships async hooks runtimes",
+      "Qwen Code lands session-persistence features",
+      "Windows weak link: six of eight tools broken",
+      "Claude Code faces cost and reliability crisis",
+      "Pi and OpenCode build deep plugin architectures",
+      "Agent cost and security failures dominate feedback"
+    ],
+    "ai-agents": [
+      "OpenClaw ships new beta release v2026.6.8-beta.1",
+      "500 issues and 500 PRs in 24 hours",
+      "Codex app-server harness causes session wedging",
+      "Telegram message duplication remains unresolved",
+      "Context-aware continuation feature proposed",
+      "Tree-sitter command authorization under discussion"
+    ],
+    "ai-trending": [
+      "NVIDIA/SkillSpector (+964 stars) scans AI agent vulnerabilities",
+      "andrewyng/aisuite (+291 stars) unifies multi-provider SDK",
+      "shiyu-coder/Kronos (+244 stars) targets financial LLMs",
+      "Introduction-to-Autonomous-Robots (+293 stars) on the rise",
+      "ollama maintains lead with 174k+ stars for local models",
+      "vllm sees high usage for production LLM inference"
+    ],
+    "ai-hn": [
+      "Rio LLM exposed as merge, score 302",
+      "Claude hostile shift scores 168 and 105",
+      "Anthropic halts new model access in India",
+      "EU regulatory aftermath concerns grow",
+      "White House scrambles AI staff",
+      "Community debates transparency in Rio project"
+    ],
+    "ai-hf": [
+      "DeepSeek-V4-Pro tops trending with 4,836 likes",
+      "Gemma 4 ecosystem expands with new variants",
+      "Uncensored fine-tunes of Qwen and Gemma 4 surge",
+      "NVIDIA LocateAnything-3B leads compact vision models",
+      "MiniMax-M3 pushes any-to-any multimodal frontier",
+      "Kimi-K2.7-Code gains traction in code MoE space"
+    ],
+    "ai-community": [
+      "User splits work between Claude Code and Codex",
+      "Mac Mini local LLM setup replaces cloud subscriptions",
+      "8 AI agents simulate emergent society dynamics",
+      "LLM sycophancy problem measured and discussed",
+      "Local-first counter-movement challenges cloud AI",
+      "Apple privacy battles and Claude billing spark debate"
+    ]
+  }
+}
