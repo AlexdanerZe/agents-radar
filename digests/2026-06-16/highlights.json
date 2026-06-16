@@ -1,0 +1,118 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code v2.1.178 发布，社区 163👍",
+      "OpenAI Codex v0.140.0 发布，社区 583👍",
+      "GitHub Copilot CLI v1.0.63 发布，日 Issue 更新44条",
+      "Qwen Code v0.18.1 桌面版 v0.0.4 发布",
+      "Pi v0.79.4 发布，社区 30👍",
+      "社区聚焦稳定性回退与安全误报问题"
+    ],
+    "ai-agents": [
+      "OpenClaw v2026.6.8-beta.2 发布，增强富文本投递",
+      "Telegram/WhatsApp 通道支持结构化富文本",
+      "合并 PR #68936：自动修复管线与 Windows 守护进程",
+      "修复 Agent 首轮回答数据丢失问题",
+      "新增 Codex 托管 Web 搜索集成",
+      "社区活跃但维护者评审积压成瓶颈"
+    ],
+    "ai-trending": [
+      "NVIDIA 开源 SkillSpector（+1079★），Agent 安全扫描",
+      "Agent-Reach（+1100★）零 API 费打通多平台数据",
+      "cua（+70）开源桌面控制代理基础设施",
+      "Kronos（+396）金融领域基础模型上线",
+      "hermes-agent 194k★，与你共同成长的智能体",
+      "AutoGPT 184k★，自主 Agent 持续迭代"
+    ],
+    "ai-web": [
+      "Anthropic 发布两篇研究：情感机制与化学领域",
+      "Claude Sonnet 4.5 发现情感表征组织系统",
+      "Claude 理解 NMR 谱图，化学领域 AI 助手",
+      "Anthropic 安全对齐与专业知识双线出击",
+      "OpenAI 本周期无公开内容，可能蓄力",
+      "Anthropic 定位可信赖专家型 AI"
+    ],
+    "ai-hn": [
+      "Anthropic 安全文化成政治护城河，社区两极辩论",
+      "Claude Corps 企业服务推出，对比 OpenAI",
+      "微软因 GPU 短缺转投 AWS，讽刺性合作",
+      "特朗普政府迫使 Anthropic 下架 Fable/Mythos",
+      "Show HN: Claude Code for VS Code 原生 diff",
+      "Anthropic 事件占 HN 头条，安全与商业冲突"
+    ],
+    "ai-arxiv": [
+      "价值轴：Qwen3-8B 编码轨迹成功概率",
+      "ContextRL 提升长上下文多模态定位关键证据",
+      "KVEraser 精准上下文擦除，利于隐私遗忘",
+      "Scalable Circuit Learning 提取可解释回路",
+      "DeepRubric 证据树奖励高效训练研究 Agent",
+      "Exact Posterior Score 扩散逆问题理论突破"
+    ],
+    "ai-community": [
+      "AI Agent 可靠性、成本与外部依赖成核心议题",
+      "Fable 5 下架，备用方案瘫痪全记录",
+      "LLM 成本优化：从 $0.011 降至 $0.0009",
+      "工具调用拒绝：三分之一是验证逻辑错误",
+      "MCP + GraphRAG 外部记忆架构成标准",
+      "Chrome 扩展设计引导有意识 AI 使用"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code v2.1.178 released",
+      "macOS kernel panics in Codex and Claude",
+      "WSL path breakage hits Codex and Copilot",
+      "Gemini, DeepSeek TUI suffer agentic hangs",
+      "Platform-captive vs independent tools emerge",
+      "Stability vs autonomy phase in CLI tools"
+    ],
+    "ai-agents": [
+      "OpenClaw v2026.6.8-beta.2 released",
+      "500 issues and 500 PRs in 24 hours",
+      "87 PRs merged or closed today",
+      "Telegram rich text supports tables and lists",
+      "WhatsApp delivery improved in beta",
+      "Demand for native Linux and Windows clients"
+    ],
+    "ai-trending": [
+      "NVIDIA/SkillSpector gains +1,079 stars",
+      "Agent-Reach provides free universal API access",
+      "Kronos targets financial markets language",
+      "Memory persistence becomes mandatory infrastructure",
+      "Hermes-agent hits 194,590 total stars",
+      "Agent-Driven Development paradigm keeps growing"
+    ],
+    "ai-web": [
+      "Anthropic interprets emotion concepts in Claude",
+      "Claude Sonnet 4.5 has human-like emotion maps",
+      "Anthropic advances Claude's chemistry expertise",
+      "OpenAI publishes no new content today",
+      "Safety and domain capability dual-track strategy",
+      "Interpretability paper has deep safety implications"
+    ],
+    "ai-hn": [
+      "Anthropic crisis dominates Hacker News front page",
+      "White House forces shutdown of Fable and Mythos",
+      "Microsoft uses AWS for GitHub Copilot GPUs",
+      "Anthropic internal leak: 'They screwed us'",
+      "Fable training methodology detailed before shutdown",
+      "LLM panic compared to 8-track tape history"
+    ],
+    "ai-arxiv": [
+      "The Value Axis reveals LLM self-monitoring",
+      "ContextRL trains models to find critical evidence",
+      "ExpRL improves exploration during training",
+      "DEEPRUBRIC overhauls reward design for agents",
+      "Scalable Circuit Learning advances interpretability",
+      "Backdoor attacks show DP is not a panacea"
+    ],
+    "ai-community": [
+      "Anthropic outage sparks redundancy discussions",
+      "AI system architecture becomes defining skill",
+      "Postmortem: Fable 5 goes dark, workflow breaks",
+      "Hallucinations seen as architecture problem",
+      "Focus shifts to production hardening of AI",
+      "Skepticism and satire push back on hype"
+    ]
+  }
+}
