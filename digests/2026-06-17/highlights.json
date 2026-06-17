@@ -1,0 +1,134 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code v2.1.179 发布，子进程泄漏引热议。",
+      "OpenAI Codex 修复 MCP OAuth 竞争，发 alpha.3/4。",
+      "GitHub Copilot CLI v1.0.64-0 新增 MCP 注册表安装。",
+      "Qwen Code 发布失败，集成测试中断流水线。",
+      "社区聚焦 MCP 安全，企业级权限模型成共识。",
+      "Windows 跨平台兼容仍是 AI CLI 薄弱环节。"
+    ],
+    "ai-agents": [
+      "OpenClaw v2026.6.8 发布，强化 Telegram 和 WhatsApp。",
+      "热门前置跨平台需求 #75 获社区持续关注。",
+      "子代理消息丢失等稳定性 Bug 成讨论焦点。",
+      "24 小时合入 91 个 PR，关闭 34 个 Issue。",
+      "修复 Slack Monitor 中 MiniMax 命名空间推理标签。",
+      "新增 PR 审查自动修复流水线与 Windows 守护进程。"
+    ],
+    "ai-trending": [
+      "OpenBMB VoxCPM 无分词器多语言语音生成亮点。",
+      "阿里开源轻量向量数据库 zvec，star 10540。",
+      "TradingAgents、caveman 聚焦 Agent 成本优化。",
+      "ollama 174K+ stars，支持最新多模型。",
+      "vllm 83K stars，生产级推理引擎。",
+      "firecrawl 133K stars，AI Agent 网页交互。"
+    ],
+    "ai-web": [
+      "Anthropic 发布研究：基于 40 万次 Claude Code 会话。",
+      "领域经验回报持续增长，调试时间半年腰斩。",
+      "塔塔咨询 TCS 向 5 万员工部署 Claude。",
+      "Anthropic 更新《AI 安全核心观点》，强化安全。",
+      "OpenAI 发布《部署模拟》，聚焦部署风险推演。",
+      "任务价值因 AI 辅助提升约 25%。"
+    ],
+    "ai-hn": [
+      "DeepSeek V4 Pro 成本仅 Claude 5%，引热议。",
+      "GLM-5.2 开源权重，HN 讨论长上下文能力。",
+      "Wolfram 15 内置 AI 助手，获 107 分好评。",
+      "Claude 大规模故障引发可靠性讨论。",
+      "OpenAI 巨额亏损引商业模式质疑。",
+      "美国封禁 Anthropic 从安全转向政治猜测。"
+    ],
+    "ai-arxiv": [
+      "Looped World Models 循环架构降低计算开销。",
+      "Fixed-Point Reasoners 解决循环 Transformer 不稳定。",
+      "灾难性遗忘的低秩本质新理论基于神经正切核。",
+      "LLM 情感支持声称有经历引发伦理研究。",
+      "Fable 5 和 Opus 4.8 模型遭红队攻击测试。",
+      "VERITAS 框架实现机器人自主策略优化。"
+    ],
+    "ai-hf": [
+      "DeepSeek-V4-Pro 周赞 4898，下载 282 万领跑。",
+      "GLM-5.2 引入 DSA 稀疏注意力，热度上升。",
+      "Qwen3.6-35B-A3B 多模态 MoE，3B 激活标杆。",
+      "LocateAnything-3B 英伟达定位模型下载活跃。",
+      "Gemma-4-12B-it 支持 any-to-any 多模态。",
+      "MiniMax-M3 新一代多模态 MoE 助手受关注。"
+    ],
+    "ai-community": [
+      "AI 内容检测工具被嘲荒谬，Sloan 事件引热议。",
+      "AI 审核系统误判分析：数据揭示 AI 评 AI。",
+      "Fable 5 危机证明 AI 上下文层需外置。",
+      "模型不是 AI 陪伴核心，关系和真实感关键。",
+      "$0 Bug 导致 $1800 API 费用，成本爆炸。",
+      "Vibe Coding 和 Agentic Engineering 引资深讨论。"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code v2.1.179 fixes shell inj, symlinks",
+      "OpenAI Codex Alpha introduces token budgets",
+      "Gemini CLI faces MFA lockout issues",
+      "MCP becomes standard for tool interoperability",
+      "Windows stability issues plague many tools",
+      "Session cost management is a shared challenge"
+    ],
+    "ai-agents": [
+      "OpenClaw v2026.6.8 improves Telegram/WhatsApp",
+      "500 issues and 500 PRs updated in 24h",
+      "91 PRs merged in latest release",
+      "Silent message loss bugs remain",
+      "Session state corruption unresolved",
+      "Maintainer review backlog grows"
+    ],
+    "ai-trending": [
+      "VoxCPM: tokenizer-free TTS, 408 stars today",
+      "zvec: ultra-lightweight vector DB, 156 stars",
+      "claude-mem tackles context window bottleneck",
+      "New AI-agent harnesses like Hermes Agent",
+      "Ollama adds Kimi-K2.6 and GLM-5.1",
+      "Llama_index bridges unstructured data to LLMs"
+    ],
+    "ai-web": [
+      "Anthropic analyzes 400k Claude Code sessions",
+      "TCS deploys Claude to 50k employees",
+      "OpenAI publishes Deployment Simulation",
+      "Task value rose 25% in seven months",
+      "Debugging time decreased by nearly half",
+      "2023 safety views anchor product strategy"
+    ],
+    "ai-hn": [
+      "US government imposes hardline ban on Anthropic",
+      "OpenAI financials show $21B losses",
+      "GLM-5.2 open-weight model from Zhipu AI",
+      "DeepSeek V4 Pro at 5% cost of Claude",
+      "Andrew Ng releases Open CoWorker",
+      "Wolfram Language V15 integrates AI assistant"
+    ],
+    "ai-arxiv": [
+      "Fixed-Point Reasoners for stable looped transformers",
+      "Red-team study finds gaps in Fable 5, Opus 4.8",
+      "COGNITIVE ATROPHY benchmark introduced",
+      "LoopCoder advances agentic code generation",
+      "Formal verification for consensus algorithms",
+      "Path-dependent noise improves generative models"
+    ],
+    "ai-hf": [
+      "DeepSeek-V4-Pro: 4,898 hearts, 2.8M downloads",
+      "Qwen 3.6-35B-A3B: 2,138 hearts, 3.3M downloads",
+      "NVIDIA LocateAnything-3B enables agentic AI",
+      "GLM-5.2 from Zhipu AI generates buzz",
+      "Nex-N2-Pro and Nex-N2-mini gain traction",
+      "Unsloth GGUF quantizations drive local inference"
+    ],
+    "ai-community": [
+      "Sloan flag story: AI moderation still unreliable",
+      "Fable 5 crisis: context layer must be external",
+      "Tailwind layoffs fuel AI scapegoat fears",
+      "Token budgets seen as new KLOC metric",
+      "Debugging context window degradation becomes practice",
+      "Building local agents without budget hallucinations"
+    ]
+  }
+}
