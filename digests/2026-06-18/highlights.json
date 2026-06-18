@@ -1,0 +1,134 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code v2.1.181 发布，计费焦虑成热点",
+      "OpenAI Codex Rust alpha 连发3版，性能受关注",
+      "Gemini CLI v0.48.0-p 发布，P1 Agent挂起引警报",
+      "Copilot CLI 期待生态深水区，Hook权限问题待解决",
+      "Kimi Code CLI 冷清无更新，OpenCode v1.17.8 功能旺",
+      "全行业聚焦Agent行为可靠性与可观测性"
+    ],
+    "ai-agents": [
+      "OpenClaw 24小时500条Issue更新，高压与高产并行",
+      "安全边界加固：插件作用域解析修复PR待审核",
+      "会话压缩超时硬编码修复，大Session不再失败",
+      "子Agent完成通知文本投递回退增加可靠性",
+      "文本泄露、OAuth卡死等安全问题快速累积",
+      "项目推进SQLite迁移与多Agent架构演进"
+    ],
+    "ai-trending": [
+      "Matt Pocock skills库+1523星，Agent技能工程化爆发",
+      "Agent-Reach +1161，零成本数据获取成刚需",
+      "Google TimesFM开源时序基础模型，今日+606",
+      "codebase-memory-mcp用知识图谱索引代码+371",
+      "UI-TARS-desktop字节开源多模态Agent栈+150",
+      "ollama已支持DeepSeek/Kimi/GLM，stars超174k"
+    ],
+    "ai-web": [
+      "Anthropic今日发布20篇，正式品牌化Frontier Red Team",
+      "Agentic coding论文：Claude Code提升任务价值25%",
+      "Anthropic开设首尔办公室，与韩国MSIT签署MOU",
+      "玻璃翼计划利用Mythos防御保护关键软件",
+      "N-day漏洞利用研究：定向安全行动Project Glasswing",
+      "OpenAI仅发布Life Sci Bench，信息战处于守势"
+    ],
+    "ai-hn": [
+      "OpenAI财务巨亏暴露行业烧钱模式，社区热议",
+      "Anthropic与特朗普政府冲突引发AI政治化担忧",
+      "Adam (YC W25)开源AI CAD工具获166分84评论",
+      "Noam Shazeer从谷歌跳槽OpenAI，人才新动向",
+      "Estonia为AI代理颁发身份证，法律新前沿",
+      "奔来的机器人该用Claude还是Grok？160+讨论"
+    ],
+    "ai-arxiv": [
+      "Sumi：首个从头训练的开放扩散语言模型",
+      "FoMoE：联邦MoE突破全副本聚合硬件瓶颈",
+      "TRAP：首个评估任务完成与隐私提取的基准",
+      "Leadership：多Agent团队领导力协调研究",
+      "Seeing Before Reasoning：解耦感知与推理",
+      "RODS：奖励驱动在线数据合成，RL新方法"
+    ],
+    "ai-hf": [
+      "DeepSeek V4 Pro以4926赞登顶本周热门",
+      "Qwen3.6-35B-A3B视觉语言MoE下载超368万",
+      "nvidia LocateAnything-3B通用视觉定位2141赞",
+      "Google Gemma 4正式登场，any-to-any多模态",
+      "Kimi-K2.7-Code代码专用模型保持热度",
+      "unsloth发布多款GGUF版，本地部署门槛大降"
+    ],
+    "ai-community": [
+      "事前验尸方法系统化AI代码审查提升可靠性",
+      "量化上下文窗口定位Agent性能衰退可复现",
+      "模块化指令架构显著节省上下文令牌",
+      "FSM模式管理LLM厂商回退抗脆弱",
+      "评估管道随每次部署运行保障RAG质量",
+      "MCP服务器设计三大原则避免常见陷阱"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code Max plan limits spark 1500 comments",
+      "Qwen Code free tier change causes user backlash",
+      "OpenAI Codex releases three Rust alphas",
+      "Gemini CLI v0.48 struggles with false success",
+      "Ecosystem paying a mounting reliability tax",
+      "Cost governance is the hottest community debate"
+    ],
+    "ai-agents": [
+      "OpenClaw sees 500 issues and 500 PRs daily",
+      "91 pull requests merged in a single day",
+      "Tiered Diamond Lobster rating system used",
+      "ClawSweeper framework powers automated triage",
+      "Steady progress despite 10:1 open-to-closed ratio",
+      "Mature development culture prioritizes systematic work"
+    ],
+    "ai-trending": [
+      "Skills ecosystem booms: mattpocock/skills +1523 stars",
+      "Agent-Reach bypasses API costs for internet access",
+      "ByteDance open-sources UI-TARS-desktop agent stack",
+      "Google timesfm brings time-series modeling to open source",
+      "DeusData codebase-memory-mcp sets new performance benchmark",
+      "Trends show pivot to agent specialization and memory"
+    ],
+    "ai-web": [
+      "Anthropic launches Project Glasswing for security",
+      "Claude Mythos Preview cybersecurity assessment released",
+      "Anthropic opens Seoul office, signs Korea MOUs",
+      "Claude Code ROI paper analyzes 400,000 sessions",
+      "OpenAI introduces Life Sci Bench for bio risk",
+      "Anthropic dominates with 20 articles in one day"
+    ],
+    "ai-hn": [
+      "OpenAI leaked losses of $21B stun community",
+      "Anthropic accuses Trump administration of targeting",
+      "Noam Shazeer leaves Google Gemini to join OpenAI",
+      "Adam AI CAD project gains traction on Hacker News",
+      "Claude vs Grok robot debate highlights safety split",
+      "Tense political and economic backdrop for AI labs"
+    ],
+    "ai-arxiv": [
+      "Agent-First Web protocol standardisation proposed",
+      "Sumi: Large diffusion language model pretrained from scratch",
+      "FoMoE enables collaborative LLM pre-training",
+      "Benchmark tests agentic privacy preservation",
+      "Multi-agent system designed for computational catalysis",
+      "Reliability and interpretability take research center stage"
+    ],
+    "ai-hf": [
+      "DeepSeek V4 Pro tops charts with 4926 likes",
+      "Qwen3.6-35B MoE drives community fine-tune explosion",
+      "Google DiffusionGemma offers non-autoregressive architecture",
+      "Unsloth leads GGUF quantization push for Gemma 4",
+      "Nvidia LocateAnything-3B targets precise agentic vision",
+      "Uncensored Qwen variants see explosive community adoption"
+    ],
+    "ai-community": [
+      "Premortem prompts raise quality of AI code outputs",
+      "Context window saturation blamed for agent degradation",
+      "Modular instruction architecture reduces token waste",
+      "Lobste.rs questions privacy guarantees of AI agents",
+      "Developers share deterministic fallback patterns for agents",
+      "Skepticism grows around autonomous agent narratives"
+    ]
+  }
+}
