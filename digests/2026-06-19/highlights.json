@@ -1,0 +1,134 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code 发布 v2.1.183 活跃度最高",
+      "OpenAI Codex 发布 rust-v0.141.0",
+      "Gemini CLI 准备 v0.48.0-preview",
+      "Pi 发布 v0.79.7 合并多项修复",
+      "DeepSeek TUI 发布 v0.8.62",
+      "Kimi Code CLI 仅3个Issue活跃度最低"
+    ],
+    "ai-agents": [
+      "P0级数据丢失Bug #84882 曝光",
+      "会话活锁问题在Telegram DM修复",
+      "工具发现覆盖注册表Bug修复",
+      "飞书渠道修复点对点回复失败",
+      "Telegram富文本表格转义Bug修复",
+      "Sandbox路径修复确保技能目录"
+    ],
+    "ai-trending": [
+      "codebase-memory-mcp 日暴涨超2300星",
+      "kilocode 日增1345星编码智能体平台",
+      "superpowers 日增1429星技能框架",
+      "vllm 大模型推理引擎部署标准",
+      "ollama 支持多模型本地运行",
+      "firecrawl AI数据管道明星项目"
+    ],
+    "ai-web": [
+      "BioMysteryBench评估LLM生物信息学",
+      "Project Fetch:Claude自主操控机器狗",
+      "Claude Opus 4.7操控速度人类20倍",
+      "Anthropic开设首尔办公室AI安全MOU",
+      "OpenAI上线健康智能增强页面",
+      "OpenAI上线企业支出控制页面"
+    ],
+    "ai-hn": [
+      "GLM-5.2最强开源但运行成本高昂",
+      "参数量级可视化工具AreYouintheWeights",
+      "AA-Briefcase新评测基准知识工作",
+      "DeepSWE v1.1更新软件工程Agent",
+      "Anthropic Mythos出口管制引发争议",
+      "Noam Shazeer从Google跳槽OpenAI"
+    ],
+    "ai-arxiv": [
+      "DiffusionGemma透明度评估可解释性",
+      "多任务贝叶斯上下文学习小样本",
+      "混合合规演示误导安全对齐",
+      "UltraQuant 4-bit KV缓存智能体",
+      "Sovereign Execution Brokers安全",
+      "NRT-Bench多轮红队基准测试"
+    ],
+    "ai-hf": [
+      "DeepSeek V4 Pro周点赞近5千",
+      "Google Gemma 4系列下载超百万",
+      "GLM-5.2首次登榜获1361点赞",
+      "Unsloth推出多个量化版本模型",
+      "NVIDIA LocateAnything-3B定位",
+      "MiniMax-M3多模态模型下载5万"
+    ],
+    "ai-community": [
+      "人机共玩解谜游戏Tower Before Dusk",
+      "Antigravity SDK构建PR审查Agent",
+      "AI Agent可靠性问题模式总结",
+      "RAG黑匣子4层元数据3级验证",
+      "8周从零到生产部署严格来源RAG",
+      "MCP代理桥接IFTTT到本地AI助手"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code cost panic with 62 comments",
+      "MCP: integration standard but fragile",
+      "Regression ceiling from rapid releases",
+      "Cross-platform parity is key battleground",
+      "9 major AI CLI tools compared in digest",
+      "Shift to multi-agent autonomous systems"
+    ],
+    "ai-agents": [
+      "OpenClaw: 500 issues and 500 PRs in 24h",
+      "53 PRs merged, 40 issues closed today",
+      "No new release; stabilizing 2026.5.x line",
+      "Regressions in Telegram and subagent isolation",
+      "OpenClaw ecosystem includes 13 projects",
+      "Key merge: PR #87333 for session state"
+    ],
+    "ai-trending": [
+      "DeusData MCP server +2,322 stars today",
+      "obra/superpowers debuts with 1,429 stars",
+      "Kilo-Org/kilocode adds 1,345 stars",
+      "zai-org GLM-5 for Agentic Engineering",
+      "google-research/timesfm for forecasting",
+      "MCP ecosystem at critical mass"
+    ],
+    "ai-web": [
+      "Project Fetch Phase 2: robots 20x faster",
+      "BioMysteryBench open-sourced for bioinformatics",
+      "Anthropic opens Seoul office with Korea MOU",
+      "OpenAI reports on health and enterprise spend",
+      "Claude Opus 4.7 for autonomous robotics",
+      "Anthropic leads with two technical milestones"
+    ],
+    "ai-hn": [
+      "Anthropic Mythos controversy dominates HN",
+      "'Are You in the Weights?' gains traction",
+      "GLM-5.2: hardware gap vs. benchmarks",
+      "AA-Briefcase evaluates knowledge work",
+      "Robotics setup shared for desk research",
+      "Vibe coding introspection and skepticism"
+    ],
+    "ai-arxiv": [
+      "NRT-Bench for multi-turn red-teaming",
+      "Contagion Networks: bias in agent swarms",
+      "CWE-Trace tests reasoning vs. pattern-matching",
+      "UltraQuant compresses KV-cache to 4-bit",
+      "Agentic Symbolic Search for robust math",
+      "Execution-State Capsules for heavy contexts"
+    ],
+    "ai-hf": [
+      "DeepSeek-V4-Pro: 4,957 likes, 2.9M downloads",
+      "Google releases DiffusionGemma 26B unified",
+      "NVIDIA LocateAnything-3B for visual tasks",
+      "GLM-5.2 challenges Western model benchmarks",
+      "Nex-N2-Pro agent-centric on Qwen 3.5 MoE",
+      "GGUF quantization variants for GLM-5.2"
+    ],
+    "ai-community": [
+      "Building agentic PR reviewer with Antigravity",
+      "Non-developer builds calendar app using AI",
+      "Reliability problem forces rethink of agents",
+      "RAG system shipped to production in 8 weeks",
+      "Lobste.rs debates privacy in Apple Siri",
+      "Does compression equal intelligence? debate"
+    ]
+  }
+}
