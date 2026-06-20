@@ -1,0 +1,134 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code 深陷额度危机与 Agent 治理信任问题",
+      "OpenCode 社区爆出 MCP、内存泄漏等 Issue 激增",
+      "OpenAI Codex 发布 4 个 Alpha 版本，PR 活跃度极高",
+      "GitHub Copilot CLI 发布 v1.0.64-1，但社区反馈静默",
+      "CodeWhale 单日 23 个 PR，工程迭代速度惊人",
+      "跨项目共同焦点：Agent 可观测性与计费透明性缺失"
+    ],
+    "ai-agents": [
+      "OpenClaw 单日 500 Issue 500 PR，但健康状态告急",
+      "新版本 v2026.6.9-beta.1 升级 Telegram 却陷兼容危机",
+      "网关内存泄漏、会话隔离失败等 P0 Bug 成焦点",
+      "47 个 PR 合并，Slack 交付长期问题获修复",
+      "审核瓶颈严重，仍有 453 个 PR 等待合并",
+      "建议 Telegram 重度用户暂缓升级避坑"
+    ],
+    "ai-trending": [
+      "headroom 单日狂揽 4000+ stars，成今日最大黑马",
+      "Google TimesFM 时间序列基础模型登上趋势榜",
+      "智谱 GLM-5 新模型登榜，基础模型竞争白热化",
+      "Agent 框架 flue、superpowers 涌现，技能化加速",
+      "多模态视频生成 LTX-2 与 OpenMontage 双双亮相",
+      "Ollama 已支持 Kimi-2.6、GLM-5.1 等最新模型"
+    ],
+    "ai-web": [
+      "Anthropic 发布基于 40 万次 Claude Code 会话的经济学研究",
+      "研究显示 AI 编码中人类主导规划，AI 主导执行",
+      "专业知识仍带来回报，但与非专家差距缩小",
+      "调试时间占比七个月内下降近一半",
+      "编码任务成功率与软件工程师几乎持平",
+      "代理编码任务价值平均上升约 25%"
+    ],
+    "ai-hn": [
+      "John Jumper 加入 Anthropic 引发 HN 社区热议",
+      "Amazon 取消 Sam Altman 传记电影并合作 OpenAI",
+      "GLM-5.2 与 Claude Opus 4.8 性能对比帖上线",
+      "MiniMax M3 与 GLM 5.2 编码基准对比具竞争力",
+      "Anthropic 暂停 Claude Agent SDK 基于 Token 计费",
+      "Claude Artifacts 发布，增强协作功能"
+    ],
+    "ai-arxiv": [
+      "DiffusionGemma 推理透明度首获系统性分析",
+      "研究揭示微调评估可能存在模式匹配过拟合",
+      "LedgerAgent 提出结构化状态提升策略遵循能力",
+      "多智能体系统偏差传播被系统建模分析",
+      "基于群论的新型注意力机制被提出",
+      "符号 PDE 求解器模块化结合神经网络方法"
+    ],
+    "ai-hf": [
+      "DeepSeek-V4-Pro 以 4969 点赞登顶 Hugging Face",
+      "Nvidia LocateAnything-3B 视觉定位模型成多模态新星",
+      "GLM-5.2 MoE 模型继续霸榜国产开源 LLM",
+      "Microsoft FastContext-1.0-4B 专注高效长上下文",
+      "社区围绕 Gemma-4 和 Qwen3.6 大量微调衍生",
+      "Google diffusiongemma-26B-it 引爆扩散模型研究"
+    ],
+    "ai-community": [
+      "开发者热议 AI 写代码容易但工程仍然复杂",
+      "AI 修一个 Bug 引入多个 Bug 的案例警示无数人",
+      "需求表述与意图对齐鸿沟导致项目失败",
+      "Agent 规划过长、权限过大、悄悄漂移引担忧",
+      "中国模型成本低受关注，开发者考虑迁移",
+      "AI 总结的可追溯性成为社区关注焦点"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code faces critical regressions",
+      "OpenAI Codex releases v0.142.0-alpha",
+      "GitHub Copilot CLI releases v1.0.64-1",
+      "Pi releases v0.79.8",
+      "OpenCode targets enterprise readiness",
+      "Gemini CLI doubles down on evaluation"
+    ],
+    "ai-agents": [
+      "OpenClaw ships v2026.6.9-beta.1",
+      "Two P0 blockers: memory leak and data loss",
+      "500 issues and 500 PRs updated in 24h",
+      "Telegram message delivery overhauled",
+      "453 open issues, 453 open PRs",
+      "Maintainer bottleneck in review capacity"
+    ],
+    "ai-trending": [
+      "Headroom +4005 stars for LLM input compression",
+      "TimesFM +1510 stars for time-series forecasting",
+      "Codebase-memory-mcp +1058 stars for MCP ecosystem",
+      "Superpowers +1110 stars for agent skills framework",
+      "GLM-5 release +480 stars",
+      "Open-webui reaches 142,300 total stars"
+    ],
+    "ai-web": [
+      "Anthropic publishes landmark economic research",
+      "Study analyzes 400,000 Claude Code sessions",
+      "Debugging time fell by nearly half",
+      "Economic value of tasks rose ~25%",
+      "Human planning vs AI execution asymmetry",
+      "Persistent returns to expertise concept"
+    ],
+    "ai-hn": [
+      "Anthropic's sweeping influence across talent and policy",
+      "Amazon and OpenAI corporate controversy dominates",
+      "John Jumper talent acquisition sparks debate",
+      "GLM-5.2 vs US frontier model benchmarks",
+      "Inference optimization discussions on the rise",
+      "LLM-enabled hacking and data privacy concerns"
+    ],
+    "ai-arxiv": [
+      "Formal verification methods for LLM agent safety",
+      "Adversarial stress-testing benchmark Lee et al.",
+      "Extreme KV-cache compression by Chakrabarti",
+      "Mechanistic interpretability probing DiffusionGemma",
+      "Diagnosing fundamental limitations of safety alignment",
+      "CWE-Trace for vulnerability detection in Linux kernel"
+    ],
+    "ai-hf": [
+      "DeepSeek-V4-Pro tops weekly likes at 4,969",
+      "Gemma 4 family reaches critical mass",
+      "Qwen 3.6 MoE uncensored variant 3.7M downloads",
+      "Nvidia LocateAnything-3B redefines vision localization",
+      "Higgs audio v3 TTS reaches production quality",
+      "Unsloth quantization infrastructure for model adoption"
+    ],
+    "ai-community": [
+      "Cost dominates practical AI discussions on Dev.to",
+      "Reliability and trust concerns for AI agents",
+      "Codebases silently broken by AI fixes",
+      "Lobste.rs questions privacy of on-device inference",
+      "Bottleneck shifts to systems integration",
+      "AI doesn't replace architectural reasoning"
+    ]
+  }
+}
