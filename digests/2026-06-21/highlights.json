@@ -1,0 +1,102 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code 社区讨论 Agent 编排诉求井喷。",
+      "OpenAI Codex 遭遇重大稳定性事故，用户情绪负面。",
+      "Gemini CLI P1 级 Bug 活跃，社区贡献积极。",
+      "OpenCode 发布 v1.17.9，核心功能重构。",
+      "Qwen Code 发布 v0.18.4，修复漏洞新增多模态。",
+      "DeepSeek TUI 重大架构重构，社区痛点集中。"
+    ],
+    "ai-agents": [
+      "OpenClaw 发布 v2026.6.9，增强 Telegram 富文本。",
+      "P0 级 Gateway 内存泄漏事故成为社区焦点。",
+      "新增 PR Review 自动修复流水线及 Windows 守护进程。",
+      "修复智谱 GLM 模型超载故障转移机制。",
+      "安全加固：阻止明文写入 API Key 到配置文件。",
+      "项目处理超 500 Issue 与 PR，迭代强度极高。"
+    ],
+    "ai-trending": [
+      "Headroom 单日+3795 stars，承诺无损压缩 Token 60-95%。",
+      "codebase-memory-mcp 极高质量代码知识图谱 MCP 服务器。",
+      "Ollama 支持 Kimi K2.6、GLM-5.1 等国产模型。",
+      "AutoGPT 持续演进，社区聚焦 Agent 可靠性与任务分解。",
+      "mem0ai 推动 RAG 向跨会话长期记忆进化。",
+      "vllm 高性能推理引擎，生产部署 LLM 首选。"
+    ],
+    "ai-hn": [
+      "后训练渗透测试模型 Show HN 77 分，社区担忧安全。",
+      "Anthropic Project Fetch 提升 AI 自主多步任务能力。",
+      "开源模型追平闭源讨论热烈，GLM 等引争议。",
+      "Persona.js 轻量 Agent UI 库，获社区积极评价。",
+      "Claude Code 与 Codex 使用体验引热议。",
+      "马斯克预测中国明年推出 Fable 5 级别模型。"
+    ],
+    "ai-hf": [
+      "DeepSeek-V4-Pro 近5k点赞登顶热度冠军。",
+      "GLM-5.2 开源 MoE 语言模型快速成为社区焦点。",
+      "Google DiffusionGemma 创新扩散语言模型。",
+      "Kimi-K2.7-Code 支持图文混合编程，下载超30万。",
+      "社区微调模型 Qwable-v1 发布，基于 Qwen3.5-MoE。",
+      "FastContext-1.0-4B-SFT 微软长上下文推理模型。"
+    ],
+    "ai-community": [
+      "社区讨论 LLM 网关架构：路由、回退、语义缓存。",
+      "KV cache 与 PagedAttention 技术解析受关注。",
+      "Goodhart 定律警示 Agent 评估指标可能失效。",
+      "单人工作室体验：AI 提升开发效率生动案例。",
+      "AI 对初级开发者就业冲击引发担忧讨论。",
+      "中国多模型 API 统一访问方案受开发者关注。"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code v2.1.185 released with fixes",
+      "Gemini CLI nightly build broken (#28067)",
+      "Cross-tool shift to composable multi-agent orchestration",
+      "Android/Termux and Alpine Linux friction persists",
+      "Pricing transparency and sandbox security top concerns",
+      "OpenAI Codex and Copilot CLI no new releases"
+    ],
+    "ai-agents": [
+      "OpenClaw v2026.6.9 released today",
+      "500 issues and 500 PRs updated in 24h",
+      "P0 gateway memory leak active",
+      "Multiple P1 regressions causing message loss",
+      "20 issues and 35 PRs closed or merged",
+      "Telegram delivery channel enhanced"
+    ],
+    "ai-trending": [
+      "headroom token compression middleware gains 3,795 stars",
+      "DeusData MCP code knowledge graph server +1,271 stars",
+      "mattpocock/skills turns .claude dotfiles into app store",
+      "OpenMontage agentic video production +677 stars",
+      "affaan-m/ECC reaches 218,917 total stars",
+      "NousResearch/hermes-agent at 198,402 stars"
+    ],
+    "ai-hn": [
+      "Anthropic lands AlphaFold lead John Jumper",
+      "Penetration testing specialist model tops Show HN",
+      "Debate on rejecting even working AI code contributions",
+      "Claude Code file scanning reignites sandboxing debate",
+      "Anthropic Project Fetch Phase Two benchmarks agentic coding",
+      "Open-weight models close gap with proprietary leaders"
+    ],
+    "ai-hf": [
+      "DeepSeek-V4-Pro leads with 4,987 likes and 2.8M downloads",
+      "GLM-5.2 MoE model sparks immediate quantization adoption",
+      "Rio-3.5-Open-397B pushes frontier of open-scale models",
+      "Google Gemma-4 family sees explosive ecosystem growth",
+      "Uncensored fine-merge culture thrives around Qwen3.6",
+      "Audio and vision models reach production quality"
+    ],
+    "ai-community": [
+      "LLM Gateways: Routing, Fallbacks, And Semantic Caching",
+      "Critique of vector DB privacy claims gains traction",
+      "Agent evaluation frameworks shift to hardened patterns",
+      "Lobste.rs debates tech conferences' future in AI era",
+      "Security concerns span MCP attack surfaces to vector DB",
+      "Pushback against disposable code mindset gains voices"
+    ]
+  }
+}
