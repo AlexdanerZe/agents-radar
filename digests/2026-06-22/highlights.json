@@ -1,0 +1,118 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Qwen Code v0.18.5 发布，语音与 MCP 热重载引领创新",
+      "OpenAI Codex 费率危机（#28879）引爆社区，两 Alpha 发布",
+      "Claude Code 成本恐慌，社区要求执行前估算开销",
+      "CodeWhale v0.8.63 品牌重塑，安全门与UI冻结修复",
+      "GitHub Copilot CLI 稳定沉寂，Kimi Code 休眠",
+      "Gemini CLI Agent 挂起与安全审计修复"
+    ],
+    "ai-agents": [
+      "OpenClaw 发布 v2026.6.10-beta.1，修复 Session 持久化",
+      "OpenClaw 日处理 500 Issue 与 500 PR，迭代速度峰值",
+      "PR #95613 推进月度发布策略，走向正式版",
+      "PR #95536 修复子 Agent 心跳被误杀问题",
+      "PR #90239 根治长对话 Session 轮转后上下文断裂",
+      "112 个 PR 合并关闭，修复速率历史高位"
+    ],
+    "ai-trending": [
+      "headroom 单日获 2624 stars，压缩 Token 90%",
+      "codebase-memory-mcp ⭐1032，代码知识图谱 MCP 服务",
+      "mattpocock/skills 引领 Agent 技能包生态爆发",
+      "OpenMontage 12 条 Agent 流水线定义视频生产系统",
+      "bytedance/deer-flow 解决跨分钟级复杂任务",
+      "browser-use ⭐99,966，AI Agent 浏览器操作基础设施"
+    ],
+    "ai-web": [
+      "Anthropic 静默零发布，或蓄力重大突破",
+      "OpenAI 新增三星电子 ChatGPT/Codex 部署案例",
+      "三星部署已越过 PoC，进入生产应用阶段",
+      "OpenAI 企业级大客户拓展成发布主线",
+      "Anthropic 研发驱动，竞争节奏分化",
+      "正文缺失，合作深度待验证"
+    ],
+    "ai-hn": [
+      "Anthropic 身份验证风波引爆 HN 讨论",
+      "Recall 项目为 Claude Code 提供本地持久记忆",
+      "Sakana Fugu 进化架构引发好奇",
+      "PostGIS 被 AI 自动生成 PR 淹没，社区愤怒",
+      "小模型 Qwen 3:0.6B 微调有效分类任务",
+      "地缘政治：Z.ai 开源前沿编码模型对抗禁令"
+    ],
+    "ai-hf": [
+      "DeepSeek-V4-Pro 周点赞 4999，开源大模型新旗舰",
+      "Qwen3.6-35B-A3B 下载突破 500 万",
+      "Google Gemma-4 统一 any-to-any 模型，下载180万",
+      "Kimi-K2.7-Code、Cohere North 等代码专用模型密集发布",
+      "nvidia LocateAnything-3B 视觉定位模型下载24万",
+      "VibeThinker-3B 数学专用小模型展现端侧潜力"
+    ],
+    "ai-community": [
+      "15 AI 翻车故事引发反思，打破狂热叙事",
+      "Vibe Coding 被重新定义：独立能力轴而非阶段",
+      "Agent 安全红线：不要用 LLM 进行权限决策",
+      "限流是 Agent 生产环境杀手，新模式有效解决",
+      "PII 脱敏完全在浏览器端实现，轻量隐私方案",
+      "AI 否认论成为软件工程技术风险"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Copilot CLI labelled \"Troubled\" due to regressions.",
+      "Gemini CLI stalled with platform-specific issues.",
+      "Claude Code consolidating with 10 hot issues.",
+      "OpenAI Codex ramps with 2x Alpha releases.",
+      "Qwen Code, OpenCode, Pi iterate at high velocity.",
+      "Ecosystem demands cost transparency and security."
+    ],
+    "ai-agents": [
+      "OpenClaw: 500 issues, 500 PRs in 24 hours.",
+      "Widening gap between reported problems and fixes.",
+      "OpenClaw releases v2026.6.10-beta.1 patch.",
+      "Patch targets session-state corruption and loss.",
+      "P1 Diamond Lobster regressions challenge maintainers.",
+      "Chat history transcripts kept non-empty in patch."
+    ],
+    "ai-trending": [
+      "headroom leads with token compression promise.",
+      "ByteDance's deer-flow scales agent orchestration.",
+      "codebase-memory-mcp gains +1032 stars today.",
+      "LangChain and vLLM remain foundational tools.",
+      "Anthropic-Cybersecurity-Skills signals enterprise readiness.",
+      "OpenMontage creates multi-modal agentic media."
+    ],
+    "ai-web": [
+      "Anthropic publishes no new articles today.",
+      "OpenAI announces Samsung Codex deployment.",
+      "Samsung deploys ChatGPT and Codex at scale.",
+      "OpenAI showcases aggressive partnership marketing.",
+      "Anthropic maintains episodic research comms strategy.",
+      "Major enterprise reference win for OpenAI."
+    ],
+    "ai-hn": [
+      "Anthropic hits triple crisis: verification, outage.",
+      "\"Cancel Claude\" anti-lock-in sentiment surges.",
+      "Sakana Fugu evolutionary merging sparks debate.",
+      "Fine-tuning Qwen 3:0.6B for classification.",
+      "Debate rages on closed vs open models.",
+      "Community skeptical of frontier AI governance."
+    ],
+    "ai-hf": [
+      "MoE architectures dominate frontier model releases.",
+      "DeepSeek-V4 Pro leads with 2.6M downloads.",
+      "Multimodality becomes baseline for new models.",
+      "Google's DiffusionGenma and Gemma-4 debut.",
+      "Local inference war escalates with advanced GGUF.",
+      "HauhauCS Qwen3.6 fine-tune hits 4M weekly downloads."
+    ],
+    "ai-community": [
+      "\"Vibe coding is an axis, not a level\".",
+      "Warning against self-authorizing LLM agents.",
+      "OWASP LLM Top 10 security explored.",
+      "Anthropic measures expertise as human multiplier.",
+      "Five operators build the \"agent side\".",
+      "Production memory and permission layers debated."
+    ]
+  }
+}
