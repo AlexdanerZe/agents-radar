@@ -1,0 +1,134 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code 新增 MCP CLI 认证，支持SSH免浏览器",
+      "OpenAI Codex 修复 MCP schema，新增/plugins视图",
+      "Pi v0.79.10 发布，社区评论最多64条",
+      "Kimi Code v1.48.0 MCP配置残留自动恢复惹议",
+      "Copilot CLI 被指忽略 MCP 初始化指令",
+      "DeepSeek TUI 改名 CodeWhale 并发布 v0.8.64"
+    ],
+    "ai-agents": [
+      "OpenClaw 发布 v2026.6.10-beta.2，引入自动加速",
+      "Gateway 内存泄漏致 RSS 15.5GB，信任受损",
+      "修复 Telegram 轮询静默崩溃循环问题 #93375",
+      "合并基于 Claude Agent SDK 的 PR 自动修复 Pipeline",
+      "待合并 PR 积压 440 个，品控平衡面临挑战",
+      "修复 Windows 下 QMD 内存后端 CommonJS 问题"
+    ],
+    "ai-trending": [
+      "OpenMontage 开源智能体视频系统一日获2938星",
+      "codebase-memory-mcp 158种语言毫秒查询代码图",
+      "mattpocock/skills Claude Code 技能包一日千星",
+      "AirLLM 低资源方案单卡4GB跑70B模型再受关注",
+      "daily_stock_analysis LLM 金融分析获1557星",
+      "Deer Flow 字节跳动长时域 SuperAgent 框架获738星"
+    ],
+    "ai-web": [
+      "Anthropic 实证：专业知识在AI时代带来递增回报",
+      "Anthropic 与盖茨基金会2亿美元合作聚焦全球健康",
+      "研究显示 Debug 时间7个月减半，价值提升25%",
+      "OpenAI 上线 Daybreak 页面强调安全与治理",
+      "研究框架：人类规划决策，Claude执行决策",
+      "合作涵盖生命科学、教育及经济流动性领域"
+    ],
+    "ai-hn": [
+      "OpenAI Codex 日志bug致TB级写入，469分256评",
+      "GLM-5.2 本地运行指南发布，社区积极部署",
+      "第三方评测称 GLM-5.2 agent超越 GPT-5.5",
+      "Claude Code 扩展思考真实性遭社区质疑",
+      "Baseten 发布 GLM-5.2 推理 API 达280 TPS",
+      "社区批评AI公司测试流程，稳定性成焦点"
+    ],
+    "ai-arxiv": [
+      "PaperClaw 多智能体系统实现全流程自动科研",
+      "Governance Decay 警示上下文压缩抹除安全约束",
+      "RL for LLM Reasoning 识别强化更新关键因素",
+      "Differentiable Atari VCS 提供可解释性测试平台",
+      "MMGist 新基准暴露多模态模型视觉依赖不足",
+      "Look Light, Think Heavy 揭示多模态CoT边界"
+    ],
+    "ai-hf": [
+      "DeepSeek V4 Pro 以5013点赞登顶热门榜",
+      "GLM-5.2 MoE模型发布，社区量化版迅速跟进",
+      "Google Gemma-4 系列成本周衍生模型最多家族",
+      "NVIDIA LocateAnything-3B 开放定位获2294赞",
+      "MiniMax-M3 多模态大模型支持理解与生成",
+      "Microsoft FastContext 4B专为推理加速设计"
+    ],
+    "ai-community": [
+      "最小AI原则倡导优先非AI方案，避免不必要复杂",
+      "跨46仓库构建统一知识图谱的静态分析实战",
+      "信任向量模型与类型化来源奠Agent审计基础",
+      "Copilot计费模式变更解读，对终端用户影响大",
+      "提示注入漏洞案例分析，安全引高度关注",
+      "Agentic RAG 自纠正检索循环生产级优化范本"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code v2.1.186 with 10 issues",
+      "OpenAI Codex logging bug writes TBs",
+      "Cross-tool MCP adoption accelerating",
+      "Backlash against opaque token economics",
+      "Enterprise auth instability in Gemini CLI",
+      "Windows regressions in Claude Code, Codex"
+    ],
+    "ai-agents": [
+      "OpenClaw v2026.6.10-beta.2 released",
+      "259 issues, 500 PRs in 24 hours",
+      "Critical P0 gateway memory leak",
+      "60 PRs merged or closed",
+      "Automatic fast mode for talks",
+      "Intense stabilization period ongoing"
+    ],
+    "ai-trending": [
+      "OpenMontage gains +2,938 stars",
+      "mattpocock/skills gains +2,051 stars",
+      "DeusData/codebase-memory-mcp gains +1,185 stars",
+      "Agent configurations as shared artifacts",
+      "Open-source agentic video production",
+      "Extreme inference efficiency with airllm"
+    ],
+    "ai-web": [
+      "Anthropic studies 400K Claude Code sessions",
+      "Claude Code cuts debugging time in half",
+      "Anthropic partners with Gates Foundation",
+      "$200M public-benefit partnership",
+      "OpenAI publishes Daybreak Securing The World",
+      "Agentic coding amplifies human expertise"
+    ],
+    "ai-hn": [
+      "GLM-5.2 runs on local hardware (201 pts)",
+      "Codex logging bug writes TBs to SSDs",
+      "Skepticism towards big labs' narratives",
+      "Debate on Claude Extended Thinking authenticity",
+      "Five Eyes warnings dismissed as FUD",
+      "Community pragmatic, doubles down on local"
+    ],
+    "ai-arxiv": [
+      "Sub-billion SLMs match GPT-4 on RE",
+      "RLVR reasoning factors dissected",
+      "Context compaction erodes safety",
+      "New multimodal benchmark challenges metrics",
+      "Cuneiform decipherment by AI",
+      "Bilevel optimization stabilized under noise"
+    ],
+    "ai-hf": [
+      "DeepSeek-V4-Pro top with 5,013 likes",
+      "GLM-5.2 MoE-DSA architecture trending",
+      "Google Gemma 4 GGUF adoption",
+      "Nvidia LocateAnything-3B zero-shot",
+      "Microsoft FastContext-4B for agents",
+      "Qwen3.x family merges popular"
+    ],
+    "ai-community": [
+      "Principle of Least AI article popular",
+      "Cross-repo knowledge graph via static analysis",
+      "150+ PRs but no job - AI bubble?",
+      "Debate on AI in con economy",
+      "Compression theory questions LLM intelligence",
+      "Vibe coding losing to robust engineering"
+    ]
+  }
+}
