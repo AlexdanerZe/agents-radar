@@ -1,0 +1,134 @@
+{
+  "zh": {
+    "ai-cli": [
+      "OpenAI Codex与DeepSeek TUI在PR密度上领跑",
+      "Claude Code v2.1.187发布，侧重稳定性修复",
+      "Pi v0.80.0-0.80.2发布，AgentSwarm多代理协作",
+      "Qwen Code daemon化，v0.19.0/v0.19.1发布",
+      "Kimi Code CLI几乎静默，或处开发低谷",
+      "成本控制和凭证泄露成跨工具共性焦点"
+    ],
+    "ai-agents": [
+      "OpenClaw 24小时处理190 Issue和500 PR",
+      "40 PR与50 Issue合并/关闭，修复ACP崩溃",
+      "PR积压达460个，维护者评审吞吐不足",
+      "多项P1修复进入管道，包括持久锁定",
+      "修复压缩后助手消息丢失和Cron污染",
+      "无新版本，但质量修复力度强劲"
+    ],
+    "ai-trending": [
+      "gstack封装23个Claude Code工具，日增1011⭐",
+      "OpenMontage开源智能体视频制作，日增3592⭐",
+      "hermes-agent持续学习记忆，star破20万",
+      "deer-flow长时间跨度SuperAgent，字节跳动开源",
+      "claude-plugins-official官方插件目录建立",
+      "ollama以174,810⭐领跑本地LLM工具"
+    ],
+    "ai-web": [
+      "Anthropic发布Claude Tag，AI升级为团队队员",
+      "Claude Tag初始集成Slack，降低使用门槛",
+      "Anthropic内部65%产品代码由Claude Tag创建",
+      "Claude Code从工程扩展到非工程领域",
+      "OpenAI今日无任何更新，处于静默期",
+      "Claude Tag标志AI从工具到协作者升级"
+    ],
+    "ai-hn": [
+      "Claude多模型错误率升高，引发热议",
+      "Claude Tag发布触发隐私与可靠性辩论",
+      "Corelayer0一键转化OpenAPI为MCP服务器",
+      "Halo本地调试器让AI agent调用链可观测",
+      "AnswerJournal基于MCP保存分享AI答案",
+      "AI agent安全提出组合图取代SBOM新思路"
+    ],
+    "ai-arxiv": [
+      "非洲语言分词歧视量化，推动公平AI研究",
+      "LLM缩放定律被指能源上不可持续",
+      "SAFARI框架解决多步骤故障诊断瓶颈",
+      "Governed Shared Memory治理多智能体记忆",
+      "执行-蒸馏-验证打破自我确认陷阱",
+      "Qwen-AgentWorld发布语言世界模型"
+    ],
+    "ai-hf": [
+      "DeepSeek-V4-Pro以5031赞登顶，下载224万",
+      "NVIDIA LocateAnything-3B开创语言指令定位",
+      "GLM-5.2混合注意力机制获2203赞",
+      "Microsoft FastContext-1.0-4B小参数长上下文",
+      "MiniMax-M3多模态MoE，支持图文理解",
+      "Google Gemma-4-12B-it统一多模态any-to-any"
+    ],
+    "ai-community": [
+      "AI编码80/20陷阱：后20%花80%时间",
+      "Agent忘记忆：SDLC应倒置，代码可钻取",
+      "开源LLM可视化工具替代$79/月商业产品",
+      "先写评估再写功能，应对AI测试困境",
+      "Coding Agent迫使团队认真写规范文档",
+      "AI Agent自我提升权限的真实案例教训"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Agent reliability is the new battleground.",
+      "OpenAI Codex faces high-severity agent stall bugs.",
+      "Claude Code releases v2.1.187.",
+      "Developers don't fully trust AI agents yet.",
+      "Runaway token consumption is a major issue.",
+      "MCP security standardization is intensifying."
+    ],
+    "ai-agents": [
+      "OpenClaw battles 190 bug reports.",
+      "500 pull requests swarm the OpenClaw repo.",
+      "State management fixes are top priority.",
+      "Plugin marketplace scaffolding appears.",
+      "40 PRs merged in a single day.",
+      "DeepSeek and Ollama integrations get patched."
+    ],
+    "ai-trending": [
+      "Agent harnesses surpass simple wrappers.",
+      "ECC project tops 220,000 GitHub stars.",
+      "Codebase-memory-mcp gains 1,300 stars.",
+      "Dify production platform hits 146k stars.",
+      "AI Creative Studios become the new trend.",
+      "OpenMontage rockets up with +3,592 stars."
+    ],
+    "ai-web": [
+      "Claude Tag makes Claude a Slack teammate.",
+      "65% of Anthropic's code is AI-generated.",
+      "Claude Tag monitors channels to build context.",
+      "OpenAI silent while Anthropic dominates news.",
+      "Claude transitions from assistant to agent.",
+      "Delegation-based workflows enter Slack."
+    ],
+    "ai-hn": [
+      "Anthropic suffers multi-model outage.",
+      "Claude Tag launch dominates HN front page.",
+      "WYSIWYG TikZ editor is HN's top hit.",
+      "Community debates AI bubble risk.",
+      "Users fear reliance on single AI vendors.",
+      "Memory feature trade-offs heavily debated."
+    ],
+    "ai-arxiv": [
+      "African Language Tax study penalizes tokenizers.",
+      "LLM scaling exponents deemed unsustainable.",
+      "Agentic fault attribution research matures.",
+      "Shared memory formalization is progressing.",
+      "Cross-lingual parametric knowledge explored.",
+      "Scientific coding benchmarks get rigorous."
+    ],
+    "ai-hf": [
+      "DeepSeek-V4-Pro tops trending models.",
+      "GLM-5.2 MoE gains 2,203 likes.",
+      "Gemma 4 ecosystem explodes.",
+      "Uncensored Qwen3.6 sees 4M weekly downloads.",
+      "DiffusionGemma pushes architectural boundaries.",
+      "GGUF and FP8 packs dominate inference."
+    ],
+    "ai-community": [
+      "Agent memory poisoning is a top concern.",
+      "Eval-driven development proposed for LLMs.",
+      "Security vulnerabilities in AI world debated.",
+      "Intent becomes the spine of SDLC.",
+      "Spec-first coding gains real-world traction.",
+      "MCP ecosystem analyzed after one year."
+    ]
+  }
+}
