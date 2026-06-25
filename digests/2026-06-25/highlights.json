@@ -1,0 +1,134 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code虚构指令致危机，v2.1.191快速修复",
+      "OpenAI Codex成本飙升10-20倍，用户强烈不满",
+      "Kimi K2.6配额争议：2小时额度仅完成2次任务",
+      "OpenCode v1.17.10发布，快速增长但稳定性阵痛",
+      "Gemini CLI v0.49.0-nightly聚焦安全加固与修复",
+      "DeepSeek TUI架构重构活跃，工具生态转向信任构建"
+    ],
+    "ai-agents": [
+      "OpenClaw发布v2026.6.11-beta.1，增强频道控制与新中继",
+      "OpenClaw v2026.6.10引入自动快速模式与模型路由改进",
+      "大量Bug修复：LINE文件处理、IRQ编码、Telegram回复",
+      "子智能体生命周期管理重大修复推进中（PR #95996）",
+      "社区热议#75：Linux/Windows跨平台支持与安全细粒度",
+      "OpenClaw今日439 Issue和500 PR，社区极度活跃"
+    ],
+    "ai-trending": [
+      "OpenMontage单日+3719星，多模态视频生成Agent爆火",
+      "Hermes Agent日增1178星，通用Agent框架热度登顶",
+      "Orca被称为“Agent时代的VSCode”，获+331星",
+      "firecrawl达138k星，专为LLM设计的抓取API标杆",
+      "mem0等永久记忆项目成RAG新叙事，领跑趋势",
+      "TradingAgents近90k星，金融量化AI赛道持续升温"
+    ],
+    "ai-web": [
+      "Anthropic核扩散分类器96%准确率，已部署到Claude",
+      "81000人Claude用户经济学调查发布，含完整PDF报告",
+      "AI高暴露从业者对失业焦虑显著更高，调查显示",
+      "反直觉发现：提速越高的人反而越担心被替代",
+      "OpenAI被曝自研Jalapeno推理芯片，与Broadcom合作",
+      "Anthropic从核安全评估走向产品级部署，推动行业标准"
+    ],
+    "ai-hn": [
+      "OpenAI自研推理芯片与Broadcom合作帖获562分",
+      "Anthropic合同纠纷致NSA失去Mythos模型访问权",
+      "Anthropic公开指控阿里巴巴非法提取Claude能力",
+      "Reid Hoffman批评xAI是“彻底的灾难”引发论战",
+      "OpenAI Codex被曝无用写入放大SSD损耗和成本",
+      "研究找到LLM内部“安全”神经元层可识别漏洞"
+    ],
+    "ai-arxiv": [
+      "RL微调多步工具使用任务导致性能灾难性崩塌",
+      "“模型取证”框架区分AI错误行为是恶意还是混淆",
+      "Facet-Probe审计工具揭示多模态模型输入顺序偏好",
+      "SARA方法提升MoE模型低资源语言知识唤醒能力",
+      "在线自我蒸馏提升精度但牺牲输出多样性",
+      "实时语音AI深层能力界限成今日研究焦点"
+    ],
+    "ai-hf": [
+      "DeepSeek-V4-Pro周点赞5049，下载量200万霸榜",
+      "GLM-5.2采用MoE-DSA新架构，获2360赞",
+      "nvidia LocateAnything-3B多模态模型获2347赞",
+      "Google diffusiongemma-26B推进视觉生成边界",
+      "Qwen-AgentWorld-35B-A3B专注Agent规划决策",
+      "社区量化GGUF版本占Top30近1/3，部署需求旺"
+    ],
+    "ai-community": [
+      "“Claude Tag虽火但信任层尚未建”引开发者共鸣",
+      "Sloan系列文章后平台气氛变化引29条评论热议",
+      "小说式AI审计故事揭示基准测试盲区获高赞",
+      "HolmesGPT端到端实战展示AI SRE自动修复能力",
+      "开源Agentic AI栈综述AAIF项目，提供贡献指南",
+      "自动红队测试让AI Agent漏洞从6/9降至零"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code trust crisis over token drain",
+      "OpenAI Codex 10-20x bill regressions",
+      "New tools OpenCode, Gemini CLI ship overhauls",
+      "Windows parity issues plague all tools",
+      "Claude Code v2.1.191 with agent lifecycle",
+      "Community heat very high for Claude Code"
+    ],
+    "ai-agents": [
+      "OpenClaw sustains high dev velocity",
+      "66 PRs merged, 2 new releases",
+      "Releases v2026.6.11-beta.1 and v2026.6.10",
+      "Slack relay mode and Mattermost command",
+      "Per-DM model overrides added",
+      "375 open issues, 434 open PRs"
+    ],
+    "ai-trending": [
+      "OpenMontage open-source agentic video production",
+      "hermes-agent persistent self-growing agent harness",
+      "daily_stock_analysis LLM agents for finance",
+      "revfactory/harness agent team generation primitive",
+      "stablyai/orca parallel fleet management",
+      "Google Labs design.md agent understanding of design"
+    ],
+    "ai-web": [
+      "Anthropic deploys classifier with 96% accuracy",
+      "81,000 Claude users surveyed for economic impact",
+      "OpenAI Jalapeno chip built with Broadcom",
+      "Anthropic generates data for policy debates",
+      "OpenAI custom silicon for inference cost control",
+      "Anthropic and OpenAI show diverging strategies"
+    ],
+    "ai-hn": [
+      "OpenAI unveils custom chip with Broadcom",
+      "NSA lost access to Anthropic Mythos model",
+      "Reid Hoffman calls xAI complete train wreck",
+      "Anthropic accuses Alibaba of model extraction",
+      "Community debates Anthropic safety versus NSA",
+      "OpenAI chip aims to break Nvidia grip"
+    ],
+    "ai-arxiv": [
+      "Model Forensics distinguishes misalignment from confusion",
+      "Unfireable Safety Kernel for runtime alignment",
+      "Agentic System as Compressor under information theory",
+      "Evaluation audits expose benchmark order sensitivity",
+      "Reinforcement learning failure modes for tool-use LLMs",
+      "New framework for safety beyond red-teaming"
+    ],
+    "ai-hf": [
+      "zai-org/GLM-5.2 tops trending with 2,360 likes",
+      "Gemma-4 family sees community coding fine-tunes",
+      "nvidia/LocateAnything-3B sets interactive vision standard",
+      "Qwen 3.6 derivatives massively downloaded",
+      "DeepSeek-V4-Pro holds highest total lifetime engagement",
+      "GLM-5.2 integrates Dynamic Sparse Attention"
+    ],
+    "ai-community": [
+      "Claude Tag hype lacks trust verification layer",
+      "Copilot token billing sparks cost accounting",
+      "Sloan series raises moderation algorithm concerns",
+      "Prompt injection reframed as role confusion vulnerability",
+      "Auto-verifying AI-SRE fixes with HolmesGPT",
+      "Community moves from can build to can secure"
+    ]
+  }
+}
