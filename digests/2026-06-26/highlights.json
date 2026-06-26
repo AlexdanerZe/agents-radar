@@ -1,0 +1,134 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code 发布 v2.1.193，社区关注度持续高涨",
+      "OpenAI Codex 密集发布多个版本，包括 v0.142.2",
+      "GitHub Copilot CLI v1.0.66-0 新增 MCP 服务管理",
+      "DeepSeek TUI 品牌重塑为 CodeWhale，发布 v0.8.65",
+      "MCP 协议深化：OAuth 自动刷新、图片嗅探等新能力",
+      "计费透明化成焦点，用户要求默认模型升级通知"
+    ],
+    "ai-agents": [
+      "OpenClaw 社区日处理 500 条 Issue，活跃度爆棚",
+      "Agent 承诺一致性引发信任危机，社区热议",
+      "安全边界大规模加固，修复多个外部服务漏洞",
+      "Mattermost 频道交互修复，提升群聊响应可靠性",
+      "ClawHub 生态落地反思，开发者工具链完善需求迫切",
+      "模型兼容性断层，Agent 执行可靠性痛点突出"
+    ],
+    "ai-trending": [
+      "OpenMontage 单日获 3434 星，登顶 AI 项目",
+      "AWS 正式发布 agent-toolkit-for-aws，支持 MCP",
+      "hermes-agent 以 203k stars 领跑开源 Agent 框架",
+      "gstack 工具集内置 23 个 Agent 角色",
+      "AI Agent 从通用走向专用，聚焦垂直场景",
+      "云厂商入局 Agent 基建，标准化 MCP 协议"
+    ],
+    "ai-web": [
+      "OpenAI 上新 'How Agents Are Transforming Work' 一文",
+      "Anthropic 官网零更新，可能处于发布前静默期",
+      "两家更新节奏错位，Agent 为共同押注方向",
+      "OpenAI 叙事转向落地价值，强化企业用户认知",
+      "Anthropic 静默可能预示模型迭代或安全研究发布",
+      "今日增量信息有限，但仍可见 Agent 主题重要性"
+    ],
+    "ai-hn": [
+      "美国政府要求 OpenAI 分阶段发布 GPT-5.6",
+      "Show HN: OpenKnowledge 开源知识库获 217 分",
+      "OpenAI 考虑广告业务，IPO 可能延迟",
+      "Anthropic 指控阿里进行史上最大蒸馏攻击",
+      "中国 AI 模型技术追赶引发知识产权讨论",
+      "AI 儿童读物内容低质，恐怖谷效应引担忧"
+    ],
+    "ai-arxiv": [
+      "多模型组合存'共失败上限'，集成设计受限",
+      "RiVER 框架实现无标准答案的强化学习",
+      "GUI 智能体通过自主探索提升任务规划能力",
+      "测试时扩展引入机器人操作，推理规模化落地",
+      "意图感知训练提升安全分类器鲁棒性",
+      "世界模型幻觉可预测预防，可靠生成突破"
+    ],
+    "ai-hf": [
+      "DeepSeek-V4 Pro 登顶，周点赞 5063 星",
+      "Gemma4 社区微调/量化活动白热化，下载百万",
+      "Qwen3.x 系列变体频出，本地用户需求强劲",
+      "Google Gemma4-12B-it 多模态版本受关注",
+      "MiniMax-M3 多模态模型社区反馈积极",
+      "LFM2.5-230M 极小模型代表边缘部署趋势"
+    ],
+    "ai-community": [
+      "LLM 不信任邮件分类，设计模式值得借鉴",
+      "AWS 账单飙升故事引开发者共鸣",
+      "GPT-4o 输给廉价模型，模型选型新思路",
+      "AI 生成 SQL 可信危机及验证机制",
+      "多 Agent 系统手off 环节常被忽视",
+      "本地模型部署与隐私优先方案成热点"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code v2.1.193: trust erosion, cost shock.",
+      "OpenAI Codex v0.142.2: token accounting crisis.",
+      "Gemini CLI v0.51.0: pervasive agent hangs.",
+      "GitHub Copilot CLI v1.0.66-0 released.",
+      "OpenAI Codex invests in MCP platform.",
+      "Claude Code model regression and transcript loss."
+    ],
+    "ai-agents": [
+      "OpenClaw focuses on memory leaks and overflow bugs.",
+      "OpenClaw channel delivery reliability in focus.",
+      "OpenClaw no new releases; bug-fix cycle ongoing.",
+      "OpenClaw 94 PRs merged despite heavy backlog.",
+      "OpenClaw Diamond Lobster issues await review.",
+      "OpenClaw security hardening for integrations."
+    ],
+    "ai-trending": [
+      "OpenMontage +3,434 stars: agent video suite.",
+      "AWS Agent Toolkit for AWS released.",
+      "Anthropic Cybersecurity Skills +571 stars.",
+      "Google design.md formal spec +1,475 stars.",
+      "garrytan/gstack +767 stars: curated workflows.",
+      "Community shifts to orchestration and skills."
+    ],
+    "ai-web": [
+      "OpenAI publishes 'How Agents Are Transforming Work'.",
+      "Anthropic publishes no new content today.",
+      "OpenAI focuses on agent workforce transformation.",
+      "OpenAI's title signals enterprise agent narrative.",
+      "Anthropic silent while OpenAI leads messaging.",
+      "Narrative shaping via publication timing and framing."
+    ],
+    "ai-hn": [
+      "OpenAI to stagger GPT 5.6 after U.S. request.",
+      "HN community skeptical of OpenAI practices.",
+      "OpenKnowledge open-source project scores 217.",
+      "Backlash over ads in paid OpenAI tiers.",
+      "Government politicization of AI safety debated.",
+      "Community pivots to transparent, controlled tools."
+    ],
+    "ai-arxiv": [
+      "RiVER framework for LLM alignment without ground-truth.",
+      "Co-failure ceiling bounds multi-model LLM accuracy.",
+      "World model hallucination prediction via coverage.",
+      "Analog hardware breakthrough for generative models.",
+      "Critical bug fix in linear attention architectures.",
+      "Test-time scaling for embodied reasoning agentic AI."
+    ],
+    "ai-hf": [
+      "DeepSeek-V4-Pro leads with 5,063 likes.",
+      "GLM-5.2: Zhipu AI's massive MoE model.",
+      "Qwen AgentWorld-35B-A3B for agentic workflows.",
+      "Gemma 4 family spawns community fine-tunes.",
+      "NVIDIA's LocateAnything-3B for precise vision.",
+      "MiniMax-M3 for specialized reasoning tasks."
+    ],
+    "ai-community": [
+      "One Agent or Many: orchestration framework.",
+      "LLM trust with deterministic fallback approach.",
+      "App didn't go viral; AWS bill did spike.",
+      "GPT-4o lost in inbox fight, cheaper won.",
+      "Community caution: multi-agent trust issues.",
+      "Surge in local-first privacy tools interest."
+    ]
+  }
+}
