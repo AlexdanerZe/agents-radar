@@ -1,0 +1,134 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code 1M上下文丢失，付费信任崩塌",
+      "OpenAI Codex计费暴涨10-20倍引抗议",
+      "Gemini CLI Agent误报成功致Shell假死",
+      "GitHub Copilot CLI剪贴板崩溃内存泄漏",
+      "Kimi Code CLI状态机死锁和Linux输入Bug",
+      "DeepSeek TUI v0.8.59修复推理坍缩冻屏"
+    ],
+    "ai-agents": [
+      "OpenClaw每日500条Issue/PR，社区热度高",
+      "安全蒙版密钥与MCP工具审批机制引入",
+      "PR#97145修复审批UI误报问题",
+      "PR#97159修复工具调用截断Bug",
+      "Worker进程泄漏问题引发关注",
+      "442个待合并PR积压，维护者审查吃紧"
+    ],
+    "ai-trending": [
+      "DESIGN.md今日新增2407星，定义Agent设计规范",
+      "OpenMontage获1754星，开源Agent视频系统",
+      "ai-berkshire获1274星，价值投资Agent",
+      "Agent-Reach获1194星，打通Agent数据路径",
+      "MinerU获960星，文档转LLM格式工具爆红",
+      "gstack获950星，集成23个Agent角色工具集"
+    ],
+    "ai-web": [
+      "Claude Tag发布：AI从助手升级为团队协作者",
+      "Claude Corps投入1.5亿美元，培养千名AI公益人才",
+      "Anthropic与DXC/TCS联盟，打入银行医疗核心系统",
+      "Mythos Preview发布，网络安全研究新篇章",
+      "40万次Agentic Coding会话分析揭示经济影响",
+      "OpenAI预览GPT-5.6 Sol，性能引发社区狂热"
+    ],
+    "ai-hn": [
+      "OpenAI预览GPT-5.6 Sol，性能引狂热与怀疑",
+      "开源闭源LLM差距分析：差距仍在扩大",
+      "AI迫使数学界重新定义证明与理解",
+      "Smart model routing工具直击供应商锁定痛点",
+      "AgentKits发布60个生产级AI Agent蓝图",
+      "政府决定AI模型用户准入，治理失控焦虑蔓延"
+    ],
+    "ai-arxiv": [
+      "RiVER框架实现无真实答案RL微调LLM",
+      "多模型组合策略受co-failure上限约束",
+      "低覆盖率区域导致世界模型幻觉可避免",
+      "稀疏自编码器正则化提升特征透明度",
+      "E-TTS框架将测试时扩展引入机器人操作",
+      "全模态Agent实现异构工具长期协调"
+    ],
+    "ai-hf": [
+      "GLM-5.2获2603赞，本周HuggingFace最热",
+      "VibeThinker-3B数学推理模型获734赞",
+      "微软FastContext-4B长上下文模型专为Agent",
+      "Qwen AgentWorld-35B MoE仅激活3B参数",
+      "NVFP4量化方案让大型MoE单卡运行",
+      "Qwythos-9B基于Claude Mythos微调走红"
+    ],
+    "ai-community": [
+      "功能正确不等于逻辑正确，AI代码最大风险",
+      "Guardrails：构建可靠AI Agent的必备护栏",
+      "Playwright+GHA+AI自动彩票提醒应用走红",
+      "AI评审工具评分23/25但完全忽略深层上下文",
+      "仓库即记忆，模型即工人：高效的AI编程心智",
+      "Vibe Coding被批非软件工程，风险已显现"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code v2.1.195 released today",
+      "OpenAI Codex rust-v0.142.3 released",
+      "Gemini CLI very high activity last 24h",
+      "Qwen Code pushes multi-agent orchestration",
+      "Trust crisis over opaque billing",
+      "Agent looping remains unsolved"
+    ],
+    "ai-agents": [
+      "OpenClaw 500 issues and 500 PRs in 24h",
+      "24 issues closed, 58 PRs merged today",
+      "No official releases published today",
+      "Session integrity fixes for tool calls",
+      "Active queue of 476 open issues",
+      "Maintainer bandwidth significant bottleneck"
+    ],
+    "ai-trending": [
+      "google-labs-code/design.md gains 2,407 stars",
+      "Agent-Reach opens zero-fee social media for agents",
+      "OpenMontage: first open-source agentic video studio",
+      "ai-berkshire uses adversarial debate for finance",
+      "MinerU leads LLM document preparation",
+      "gstack packages startup team as Claude Code config"
+    ],
+    "ai-web": [
+      "Claude Tag makes Claude proactive in Slack",
+      "Claude deployed to tens of thousands engineers",
+      "OpenAI previews GPT 5 6 Sol",
+      "Anthropic releases Mythos safety benchmarks",
+      "Claude Corps and Gates Foundation partnership",
+      "OpenAI isolated headline, no details yet"
+    ],
+    "ai-hn": [
+      "GPT-5.6 Sol previewed with government oversight",
+      "Anthropic Mythos released to trusted partners",
+      "Debate on open vs closed weight LLMs gap",
+      "Cost-effective model routing tools discussed",
+      "Copyright defense in training-data lawsuits",
+      "Government will directly vet GPT-5.6 users"
+    ],
+    "ai-arxiv": [
+      "Co-failure ceiling on multi-model systems proven",
+      "RiVER trains LLMs without ground-truth answers",
+      "CARVE fixes memory-blind gating in linear attention",
+      "Feature steering for precise mechanistic control",
+      "Safety breakdowns in healthcare chatbots analyzed",
+      "Community dynamics of AI nudification studied"
+    ],
+    "ai-hf": [
+      "GLM-5.2 MoE with Dynamic Sparse Attention",
+      "Ornith-1.0 series from 9B to 397B parameters",
+      "NVFP4 format gets 4.8M downloads in a week",
+      "Agentic models dominate trending page",
+      "Uncensored fine-tunes remain very popular",
+      "Qwen-AgentWorld for autonomous tool-use"
+    ],
+    "ai-community": [
+      "Debate on functional vs correct AI code",
+      "Guardrails for autonomous agent loops",
+      "Vibe coding era ending, AI engineering rising",
+      "LLM-powered adaptive worms security threat",
+      "Managing context windows and API costs",
+      "Read-only reviewer agents for code safety"
+    ]
+  }
+}
