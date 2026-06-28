@@ -1,0 +1,102 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Codex #28879获334赞，额度问题引爆社区",
+      "Claude Code Thinking回归，讨论引爆社区",
+      "Gemini CLI 发布nightly，安全补丁密集合并",
+      "Copilot CLI遭Windows Bug，迭代节奏偏慢",
+      "Qwen Code 发布nightly，费用与持久化诉求强",
+      "DeepSeek TUI高频合入，推进缓存与插件基础"
+    ],
+    "ai-agents": [
+      "24h内500条Issue和PR，OpenClaw活跃度极高",
+      "修复关键内存泄漏与会话锁死，生产稳定性利好",
+      "存储架构从JSONL迁移至SQLite，解决无限增长难题",
+      "Agent承诺可信度危机引发社区热议与担忧",
+      "子Agent中止后堆内存未释放导致耗尽，已修复",
+      "PR#69417为MCP增加SecretRef，提升安全性"
+    ],
+    "ai-trending": [
+      "design.md单日暴涨1541星，规范驯服AI生成",
+      "ai-berkshire将巴菲特投资方法封装为Agent框架",
+      "Open-Generative-AI去中心化集成200+模型",
+      "ollama集成K2.6、GLM-5.1，本地运行标准再进化",
+      "vllm高性能推理引擎，吞吐量优化行业标杆",
+      "hermes-agent自进化AI伙伴，与你一起成长"
+    ],
+    "ai-hn": [
+      "亚洲初创推出对标Mythos级模型，AI竞赛升级",
+      "Anthropic指控阿里窃取Claude，安全博弈升级",
+      "中国网络安全媲美Anthropic，重塑AI格局",
+      "Adrafinil可在合盖时保持Mac唤醒运行Agent",
+      "AMD Strix Halo RDMA集群指南，本地部署关注",
+      "社区现结构性焦虑：地缘政治与AI伦理双线交织"
+    ],
+    "ai-hf": [
+      "GLM-5.2霸榜，MoE架构受青睐，点赞2690",
+      "DeepSeek V4 Pro DSpark，推理加速首秀",
+      "MiniMax-M3多模态大模型，下载182k成国产标杆",
+      "Qwen-AgentWorld面向具身智能体，稀疏MoE架构",
+      "Krea-2-Turbo文生图，速度与画质提升",
+      "LiquidAI发布230M超轻量模型，面向边缘"
+    ],
+    "ai-community": [
+      "OpenAI博通发布Jalapeño推理ASIC",
+      "文章系统拆解AI Agent五大核心模块：规划、工具等",
+      "MemStrata声称全面优于RAG，专注变化代码处理",
+      "开发者从零实现GPTQ，仅1.1%困惑度损失",
+      "务实观点：团队本周不需要更强AI模型，应关注工作流",
+      "社区警示AI驱动自适应蠕虫，安全风险升级"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code trust eroded by bug gridlock",
+      "Codex in crisis, users revolt over costs",
+      "Pi and OpenCode prioritize extensibility",
+      "Cost governance beats model quality as focus",
+      "Qwen Code enables multi-agent collaboration",
+      "Stability struggles challenge Copilot CLI"
+    ],
+    "ai-agents": [
+      "OpenClaw surges with 500 new issues and PRs",
+      "SQLite session migration advances substantially",
+      "Critical fix for heap release issue lands",
+      "41 PRs merged despite heavy maintainer load",
+      "Engagement high but open backlog grows",
+      "Security and infrastructure take center stage"
+    ],
+    "ai-trending": [
+      "design.md debuts with +1,541 daily stars",
+      "Spec-Driven AI Development era begins",
+      "Cognee leads fight against agent amnesia",
+      "TradingAgents proves multi-agent accuracy",
+      "Agent memory is the next AI frontier",
+      "AI Berkshire matures to production finance"
+    ],
+    "ai-hn": [
+      "Asian startups launch Mythos-like models",
+      "Anthropic claims Alibaba stole Claude data",
+      "Export ban spurs unconstrained competitors",
+      "macOS utility goes viral for agent uptime",
+      "Robin Williams quote rallies against AI slop",
+      "Geopolitics dominates today's AI discussions"
+    ],
+    "ai-hf": [
+      "DeepSeek drops V4-Pro-DSpark frontier model",
+      "GLM-5.2 MoE model hits 98,994 downloads",
+      "NVIDIA releases trio of specialized models",
+      "Qwen AgentWorld targets complex agentic tasks",
+      "Krea-2 marks major leap for open T2I models",
+      "LiquidAI drops ultra-efficient 230M model"
+    ],
+    "ai-community": [
+      "MemStrata beats RAG on mutating code",
+      "How small can an agent model actually get",
+      "API gateway solves LLM provider hassle",
+      "Community formalizes concept of context rot",
+      "Focus shifts from prompts to systems engineering",
+      "Lobste.rs debates historical AI Winter echoes"
+    ]
+  }
+}
